@@ -4,11 +4,11 @@ IMP Awards Poster Scraper
 Downloads the highest resolution movie poster from a given poster page URL.
 Priority: XXXLG > XXLG > XLG > LG (configurable)
 
-Version: 1.0.0
+Version: 1.1.0
 Repository: https://github.com/darthrootbeer/imp-awards-scraper
 """
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 import requests
 from bs4 import BeautifulSoup
@@ -638,17 +638,14 @@ class PosterDownloader:
             info['year']
         )
         
-        # Create save path: downloads/{year}/{movie_name}/{base_name}_{SIZE}_{dimensions}.jpg
-        # Example: downloads/2025/tron_ares/tron_ares_ver2_XXLG_2025x3000.jpg
-        # Sanitize movie name for filesystem
-        safe_movie_name = re.sub(r'[^\w\s-]', '', info['movie_name']).strip().replace(' ', '_').lower()
+        # Create save path: downloads/{year}_{base_name}_{SIZE}_{dimensions}.jpg
+        # Example: downloads/2025_tron_ares_ver2_XXLG_2025x3000.jpg
+        # Flat directory structure with year prefix
         
-        filename = f"{info['base_name']}_{selected_size.upper()}_{selected_info['dimensions']}.jpg"
+        filename = f"{info['year']}_{info['base_name']}_{selected_size.upper()}_{selected_info['dimensions']}.jpg"
         
         save_path = os.path.join(
             output_dir,
-            info['year'],
-            safe_movie_name,
             filename
         )
         

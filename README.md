@@ -1,6 +1,6 @@
 # IMP Awards Scraper
 
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Repository:** [https://github.com/darthrootbeer/imp-awards-scraper](https://github.com/darthrootbeer/imp-awards-scraper)
 
 A Python tool for downloading high-resolution movie posters from [IMP Awards](http://www.impawards.com).
@@ -21,8 +21,8 @@ This tool automatically identifies and downloads the highest resolution version 
 - **IMDb ID Detection**: Automatically extracts IMDb ID from poster pages
 - **Smart Resolution Selection**: Downloads highest enabled and available resolution
 - **Interactive Confirmation**: Shows genre info and asks before downloading
-- **Organized Downloads**: Saves posters in structured folders by year and movie name
-- **Clean Filenames**: Includes poster name, resolution type, and dimensions
+- **Flat Directory Structure**: All posters in single downloads/ folder with year prefix
+- **Clean Filenames**: Includes year, poster name, resolution type, and dimensions
 
 ## Installation
 
@@ -242,10 +242,10 @@ Downloading: http://www.impawards.com/2025/posters/tron_ares_xxlg.jpg
 This downloads the poster to:
 
 ```text
-downloads/2025/tron_ares/tron_ares_XXLG_2025x3000.jpg
+downloads/2025_tron_ares_XXLG_2025x3000.jpg
 ```
 
-File naming pattern: `{base_name}_{SIZE}_{dimensions}.jpg`
+File naming pattern: `{year}_{base_name}_{SIZE}_{dimensions}.jpg`
 
 ## Configuration Files
 
@@ -314,16 +314,17 @@ Configure in `resolution_config.yaml` to change which sizes to download.
 ## Project Structure
 
 ```text
-impawards2025/
-├── poster_downloader.py    # Main downloader script
-├── requirements.txt        # Python dependencies
-├── downloads/             # Downloaded posters (created automatically)
-│   └── {year}/
-│       └── {movie_name}/
-│           └── {base_name}_{SIZE}_{dimensions}.jpg
-├── README.md
-├── TODO.md
-└── CHANGELOG.md
+imp-awards-scraper/
+├── poster_downloader.py       # Main downloader script
+├── requirements.txt           # Python dependencies
+├── genre_config.yaml          # Genre blocklist configuration
+├── resolution_config.yaml     # Resolution preferences
+├── .env                       # TMDb API key (create this)
+├── downloads/                 # Downloaded posters (flat structure)
+│   ├── 2025_tron_ares_XXLG_2025x3000.jpg
+│   ├── 2024_dune_ver2_XXLG_2024x3000.jpg
+│   └── 2021_movie_name_XLG_1080x1350.jpg
+└── [documentation files]
 ```
 
 ## Requirements

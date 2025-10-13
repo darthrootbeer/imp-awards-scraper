@@ -196,9 +196,9 @@ LG: allow: true
 Downloaded files include the resolution in the name:
 
 ```text
-tron_ares_XXLG_2025x3000.jpg
-predator_badlands_ver12_XLG_1080x1350.jpg
-movie_name_XXXLG_3000x4500.jpg
+2025_tron_ares_XXLG_2025x3000.jpg
+2025_predator_badlands_ver12_XLG_1080x1350.jpg
+2024_movie_name_XXXLG_3000x4500.jpg
 ```
 
 This makes it easy to identify what resolution you downloaded.
