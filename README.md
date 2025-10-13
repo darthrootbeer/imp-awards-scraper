@@ -1,4 +1,7 @@
-# IMP Awards 2025 Poster Downloader
+# IMP Awards Scraper
+
+**Version:** 1.0.0  
+**Repository:** [https://github.com/darthrootbeer/imp-awards-scraper](https://github.com/darthrootbeer/imp-awards-scraper)
 
 A Python tool for downloading high-resolution movie posters from [IMP Awards](http://www.impawards.com).
 
@@ -23,20 +26,27 @@ This tool automatically identifies and downloads the highest resolution version 
 
 ## Installation
 
-### 1. Install dependencies
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/darthrootbeer/imp-awards-scraper.git
+cd imp-awards-scraper
+```
+
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Get a free TMDb API key
+### 3. Get a free TMDb API key
 
 - Create an account at [https://www.themoviedb.org/](https://www.themoviedb.org/)
 - Go to Settings → API → Request API Key
 - Choose "Developer" and fill out the form
 - Copy your API key
 
-### 3. Set your API key
+### 4. Set your API key
 
 #### Option A: Using .env file
 

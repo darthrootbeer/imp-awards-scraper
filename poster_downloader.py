@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
-IMP Awards Poster Downloader
+IMP Awards Poster Scraper
 Downloads the highest resolution movie poster from a given poster page URL.
-Priority: XXLG > XLG > Skip
+Priority: XXXLG > XXLG > XLG > LG (configurable)
+
+Version: 1.0.0
+Repository: https://github.com/darthrootbeer/imp-awards-scraper
 """
+
+__version__ = "1.0.0"
 
 import requests
 from bs4 import BeautifulSoup
