@@ -1,0 +1,58 @@
+# Resolution Configuration
+# Set 'allow: true' for resolutions you want to download
+# Set 'allow: false' for resolutions you want to skip
+#
+# The script will download the HIGHEST resolution that is both:
+# 1. Available on the poster page
+# 2. Enabled in this configuration
+#
+# Priority order (highest to lowest):
+# XXXLG > XXLG > XLG > LG
+
+resolutions:
+  XXXLG:
+    allow: true
+    description: "Extra-extra-extra large (rare, when available)"
+    typical_size: "3000x4500+"
+    
+  XXLG:
+    allow: true
+    description: "Extra-extra large (highest quality, most common)"
+    typical_size: "2025x3000"
+    
+  XLG:
+    allow: true
+    description: "Extra large (high quality, common fallback)"
+    typical_size: "1013x1500"
+    
+  LG:
+    allow: false
+    description: "Large (standard size, lower quality)"
+    typical_size: "675x1000"
+
+# Common configurations:
+#
+# Highest quality only (XXLG and above):
+#   XXXLG: allow: true
+#   XXLG: allow: true
+#   XLG: allow: false
+#   LG: allow: false
+#
+# High quality (XLG and above):
+#   XXXLG: allow: true
+#   XXLG: allow: true
+#   XLG: allow: true
+#   LG: allow: false
+#
+# Accept all sizes (maximum coverage):
+#   XXXLG: allow: true
+#   XXLG: allow: true
+#   XLG: allow: true
+#   LG: allow: true
+#
+# Notes:
+# - Most posters have XXLG or XLG available
+# - XXXLG is rare but worth enabling
+# - LG is usually too low quality for archival purposes
+# - If no enabled resolutions are available, poster will be skipped
+

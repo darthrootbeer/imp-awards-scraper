@@ -1,0 +1,95 @@
+# Genre Blocklist Configuration
+# Set 'allow: false' for any genres you want to BLOCK from downloading
+# Set 'allow: true' for genres you want to allow
+#
+# When a movie matches ANY blocked genre, it will be skipped automatically
+# without prompting for confirmation.
+
+genres:
+  Action:
+    allow: true
+    description: "High-energy films with physical stunts, chases, fights"
+    
+  Adventure:
+    allow: true
+    description: "Exploration, quests, journeys to exotic locations"
+    
+  Animation:
+    allow: true
+    description: "Animated films (hand-drawn, CGI, stop-motion)"
+    
+  Comedy:
+    allow: true
+    description: "Humorous films designed to make audiences laugh"
+    
+  Crime:
+    allow: true
+    description: "Criminal activities, investigations, heists"
+    
+  Documentary:
+    allow: true
+    description: "Non-fiction films documenting reality"
+    
+  Drama:
+    allow: true
+    description: "Serious, plot-driven narratives with character development"
+    
+  Family:
+    allow: true
+    description: "Suitable for all ages, family-friendly content"
+    
+  Fantasy:
+    allow: true
+    description: "Magical elements, mythical creatures, imaginary worlds"
+    
+  History:
+    allow: true
+    description: "Historical events, periods, or figures"
+    
+  Horror:
+    allow: false
+    description: "Designed to frighten, scare, or disgust"
+    
+  Music:
+    allow: true
+    description: "Music-focused films, musicals, concert films"
+    
+  Mystery:
+    allow: true
+    description: "Suspenseful investigations, puzzles to solve"
+    
+  Romance:
+    allow: true
+    description: "Romantic relationships and love stories"
+    
+  Science Fiction:
+    allow: true
+    description: "Futuristic concepts, space, technology, sci-fi elements"
+    
+  TV Movie:
+    allow: true
+    description: "Films made specifically for television"
+    
+  Thriller:
+    allow: true
+    description: "Suspenseful, tension-filled narratives"
+    
+  War:
+    allow: true
+    description: "Military conflicts, warfare, combat"
+    
+  Western:
+    allow: true
+    description: "American Old West, cowboys, frontier life"
+
+# Example configurations:
+#
+# Block all horror and thriller movies:
+#   Horror:
+#     allow: false
+#   Thriller:
+#     allow: false
+#
+# Only allow action and sci-fi:
+#   (Set all other genres to allow: false)
+
