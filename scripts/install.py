@@ -19,8 +19,27 @@ from pathlib import Path
 from textwrap import dedent
 from typing import Dict, Optional
 
-from dotenv import dotenv_values
+try:
+    from dotenv import dotenv_values as _dotenv_values
+except ImportError:  # noqa: F401
+    print("ℹ️  python-dotenv is not installed yet; continuing with basic .env parsing.")
 
+    def _dotenv_values(path: str) -> Dict[str, str]:
+        values: Dict[str, str] = {}
+        env_path = Path(path)
+        if not env_path.exists():
+            return values
+        for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            values[key.strip()] = value.strip().strip('\'"')
+        return values
+else:
+    _dotenv_values = _dotenv_values  # type: ignore
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 VENV_DIR = PROJECT_ROOT / "venv"
@@ -67,7 +86,7 @@ def install_requirements() -> None:
 
 def prompt_env_values() -> Dict[str, str]:
     """Collect credentials and configuration values from the user."""
-    existing_env = dotenv_values(str(ENV_FILE)) if ENV_FILE.exists() else {}
+    existing_env = _dotenv_values(str(ENV_FILE)) if ENV_FILE.exists() else {}
     print("\n[3/5] Let's collect the information we need.")
     print("We'll guide you through each question. Press Enter to accept the default.")
 
