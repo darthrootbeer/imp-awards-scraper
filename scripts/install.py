@@ -19,6 +19,8 @@ from pathlib import Path
 from textwrap import dedent
 from typing import Dict, Optional
 
+from dotenv import dotenv_values
+
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 VENV_DIR = PROJECT_ROOT / "venv"
@@ -54,15 +56,18 @@ def get_venv_executable(name: str) -> Path:
 
 def install_requirements() -> None:
     """Install Python dependencies into the virtual environment."""
-    pip_path = get_venv_executable("pip")
+    python_path = get_venv_executable("python")
+    # Ensure pip exists
+    run_command([str(python_path), "-m", "ensurepip", "--upgrade"], check=False)
     print("[2/5] Installing the software (this may take a minute)...")
-    run_command([str(pip_path), "install", "--upgrade", "pip"])
-    run_command([str(pip_path), "install", "-r", str(PROJECT_ROOT / "requirements.txt")])
+    run_command([str(python_path), "-m", "pip", "install", "--upgrade", "pip"])
+    run_command([str(python_path), "-m", "pip", "install", "-r", str(PROJECT_ROOT / "requirements.txt")])
     print("    Done.")
 
 
 def prompt_env_values() -> Dict[str, str]:
     """Collect credentials and configuration values from the user."""
+    existing_env = dotenv_values(str(ENV_FILE)) if ENV_FILE.exists() else {}
     print("\n[3/5] Let's collect the information we need.")
     print("We'll guide you through each question. Press Enter to accept the default.")
 
@@ -80,17 +85,17 @@ def prompt_env_values() -> Dict[str, str]:
 
     print("\n--- TMDb (Movie Database) ---")
     print("We use TMDb to look up genres. Create a free key at https://www.themoviedb.org/settings/api.")
-    tmdb_key = prompt("1) TMDb API key", required=True)
+    tmdb_key = prompt("1) TMDb API key", default=existing_env.get("TMDB_API_KEY"), required=True)
 
     print("\n--- Email details ---")
     print("Use an email account that allows SMTP (Gmail users: create an app password).")
-    smtp_server = prompt("2) SMTP server", default="smtp.gmail.com")
-    smtp_port = prompt("3) SMTP port", default="587")
-    smtp_username = prompt("4) SMTP username", required=True)
-    smtp_password = prompt("5) SMTP password (input hidden)", secret=True, required=True)
-    email_from = prompt("6) Email FROM address", default=smtp_username, required=True)
-    email_to = prompt("7) Daily digest TO address", default=email_from, required=True)
-    max_size_mb = prompt("8) Max email size in MB", default="40")
+    smtp_server = prompt("2) SMTP server", default=existing_env.get("SMTP_SERVER", "smtp.gmail.com"))
+    smtp_port = prompt("3) SMTP port", default=existing_env.get("SMTP_PORT", "587"))
+    smtp_username = prompt("4) SMTP username", default=existing_env.get("SMTP_USERNAME"), required=True)
+    smtp_password = prompt("5) SMTP password (input hidden)", default=existing_env.get("SMTP_PASSWORD"), secret=True, required=True)
+    email_from = prompt("6) Email FROM address", default=existing_env.get("EMAIL_FROM", smtp_username), required=True)
+    email_to = prompt("7) Daily digest TO address", default=existing_env.get("EMAIL_TO", email_from), required=True)
+    max_size_mb = prompt("8) Max email size in MB", default=existing_env.get("EMAIL_MAX_SIZE_MB", "40"))
 
     values = {
         "TMDB_API_KEY": tmdb_key,
