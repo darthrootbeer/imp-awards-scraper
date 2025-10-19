@@ -353,10 +353,12 @@ class EmailSender:
                 
                 # Subject
                 date_str = datetime.now().strftime("%B %d, %Y")
+                poster_count = len(poster_files)
+                count_token = f"[{poster_count}]"
                 if total_batches > 1:
-                    subject = f"IMP Awards Daily Update ({batch_num} of {total_batches}) - {date_str} - {len(poster_files)} Posters"
+                    subject = f"{count_token} • IMP Update {date_str} ({batch_num} of {total_batches})"
                 else:
-                    subject = f"IMP Awards Daily Update - {date_str} - {len(poster_files)} Posters"
+                    subject = f"{count_token} • IMP Update {date_str}"
                 if subject_prefix:
                     subject = f"{subject_prefix.strip()} {subject}".strip()
                 

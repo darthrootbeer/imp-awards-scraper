@@ -2,13 +2,19 @@
 
 Your automated email notification system is **ready to use right now!**
 
+If you haven't already, run the installer once to capture your TMDb + email credentials and generate the digest helper script:
+
+```bash
+python3 scripts/install.py
+```
+
 ## Instant Test
 
 Try it immediately:
 
 ```bash
 cd /Users/bengoddard/projects/imp-awards-scraper
-venv/bin/python3 poster_downloader.py --email-digest --digest-pages 5
+scripts/run_email_digest.sh --digest-pages 5
 ```
 
 This will:
@@ -22,26 +28,26 @@ This will:
 
 ## Daily Automation (Recommended)
 
-### Option 1: Simple Daily Script
+### Option 1: Use the installer to add a cron job
 
-Create a daily run script:
+Re-run `python3 scripts/install.py` and choose the scheduling option. The script will append a daily cron entry that calls `scripts/run_email_digest.sh`.
+
+### Option 2: Simple shell script (manual scheduling)
 
 ```bash
 cd /Users/bengoddard/projects/imp-awards-scraper
 cat > daily_update.sh << 'EOF'
 #!/bin/bash
-cd /Users/bengoddard/projects/imp-awards-scraper
-venv/bin/python3 poster_downloader.py --email-digest --digest-pages 5
+scripts/run_email_digest.sh --digest-pages 5
 EOF
 chmod +x daily_update.sh
 ```
 
 Run it anytime: `./daily_update.sh`
 
-### Option 2: Automatic Daily at 8 AM (macOS)
+### Option 3: Automatic Daily at 8 AM (macOS)
 
 ```bash
-# Create the automation file
 cat > ~/Library/LaunchAgents/com.impawards.daily.plist << 'EOF'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -51,11 +57,7 @@ cat > ~/Library/LaunchAgents/com.impawards.daily.plist << 'EOF'
     <string>com.impawards.daily</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/bengoddard/projects/imp-awards-scraper/venv/bin/python3</string>
-        <string>/Users/bengoddard/projects/imp-awards-scraper/poster_downloader.py</string>
-        <string>--email-digest</string>
-        <string>--digest-pages</string>
-        <string>5</string>
+        <string>/Users/bengoddard/projects/imp-awards-scraper/scripts/run_email_digest.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>

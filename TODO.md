@@ -2,7 +2,7 @@
 
 ## Active Tasks
 
-- [ ] `000003` - Add support for discovering all posters for a movie _(Priority: Medium)_
+- [ ] `000017` - Prototype browsable poster gallery web UI with filters and full-resolution previews _(Priority: Low)_
 
 ## Completed Tasks
 
@@ -26,3 +26,5 @@
 - [x] `000013` - Implement crawl-until-last-emailed logic for latest pages - (2025-10-14_10:05:00)
 - [x] `000014` - Extend email sender CLI flow with `--email-digest` mode - (2025-10-14_10:30:00)
 - [x] `000015` - Update docs (`README`, `EMAIL_SETUP`, `SUMMARY`) for digest workflow - (2025-10-14_11:00:00)
+- [x] `000003` - Add support for discovering all posters for a movie - (2025-10-19_14:15:00)
+- [x] `000016` - Design persistent movie metadata store (unique IDs, genres, release date) - (2025-10-19_10:52:46)

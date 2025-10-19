@@ -1,8 +1,8 @@
 # Project Status - IMP Awards 2025 Poster Downloader
 
 **Status**: Production Ready  
-**Version**: 1.3.0  
-**Last Updated**: 2025-10-14
+**Version**: 1.4.0  
+**Last Updated**: 2025-10-19
 
 ## Current Phase
 
@@ -15,6 +15,7 @@ Production Release - All core features implemented and tested
 - [x] Batch processing for recent additions page
 - [x] Multi-page archive processing (--pages option)
 - [x] Year-based batch downloads (all posters from a specific year)
+- [x] Movie-based batch downloads (all posters for a specific movie)
 - [x] Image download with organized folder structure
 
 ### API Integration
@@ -40,6 +41,7 @@ Production Release - All core features implemented and tested
 - [x] Genre blocklist configuration guide
 - [x] Usage examples document
 - [x] Changelog and TODO tracking
+- [x] Guided installer documentation for non-technical users
 
 ## Available Command-Line Options
 
@@ -48,6 +50,11 @@ Production Release - All core features implemented and tested
 --year YYYY          # Process all posters from specific year
 --genre NAME         # Filter by genre (multiple allowed for AND logic)
 --pages N            # Process N recent archive pages
+--movie PATH_OR_URL  # Download every poster variant for a specific movie
+--email-digest       # Send email digest of posters since the last digest
+--digest-pages N     # Limit how many latest pages the digest scans (default: 5)
+--digest-test        # Prefix digest email subjects with [TEST]
+--startfresh         # Clear downloads folder and disable duplicate detection for this run
 ```
 
 ## Tested & Verified
@@ -71,6 +78,7 @@ None currently
 - **Parser**: BeautifulSoup4 with lxml for reliable HTML parsing
 - **HTTP Client**: requests library with proper headers for TMDb/IMDb access
 - **API**: TMDb API for reliable genre data (replaced IMDb scraping)
+- **Metadata**: JSON-based movie metadata store (`movie_metadata.json`) with TMDb/IMDb identifiers
 - **Config Format**: YAML for human-readable genre configuration
 - **Organization**: Downloads structured by year/movie_name/{base_name}_{SIZE}_{dimensions}.jpg
 - **Priority Logic**: Hard-coded preference for XXLG > XLG (not dynamic dimension comparison)

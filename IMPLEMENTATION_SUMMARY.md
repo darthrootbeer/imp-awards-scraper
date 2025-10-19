@@ -14,6 +14,13 @@ The automated email notification system has been successfully implemented and te
   - HTML email formatting
   - Duplicate tracking system
   - Source URL linking
+- **Movie metadata store**
+  - `movie_metadata.json` JSON database maintained automatically
+  - Captures TMDb/IMDb identifiers, release dates, genres, and poster inventory per movie
+  - Enables future filtering and gallery experiences without rescanning downloads
+- **Installer & automation scripts**
+  - `scripts/install.py` guides non-technical users through setup (venv, config, scheduling)
+  - `scripts/run_email_digest.sh` runs the daily digest with a single command
 
 ### Integration
 - **Modified `poster_downloader.py`**:
@@ -144,6 +151,12 @@ python poster_downloader.py --email-digest --genre Animation --genre Family
 ```bash
 # Prefix email subject with [TEST]
 python poster_downloader.py --email-digest --digest-test
+```
+
+### Movie Poster Collection
+```bash
+# Download every IMP Awards poster variant for a specific movie
+python poster_downloader.py --movie 2025/tron_ares.html
 ```
 
 ## Daily Automation Setup

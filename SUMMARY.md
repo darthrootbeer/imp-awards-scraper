@@ -35,6 +35,7 @@ All requested features have been successfully implemented and tested.
 --latest              # Process recent additions (fully automated)
 --year YYYY          # Process specific year (fully automated)
 --genre NAME         # Filter by genre (AND logic, multiple allowed)
+--movie PATH_OR_URL  # Download all posters for a specific movie
 --pages N            # Process N recent pages
 --email-digest       # Send email digest of posters since the last digest
 --digest-pages N     # Limit how many latest pages the digest scans (default: 5)
@@ -98,6 +99,9 @@ python poster_downloader.py --latest --pages 10 --genre "Science Fiction"
 
 # Email digest of new posters (scan default 5 pages)
 python poster_downloader.py --email-digest
+
+# All posters for a movie (discover every variant)
+python poster_downloader.py --movie 2025/tron_ares.html
 ```
 
 ## Key Features
@@ -109,7 +113,8 @@ python poster_downloader.py --email-digest
 5. **Smart Resolution**: Always gets best available (XXLG > XLG)
 6. **Clean Organization**: Year/movie/poster structure
 7. **Email Digest Automation**: Stateful email updates with thumbnail batching
-8. **Production Ready**: Error handling, progress tracking, statistics
+8. **Movie Metadata**: Persistent store of genres, release dates, and poster inventory for quick filtering
+9. **Production Ready**: Error handling, progress tracking, statistics
 
 ## Architecture
 

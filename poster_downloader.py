@@ -4,11 +4,11 @@ IMP Awards Poster Scraper
 Downloads the highest resolution movie poster from a given poster page URL.
 Priority: XXXLG > XXLG > XLG > LG (configurable)
 
-Version: 1.3.0
+Version: 1.4.0
 Repository: https://github.com/darthrootbeer/imp-awards-scraper
 """
 
-__version__ = "1.3.0"
+__version__ = "1.4.0"
 
 import os
 import re
@@ -17,6 +17,7 @@ import json
 import yaml
 import argparse
 from typing import Dict, List, Optional, Tuple
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -37,6 +38,77 @@ TMDB_BASE_URL = 'https://api.themoviedb.org/3'
 # Configuration files
 GENRE_CONFIG_FILE = 'genre_config.yaml'
 RESOLUTION_CONFIG_FILE = 'resolution_config.yaml'
+MOVIE_METADATA_FILE = 'movie_metadata.json'
+
+
+class MovieMetadataStore:
+    """Handles persistent storage of movie-level metadata."""
+
+    def __init__(self, path: str = MOVIE_METADATA_FILE):
+        self.path = path
+        self.data: Dict[str, Dict] = self._load()
+
+    def _load(self) -> Dict[str, Dict]:
+        if os.path.exists(self.path):
+            try:
+                with open(self.path, 'r', encoding='utf-8') as fh:
+                    return json.load(fh)
+            except Exception as exc:
+                print(f"  Warning: Could not load {self.path}: {exc}")
+        return {}
+
+    def save(self) -> None:
+        tmp_path = f"{self.path}.tmp"
+        with open(tmp_path, 'w', encoding='utf-8') as fh:
+            json.dump(self.data, fh, indent=2)
+        os.replace(tmp_path, self.path)
+
+    def update_movie(self, movie_id: str, metadata: Dict, poster_info: Optional[Dict] = None, source_url: Optional[str] = None) -> None:
+        movie_id = str(movie_id)
+        entry = self.data.get(movie_id, {
+            'movie_id': movie_id,
+            'movie_title': metadata.get('movie_title'),
+            'movie_slug': metadata.get('movie_slug'),
+            'year': metadata.get('year'),
+            'release_date': metadata.get('release_date'),
+            'genres': [],
+            'imdb_id': metadata.get('imdb_id'),
+            'tmdb_id': metadata.get('tmdb_id'),
+            'posters': [],
+            'source_urls': [],
+            'last_updated': None
+        })
+
+        # Update scalar fields if new information is available
+        for field in ['movie_title', 'movie_slug', 'year', 'release_date', 'imdb_id', 'tmdb_id']:
+            value = metadata.get(field)
+            if value and not entry.get(field):
+                entry[field] = value
+
+        # Merge genres
+        genres = metadata.get('genres') or []
+        if genres:
+            existing_genres = set(entry.get('genres', []))
+            existing_genres.update(genres)
+            entry['genres'] = sorted(existing_genres)
+
+        # Merge source URLs
+        if source_url:
+            urls = set(entry.get('source_urls', []))
+            urls.add(source_url)
+            entry['source_urls'] = sorted(urls)
+
+        # Merge poster info
+        if poster_info:
+            posters = entry.get('posters', [])
+            existing_paths = {p.get('local_path') for p in posters if p.get('local_path')}
+            if poster_info.get('local_path') not in existing_paths:
+                posters.append(poster_info)
+            entry['posters'] = posters
+
+        entry['last_updated'] = datetime.now(timezone.utc).isoformat()
+        self.data[movie_id] = entry
+        self.save()
 
 
 class PosterDownloader:
@@ -52,6 +124,7 @@ class PosterDownloader:
         })
         self.genre_config = self.load_genre_config()
         self.resolution_config = self.load_resolution_config()
+        self.metadata_store = MovieMetadataStore()
     
     def load_genre_config(self):
         """
@@ -319,6 +392,79 @@ class PosterDownloader:
         except Exception as e:
             print(f"✗ Error fetching posters for year {year}: {e}")
             return []
+    
+    def get_movie_posters(self, movie_identifier, return_details=False):
+        """
+        Fetch all poster URLs for a specific movie (all variants).
+        
+        Args:
+            movie_identifier: Path or full URL to a movie poster page
+            return_details: Whether to return (posters, metadata) tuple
+            
+        Returns:
+            list: List of full poster page URLs (and optional metadata dict)
+        """
+        if movie_identifier.startswith('http'):
+            movie_url = movie_identifier
+        else:
+            movie_identifier = movie_identifier.lstrip('/')
+            movie_url = f"{self.base_url}/{movie_identifier}"
+        
+        print(f"\nFetching movie posters from: {movie_url}")
+        
+        try:
+            response = self.session.get(movie_url)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'lxml')
+            
+            match = re.search(r'/(\d{4})/([^/]+)\.html$', movie_url)
+            year = match.group(1) if match else "unknown"
+            base_name = match.group(2) if match else os.path.splitext(os.path.basename(movie_url))[0]
+            
+            title_tag = soup.find('title')
+            movie_title = None
+            if title_tag:
+                title_text = title_tag.text
+                title_match = re.search(r'(.+?) Movie Poster', title_text)
+                if title_match:
+                    movie_title = title_match.group(1).strip()
+            
+            poster_links = []
+            seen = set()
+            
+            def add_link(candidate_url):
+                if candidate_url not in seen:
+                    seen.add(candidate_url)
+                    poster_links.append(candidate_url)
+            
+            add_link(movie_url)
+            
+            for link in soup.find_all('a', href=True):
+                href = link['href']
+                candidate = urljoin(movie_url, href)
+                filename = os.path.basename(candidate).lower()
+                
+                if not filename.endswith('.html'):
+                    continue
+                
+                if not re.match(rf"{re.escape(base_name.lower())}(_ver\d+)?\.html$", filename):
+                    continue
+                
+                add_link(candidate)
+            
+            print(f"✓ Found {len(poster_links)} poster page(s) for {base_name}")
+            
+            details = {
+                'movie_title': movie_title or base_name.replace('_', ' ').title(),
+                'base_name': base_name,
+                'year': year
+            }
+            
+            return (poster_links, details) if return_details else poster_links
+        
+        except Exception as e:
+            print(f"✗ Error fetching posters for movie {movie_identifier}: {e}")
+            return ([], {}) if return_details else []
 
     def parse_poster_page(self, url):
         """
@@ -371,11 +517,15 @@ class PosterDownloader:
             'year': year,
             'poster_number': poster_number,
             'base_name': base_name,
+            'movie_slug': None,
             'xxxlg': None,
             'xxlg': None,
             'xlg': None,
             'lg': None
         }
+
+        if base_name:
+            result['movie_slug'] = re.sub(r'_ver\d+$', '', base_name)
         
         # Find all links in the "other sizes:" section
         # Look for the paragraph containing "other sizes:"
@@ -437,20 +587,28 @@ class PosterDownloader:
                 return href
         return None
 
-    def get_genres_from_tmdb(self, imdb_id):
+    def fetch_tmdb_metadata(self, imdb_id):
         """
-        Fetch genre information from TMDb API using IMDb ID.
+        Fetch movie metadata from TMDb using an IMDb ID.
         
         Args:
             imdb_id: IMDb ID (e.g., 'tt6604188')
-            
+        
         Returns:
-            list: List of genre strings, or empty list if not found
+            dict: Metadata containing genres, release_date, tmdb_id, title.
         """
+        metadata = {
+            'imdb_id': imdb_id,
+            'tmdb_id': None,
+            'title': None,
+            'release_date': None,
+            'genres': []
+        }
+        
         if not TMDB_API_KEY:
             print("  Warning: TMDb API key not set. Set TMDB_API_KEY environment variable.")
             print("  Get your free API key at: https://www.themoviedb.org/settings/api")
-            return []
+            return metadata
         
         try:
             # Use TMDb /find endpoint to search by IMDb ID
@@ -460,25 +618,38 @@ class PosterDownloader:
                 'external_source': 'imdb_id'
             }
             
-            print(f"  Fetching genre data from TMDb...")
+            print(f"  Fetching metadata from TMDb...")
             response = requests.get(url, params=params, timeout=10)
             response.raise_for_status()
             
             data = response.json()
-            
-            # Check movie_results first (most common)
             movie_results = data.get('movie_results', [])
             if movie_results:
                 movie = movie_results[0]
+                metadata['tmdb_id'] = movie.get('id')
+                metadata['title'] = movie.get('title') or movie.get('original_title')
+                metadata['release_date'] = movie.get('release_date')
                 genre_ids = movie.get('genre_ids', [])
-                
-                # Fetch genre names from genre IDs
-                return self.get_genre_names_from_ids(genre_ids)
+                metadata['genres'] = self.get_genre_names_from_ids(genre_ids)
             
-            return []
+            # Fetch full movie details to enrich metadata if TMDb ID is available
+            if metadata['tmdb_id']:
+                detail_url = f"{TMDB_BASE_URL}/movie/{metadata['tmdb_id']}"
+                detail_params = {'api_key': TMDB_API_KEY}
+                detail_resp = requests.get(detail_url, params=detail_params, timeout=10)
+                detail_resp.raise_for_status()
+                detail_data = detail_resp.json()
+                metadata['release_date'] = detail_data.get('release_date') or metadata['release_date']
+                detail_genres = detail_data.get('genres')
+                if detail_genres:
+                    metadata['genres'] = [g.get('name', '').strip() for g in detail_genres if g.get('name')]
+                if not metadata['title']:
+                    metadata['title'] = detail_data.get('title') or detail_data.get('original_title')
+            
+            return metadata
         except Exception as e:
             print(f"  Warning: Could not fetch TMDb data: {e}")
-            return []
+            return metadata
     
     def get_genre_names_from_ids(self, genre_ids):
         """
@@ -591,39 +762,41 @@ class PosterDownloader:
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'lxml')
         
-        # Extract IMDb URL and get genres
+        # Extract IMDb URL and gather metadata
         imdb_url = self.extract_imdb_url(soup)
-        genres = []
+        genres: List[str] = []
+        tmdb_metadata: Dict[str, Optional[str]] = {}
+        imdb_id: Optional[str] = None
         
         if imdb_url:
             print(f"✓ Found IMDb URL: {imdb_url}")
             imdb_id_match = re.search(r'title/(tt\d+)', imdb_url)
             if imdb_id_match:
                 imdb_id = imdb_id_match.group(1)
-                genres = self.get_genres_from_tmdb(imdb_id)
+                tmdb_metadata = self.fetch_tmdb_metadata(imdb_id)
+                genres = tmdb_metadata.get('genres', []) or []
                 if genres:
                     print(f"✓ Genres: {', '.join(genres)}")
-                    
-                    # Check genre filter (if specified)
-                    if required_genres:
-                        matches, missing = self.check_genre_filter(genres, required_genres)
-                        if not matches:
-                            print(f"✗ FILTERED: Movie missing required genre(s): {', '.join(missing)}")
-                            print(f"  Required: {', '.join(required_genres)}")
-                            return False, False, None
-                    
-                    # Check genre blocklist
-                    is_blocked, blocked_genres = self.check_genre_blocklist(genres)
-                    if is_blocked:
-                        print(f"✗ BLOCKED: Movie contains blocked genre(s): {', '.join(blocked_genres)}")
-                        print(f"  Edit {GENRE_CONFIG_FILE} to change genre settings")
-                        return False, False, None
                 else:
                     print("  No genre information found")
             else:
                 print("  Could not extract IMDb ID from URL")
         else:
             print("✗ No IMDb URL found on poster page")
+        
+        if genres:
+            if required_genres:
+                matches, missing = self.check_genre_filter(genres, required_genres)
+                if not matches:
+                    print(f"✗ FILTERED: Movie missing required genre(s): {', '.join(missing)}")
+                    print(f"  Required: {', '.join(required_genres)}")
+                    return False, False, None
+            
+            is_blocked, blocked_genres = self.check_genre_blocklist(genres)
+            if is_blocked:
+                print(f"✗ BLOCKED: Movie contains blocked genre(s): {', '.join(blocked_genres)}")
+                print(f"  Edit {GENRE_CONFIG_FILE} to change genre settings")
+                return False, False, None
         
         # Parse poster info
         info = self.parse_poster_page(url)
@@ -673,11 +846,43 @@ class PosterDownloader:
             info['year']
         )
         
-        filename = f"{info['year']}_{info['base_name']}_{selected_size.upper()}_{selected_info['dimensions']}.jpg"
+        base_filename = info.get('base_name') or 'poster'
+        filename = f"{info['year']}_{base_filename}_{selected_size.upper()}_{selected_info['dimensions']}.jpg"
         save_path = os.path.join(output_dir, filename)
         
         success, already_existed = self.download_image(download_url, save_path, skip_if_exists=skip_existing)
         if success or already_existed:
+            movie_slug = info.get('movie_slug') or info.get('base_name')
+            movie_key = (
+                (tmdb_metadata.get('tmdb_id') if tmdb_metadata else None)
+                or imdb_id
+                or (f"{info['year']}_{movie_slug}" if movie_slug else None)
+                or url
+            )
+            movie_metadata_payload = {
+                'movie_title': (tmdb_metadata.get('title') if tmdb_metadata else None) or info['movie_name'],
+                'movie_slug': movie_slug,
+                'year': info.get('year'),
+                'release_date': tmdb_metadata.get('release_date') if tmdb_metadata else None,
+                'genres': genres,
+                'imdb_id': imdb_id,
+                'tmdb_id': tmdb_metadata.get('tmdb_id') if tmdb_metadata else None
+            }
+            poster_metadata_payload = {
+                'poster_page': url,
+                'local_path': os.path.relpath(save_path),
+                'poster_number': info.get('poster_number'),
+                'resolution': selected_size.upper(),
+                'dimensions': selected_info.get('dimensions'),
+                'variant_slug': info.get('base_name'),
+                'downloaded_at': datetime.now(timezone.utc).isoformat()
+            }
+            self.metadata_store.update_movie(
+                movie_key,
+                movie_metadata_payload,
+                poster_info=poster_metadata_payload,
+                source_url=url
+            )
             return success, already_existed, save_path
         return success, already_existed, None
 
@@ -698,6 +903,8 @@ def main():
                         help='Number of recent pages to process (use with --latest, e.g., --latest --pages=5)')
     parser.add_argument('--startfresh', action='store_true',
                         help='Clear downloads folder and start fresh')
+    parser.add_argument('--movie', metavar='MOVIE',
+                        help='Download all posters for a specific movie (enter path or full URL, e.g., 2025/tron_ares.html)')
     parser.add_argument('--email-digest', action='store_true',
                         help='Send email digest of new posters since the last successful digest run')
     parser.add_argument('--digest-pages', type=int, metavar='N', default=5,
@@ -739,6 +946,15 @@ def main():
             skip_existing=skip_existing
         )
         return
+    if args.movie:
+        process_movie_posters(
+            downloader,
+            args.movie,
+            required_genres=args.genre,
+            auto_confirm=True,
+            skip_existing=skip_existing
+        )
+        return
     if args.latest:
         # Process recent additions via command line (auto-confirm for automation)
         num_pages = args.pages if args.pages else 1
@@ -755,7 +971,7 @@ def main():
     print("1. Process recent additions (latest.html)")
     print("2. Download single poster (enter URL)")
     print("3. Download all posters for a specific year")
-    print("4. Download all posters for a specific movie (coming soon)")
+    print("4. Download all posters for a specific movie")
     print()
     
     choice = input("Enter choice (1-4): ").strip()
@@ -800,8 +1016,11 @@ def main():
             print("✗ Invalid year")
             sys.exit(1)
     elif choice == '4':
-        print("This feature is coming soon!")
-        sys.exit(0)
+        movie_input = input("Enter movie poster page path or URL (e.g., 2025/tron_ares.html): ").strip()
+        if not movie_input:
+            print("✗ No movie specified")
+            sys.exit(1)
+        process_movie_posters(downloader, movie_input)
     else:
         print("✗ Invalid choice")
         sys.exit(1)
@@ -968,7 +1187,88 @@ def run_email_digest(
         print("✗ Email delivery failed; digest state not advanced.")
         if skipped_ids:
             tracker.record_ignored(skipped_ids)
-            tracker.save()
+        tracker.save()
+
+
+def process_movie_posters(downloader, movie_identifier, required_genres=None, auto_confirm=False, skip_existing=True):
+    """
+    Process all posters for a specific movie (all variants).
+    
+    Args:
+        downloader: PosterDownloader instance
+        movie_identifier: Path or URL to the movie poster page
+        required_genres: List of required genres (AND logic) or None
+        auto_confirm: Skip confirmation prompt when True
+        skip_existing: Whether to skip already downloaded files
+    """
+    poster_urls, details = downloader.get_movie_posters(movie_identifier, return_details=True)
+    
+    if not poster_urls:
+        print("✗ No posters found for that movie")
+        return
+    
+    movie_title = details.get('movie_title', 'Unknown Movie')
+    year = details.get('year', 'unknown')
+    
+    print(f"\nReady to process {len(poster_urls)} posters for {movie_title} ({year})")
+    if required_genres:
+        print(f"Genre filter: Movies must match ALL of: {', '.join(required_genres)}")
+    print("Posters will be filtered by your genre blocklist settings")
+    print()
+    
+    if not auto_confirm:
+        response = input(f"Continue with batch processing? (yes/no): ").strip().lower()
+        if response not in ['yes', 'y']:
+            print("Cancelled by user")
+            return
+    
+    print("\n" + "=" * 60)
+    print(f"Starting batch processing for {movie_title}...")
+    print("=" * 60)
+    
+    stats = {
+        'total': len(poster_urls),
+        'downloaded': 0,
+        'already_downloaded': 0,
+        'skipped': 0,
+        'blocked': 0,
+        'errors': 0
+    }
+    
+    for i, url in enumerate(poster_urls, 1):
+        print(f"\n[{i}/{stats['total']}] Processing: {url}")
+        print("-" * 60)
+        
+        try:
+            success, already_existed, _ = downloader.process_poster_page(
+                url,
+                prompt_confirm=False,
+                required_genres=required_genres,
+                skip_existing=skip_existing
+            )
+            if success:
+                stats['downloaded'] += 1
+            elif already_existed:
+                stats['already_downloaded'] += 1
+            else:
+                stats['skipped'] += 1
+        except KeyboardInterrupt:
+            print("\n\n✗ Interrupted by user")
+            break
+        except Exception as e:
+            print(f"✗ Error processing poster: {e}")
+            stats['errors'] += 1
+            continue
+    
+    print("\n" + "=" * 60)
+    print(f"BATCH PROCESSING COMPLETE FOR {movie_title}")
+    print("=" * 60)
+    print(f"Total posters:        {stats['total']}")
+    print(f"New downloads:        {stats['downloaded']}")
+    print(f"Already downloaded:   {stats['already_downloaded']}")
+    print(f"Skipped:              {stats['skipped']}")
+    print(f"Errors:               {stats['errors']}")
+    print("=" * 60)
 
 
 def process_year_posters(downloader, year, required_genres=None, auto_confirm=False, skip_existing=True):

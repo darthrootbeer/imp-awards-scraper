@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.1.0] - 2025-10-13
+## [1.4.0] - 2025-10-19
+
+### Added
+
+- Guided installation script (`scripts/install.py`) for non-technical users
+  - Creates/updates the virtual environment and installs dependencies
+  - Collects TMDb + email credentials, writes `.env`
+  - Generates reusable digest runner (`scripts/run_email_digest.sh`)
+  - Optionally schedules the daily email digest via `crontab`
+- Convenience shell runner `scripts/run_email_digest.sh`
+- Documentation updates (README, quick-start guides) referencing the new installer and metadata store
+
+### Changed
+
+- Email digest subjects now display poster counts: `[NNN] • IMP Update …`
+- `poster_downloader.py` records movie-level metadata in `movie_metadata.json`
+- CLI/interactive menu support for `--movie` downloads and new metadata workflow
+
+### Fixed
+
+- Normalized movie keys in the metadata store so all poster variants roll up to a single movie entry
+
 ## [1.3.0] - 2025-10-14
 
 ### Added
@@ -14,6 +36,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Stateful crawl that stops at the last emailed poster (via new `digest_tracker.py`)
 - `digest_state.json` tracking file alongside existing email tracking
 - Documentation updates covering digest workflow and automation recipes
+- `--movie` CLI flag and interactive menu option to download every poster variant for a specific movie
+- Automatic `movie_metadata.json` store capturing movie-level details (IDs, release date, genres, poster inventory)
 
 ### Changed
 

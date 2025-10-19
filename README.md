@@ -1,6 +1,6 @@
 # IMP Awards Scraper
 
-**Version:** 1.3.0  
+**Version:** 1.4.0  
 **Repository:** [https://github.com/darthrootbeer/imp-awards-scraper](https://github.com/darthrootbeer/imp-awards-scraper)
 
 A Python tool for downloading high-resolution movie posters from [IMP Awards](http://www.impawards.com).
@@ -21,11 +21,31 @@ This tool automatically identifies and downloads the highest resolution version 
 - **IMDb ID Detection**: Automatically extracts IMDb ID from poster pages
 - **Smart Resolution Selection**: Downloads highest enabled and available resolution
 - **Email Digest Automation**: Builds daily email summaries of new posters with state tracking
+- **Movie Collection Mode**: Grab every variant poster for a specific movie in one run
+- **Movie Metadata Tracking**: Persists movie-level details (genres, release date, poster inventory) for future filtering
 - **Interactive Confirmation**: Shows genre info and asks before downloading
 - **Flat Directory Structure**: All posters in single downloads/ folder with year prefix
 - **Clean Filenames**: Includes year, poster name, resolution type, and dimensions
 
 ## Installation
+
+### Option A: Automated Installer (recommended)
+
+```bash
+python3 scripts/install.py
+```
+
+The installer will:
+
+- Create a project-specific virtual environment and install dependencies
+- Collect your TMDb and email credentials and write them to `.env`
+- Create the persistent `movie_metadata.json` store (if missing)
+- Generate a reusable digest runner script (`scripts/run_email_digest.sh`)
+- Optionally schedule the daily email digest using `crontab`
+
+Run the script again at any time to update credentials or scheduling.
+
+### Option B: Manual Setup
 
 ### 1. Clone the repository
 
@@ -107,6 +127,9 @@ python poster_downloader.py --startfresh --year 2024
 
 # Email digest of posters added since the last run (scan up to 5 pages)
 python poster_downloader.py --email-digest --digest-pages 5
+
+# Download every poster variant for a specific movie
+python poster_downloader.py --movie 2025/tron_ares.html
 ```
 
 All command-line modes automatically:
@@ -150,6 +173,7 @@ The `--pages` option works with `--latest` to process multiple archive pages:
 
 - `--latest` – Process the most recent additions page (use with `--pages` for deeper scans)
 - `--year YYYY` – Download all posters for a specific year
+- `--movie PATH_OR_URL` – Download every poster variant for a specific movie (e.g., `2025/tron_ares.html`)
 - `--genre NAME` – Apply AND filtering for one or more genres
 - `--startfresh` – Clear downloads and disable duplicate detection for this run
 - `--email-digest` – Send an email digest of posters added since the last digest
@@ -169,7 +193,7 @@ python poster_downloader.py
 **1. Process recent additions** - Downloads all posters from the latest additions page  
 **2. Download single poster** - Downloads one specific poster by URL  
 **3. Download all posters for a year** - Enter year when prompted  
-**4. Download all posters for a movie** - Coming soon
+**4. Download all posters for a movie** - Enter movie path or URL (e.g., `2025/tron_ares.html`)
 
 ### Command-Line Examples
 
@@ -188,6 +212,14 @@ python poster_downloader.py --year 2024
 ```
 
 Processes all 2,135+ posters from 2024 (filtered by your genre blocklist)
+
+#### Download Every Poster for a Movie
+
+```bash
+python poster_downloader.py --movie 2025/tron_ares.html
+```
+
+Finds the base movie page, discovers every variant (ver2, ver3, …), and downloads each poster using your existing genre and resolution settings.
 
 **Example:**
 
@@ -298,6 +330,11 @@ resolutions:
 Script downloads highest enabled and available resolution.
 
 See [RESOLUTION_CONFIG.md](RESOLUTION_CONFIG.md) for detailed guide.
+
+### Movie Metadata (`movie_metadata.json`)
+
+Automatically maintained JSON database that tracks each movie's title, unique identifier (TMDb/IMDb fallback), release date, genres, and every downloaded poster variant with local file paths.
+Used for future filtering/browsing features—no manual edits required.
 
 ## How It Works
 

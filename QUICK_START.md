@@ -4,6 +4,19 @@ Get up and running in 3 minutes.
 
 ## Setup (One-Time)
 
+### Recommended: Automated Installer
+
+```bash
+python3 scripts/install.py
+```
+
+- Creates/updates the `venv` virtual environment
+- Prompts for TMDb + email credentials and writes `.env`
+- Generates the digest runner script (`scripts/run_email_digest.sh`)
+- Optionally schedules the daily email digest via `crontab`
+
+### Manual Setup (if you prefer)
+
 ```bash
 # 1. Install dependencies
 pip install -r requirements.txt
