@@ -11,8 +11,44 @@ work safely and consistently inside `imp-awards-scraper`.
   - `poster_downloader.py` – main CLI + scraping pipeline.
   - `email_sender.py` – email digest and thumbnail batching.
   - `genre_config.yaml` / `resolution_config.yaml` – user-tunable rules.
+  - `movie_metadata.json` – persistent catalogue of movies (genres, release date, poster variants).
+  - `scripts/install.py` / `scripts/run_email_digest.sh` – onboarding and daily automation helpers.
 - **Virtual env**: use the checked-in `venv` (`venv/bin/python3`) when
   running scripts locally unless directed otherwise.
+
+## Installation Overview (guide the user through this flow)
+1. **Prerequisites**
+   - Python 3.8 or newer.
+   - Git (or download the ZIP).
+   - TMDb API key (free at https://www.themoviedb.org/settings/api).
+   - SMTP account capable of sending mail (Gmail app password recommended).
+2. **Clone or download the repository**
+   ```bash
+   git clone https://github.com/darthrootbeer/imp-awards-scraper.git
+   cd imp-awards-scraper
+   ```
+3. **Run the guided installer**
+   ```bash
+   python3 scripts/install.py
+   ```
+   - Creates/updates `venv`.
+   - Installs dependencies via pip.
+   - Prompts for TMDb key and SMTP settings, writes `.env`.
+   - Ensures `movie_metadata.json` exists.
+   - Generates `scripts/run_email_digest.sh`.
+   - Offers to add a daily cron job (asks for time, page depth, test mode).
+   - Mentions the user can rerun the installer any time to update credentials/scheduling.
+4. **Manual fallback**
+   - If the user prefers manual setup, guide them through `pip install -r requirements.txt`, creating `.env`, and optional scheduler entries.
+5. **Validation**
+   - Run `venv/bin/python3 poster_downloader.py --help` to confirm the CLI works.
+   - Optional quick scrape: `venv/bin/python3 poster_downloader.py --latest --pages 1`.
+   - Send a test digest (adds `[TEST]` prefix): `scripts/run_email_digest.sh --digest-pages 5 --digest-test`.
+
+## Daily Automation Guidance
+- `scripts/run_email_digest.sh` reads the virtualenv automatically and defaults to scanning five latest pages. Accepts CLI flags identical to the Python script (e.g., `--digest-pages 10`).
+- Cron entry format (installed by the script): `${minute} ${hour} * * * /path/to/scripts/run_email_digest.sh --digest-pages 5`.
+- For macOS users preferring launchd, adapt `QUICK_EMAIL_START.md` example but point to `scripts/run_email_digest.sh`.
 
 ## Workflow Expectations
 1. **Stay incremental**  

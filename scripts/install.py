@@ -247,6 +247,7 @@ def main() -> None:
     print("=" * 60)
     print("IMP Awards Scraper - Installer")
     print("=" * 60)
+    print("Tip: If you're using an AI helper, share AI_INSTRUCTIONS.md with it so the assistant can drive this setup for you.")
 
     if sys.version_info < (3, 8):
         print("⚠️  Python 3.8 or newer is required. Please upgrade Python and re-run the installer.")
