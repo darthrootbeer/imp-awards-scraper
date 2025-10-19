@@ -36,6 +36,9 @@ All requested features have been successfully implemented and tested.
 --year YYYY          # Process specific year (fully automated)
 --genre NAME         # Filter by genre (AND logic, multiple allowed)
 --pages N            # Process N recent pages
+--email-digest       # Send email digest of posters since the last digest
+--digest-pages N     # Limit how many latest pages the digest scans (default: 5)
+--digest-test        # Prefix digest email subjects with [TEST]
 ```
 
 ### 6. Interactive Menu
@@ -58,6 +61,7 @@ All requested features have been successfully implemented and tested.
 
 ### Code
 - `poster_downloader.py` (793 lines) - Main application
+- `digest_tracker.py` - Digest state manager
 
 ### Configuration
 - `genre_config.yaml` - Genre blocklist/preferences
@@ -91,6 +95,9 @@ python poster_downloader.py --year 2024 --genre Animation --genre Family
 
 # Last 10 pages, only Sci-Fi
 python poster_downloader.py --latest --pages 10 --genre "Science Fiction"
+
+# Email digest of new posters (scan default 5 pages)
+python poster_downloader.py --email-digest
 ```
 
 ## Key Features
@@ -101,7 +108,8 @@ python poster_downloader.py --latest --pages 10 --genre "Science Fiction"
 4. **Year Archives**: Download entire years (2,000+ posters)
 5. **Smart Resolution**: Always gets best available (XXLG > XLG)
 6. **Clean Organization**: Year/movie/poster structure
-7. **Production Ready**: Error handling, progress tracking, statistics
+7. **Email Digest Automation**: Stateful email updates with thumbnail batching
+8. **Production Ready**: Error handling, progress tracking, statistics
 
 ## Architecture
 

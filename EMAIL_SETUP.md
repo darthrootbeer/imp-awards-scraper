@@ -21,24 +21,24 @@ Your Gmail credentials are already set up in the `.env` file:
 
 ### 2. Usage Examples
 
-#### Download Latest and Email
+#### Send Digest of New Posters (default 5 recent pages)
 ```bash
-python poster_downloader.py --latest --email-update
+python poster_downloader.py --email-digest
 ```
 
-#### Download from Multiple Pages and Email
+#### Scan Deeper into the Archive Before Emailing
 ```bash
-python poster_downloader.py --latest --pages 5 --email-update
+python poster_downloader.py --email-digest --digest-pages 8
 ```
 
-#### Download Specific Year and Email
+#### Digest with Genre Filtering
 ```bash
-python poster_downloader.py --year 2025 --email-update
+python poster_downloader.py --email-digest --genre Animation --genre Family
 ```
 
-#### With Genre Filtering
+#### Test Mode (prefix subject with `[TEST]`)
 ```bash
-python poster_downloader.py --latest --genre Animation --email-update
+python poster_downloader.py --email-digest --digest-test
 ```
 
 ## Email Format
@@ -86,8 +86,9 @@ Create a daily automation that runs at 8 AM:
     <array>
         <string>/Users/bengoddard/projects/imp-awards-scraper/venv/bin/python3</string>
         <string>/Users/bengoddard/projects/imp-awards-scraper/poster_downloader.py</string>
-        <string>--latest</string>
-        <string>--email-update</string>
+        <string>--email-digest</string>
+        <string>--digest-pages</string>
+        <string>5</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -123,16 +124,15 @@ crontab -e
 
 Add line:
 ```
-0 8 * * * cd /path/to/imp-awards-scraper && venv/bin/python3 poster_downloader.py --latest --email-update
+0 8 * * * cd /path/to/imp-awards-scraper && venv/bin/python3 poster_downloader.py --email-digest --digest-pages 5
 ```
 
 ## How It Works
 
-### Duplicate Prevention
-The system uses `email_tracking.json` to remember which posters have been sent:
-- First run: Sends all newly downloaded posters
-- Subsequent runs: Only sends posters that haven't been emailed before
-- Never duplicates emails
+### Digest Tracking & Duplicate Prevention
+- `digest_state.json` remembers the poster page URLs that have already been included (or intentionally ignored) in a digest run. The crawler stops when it reaches a known URL so nothing is missed even if it slides onto older pages.
+- `email_tracking.json` remembers which downloaded poster files have already been emailed, preventing duplicate attachments inside the digest itself.
+- Both files update automatically after each successful digest run.
 
 ### Smart Batching (40MB Limit)
 If your download includes many large posters:
@@ -147,9 +147,23 @@ If your download includes many large posters:
 - Thumbnails embedded in email for quick viewing
 - Click thumbnail to view full-size on IMP Awards
 
-## Tracking File
+## Tracking Files
 
-`email_tracking.json` keeps a record:
+`digest_state.json` (poster URLs)
+```json
+{
+  "sent_ids": [
+    "http://www.impawards.com/2025/tron_ares.html",
+    "http://www.impawards.com/2025/predator_badlands_ver12.html"
+  ],
+  "ignored_ids": [
+    "http://www.impawards.com/2025/shark_night_3d_ver5.html"
+  ],
+  "last_run": "2025-10-14T08:00:00.000000"
+}
+```
+
+`email_tracking.json` (local poster files)
 ```json
 {
   "sent_posters": [
@@ -160,9 +174,9 @@ If your download includes many large posters:
 }
 ```
 
-To reset and resend everything:
+To reset and resend everything from scratch:
 ```bash
-rm email_tracking.json
+rm digest_state.json email_tracking.json
 ```
 
 ## Troubleshooting
@@ -195,4 +209,3 @@ This email system is Phase 6 of the enhancement plan. Future additions could inc
 - Genre breakdown statistics in email
 - Direct links to IMDb/TMDb pages
 - Webhook support for Slack/Discord notifications
-

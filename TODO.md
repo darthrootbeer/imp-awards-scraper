@@ -2,7 +2,7 @@
 
 ## Active Tasks
 
-- [ ] `000003` - Add support for discovering all posters for a movie
+- [ ] `000003` - Add support for discovering all posters for a movie _(Priority: Medium)_
 
 ## Completed Tasks
 
@@ -22,3 +22,7 @@
 - [x] `00000F` - Add --startfresh option to clear downloads folder - (2025-10-13_18:20:00)
 - [x] `000010` - Add resolution configuration system (XXXLG, XXLG, XLG, LG) - (2025-10-13_18:30:00)
 - [x] `000011` - Add duplicate detection to skip already-downloaded files - (2025-10-13_18:45:00)
+- [x] `000012` - Design and document digest tracker for email updates - (2025-10-14_09:15:00)
+- [x] `000013` - Implement crawl-until-last-emailed logic for latest pages - (2025-10-14_10:05:00)
+- [x] `000014` - Extend email sender CLI flow with `--email-digest` mode - (2025-10-14_10:30:00)
+- [x] `000015` - Update docs (`README`, `EMAIL_SETUP`, `SUMMARY`) for digest workflow - (2025-10-14_11:00:00)

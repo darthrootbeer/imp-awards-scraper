@@ -184,7 +184,7 @@ Before deploying any changes, test:
 - [ ] Batch download with `--latest`
 - [ ] Year download with `--year 2024`
 - [ ] Genre filtering with `--genre Animation`
-- [ ] Email notifications with `--email-update`
+- [ ] Email digest with `--email-digest`
 - [ ] Start fresh with `--startfresh`
 - [ ] All command-line flags
 
@@ -251,4 +251,3 @@ Before deploying any changes, test:
 - Prioritize stability over perfection
 
 **Bottom Line**: The project is in excellent shape. The email system is production-ready with all improvements. The main downloader is stable and working. Add improvements gradually as needed.
-

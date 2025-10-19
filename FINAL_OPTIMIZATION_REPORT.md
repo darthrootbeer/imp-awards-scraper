@@ -192,7 +192,7 @@ Before using the improved code, test:
 - [ ] Email sender test: `python3 email_sender.py`
 - [ ] Single poster download (interactive mode)
 - [ ] Batch download: `python3 poster_downloader.py --latest`
-- [ ] Email notification: `--email-update` flag
+- [ ] Email notification: `--email-digest` flag
 - [ ] All existing workflows
 
 ## 💡 Key Lessons
@@ -236,4 +236,3 @@ Before using the improved code, test:
 
 **The perfect is the enemy of the good.**  
 Your project is in great shape. The improvements made are solid and safe. Future enhancements can be added gradually as needed.
-

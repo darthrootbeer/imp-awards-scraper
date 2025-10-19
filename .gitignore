@@ -31,6 +31,7 @@ downloads/
 
 # Tracking files
 email_tracking.json
+digest_state.json
 tmdb_cache.json
 progress.json
 

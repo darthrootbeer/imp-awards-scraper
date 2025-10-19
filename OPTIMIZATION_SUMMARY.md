@@ -150,7 +150,7 @@ Before deploying to production use:
 
 6. **Verify all existing flags still work**
    ```bash
-   python poster_downloader.py --latest --email-update
+   python poster_downloader.py --email-digest
    python poster_downloader.py --year 2024 --genre Animation
    python poster_downloader.py --startfresh --latest
    ```
@@ -216,4 +216,3 @@ This optimization successfully achieved all planned improvements:
 - ✅ Documentation - Updated all docs to reflect changes
 
 The project is now faster, more reliable, easier to maintain, and better prepared for future enhancements while maintaining simplicity for personal use.
-

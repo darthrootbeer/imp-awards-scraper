@@ -1,6 +1,6 @@
 # Email Notification Feature - Implementation Summary
 
-## ✅ COMPLETE - Version 1.2.0
+## ✅ COMPLETE - Version 1.3.0
 
 The automated email notification system has been successfully implemented and tested!
 
@@ -17,10 +17,9 @@ The automated email notification system has been successfully implemented and te
 
 ### Integration
 - **Modified `poster_downloader.py`**:
-  - Added `--email-update` flag
-  - Added `--email-to` flag (optional override)
-  - Integrated email sending into batch processing
-  - Tracks newly downloaded posters for emailing
+  - Added `--email-digest`, `--digest-pages`, and `--digest-test` flags
+  - Integrated digest crawling that stops at the last emailed poster
+  - Tracks newly processed poster URLs via `digest_state.json`
 
 ### Configuration
 - **`.env` file**: Email credentials securely stored (never committed to git)
@@ -63,17 +62,16 @@ The automated email notification system has been successfully implemented and te
 
 ### Tracking System
 ✅ Never sends duplicates:
-- `email_tracking.json` stores sent poster list
-- Only emails posters that haven't been sent before
-- Timestamp of last send
-- Can reset by deleting tracking file
+- `digest_state.json` records poster URLs included (or skipped) in digests so future crawls stop exactly where the previous run ended
+- `email_tracking.json` stores sent poster file paths and timestamps
+- Delete both tracking files to resend everything from scratch
 
 ### Integration
-✅ Works with all download modes:
-- `--latest --email-update` (recent additions)
-- `--year 2025 --email-update` (specific year)
-- `--latest --pages 10 --email-update` (multi-page)
-- Compatible with `--genre` filtering
+✅ Digest workflow options:
+- `--email-digest` (scan latest pages until last digest)
+- `--email-digest --digest-pages 10` (deeper crawl)
+- `--email-digest --genre Animation` (AND genre filters)
+- `--email-digest --digest-test` (subject prefix for test runs)
 
 ## Testing Results
 
@@ -116,36 +114,36 @@ Sending email 1/1...
 
 ### ✅ Test 4: Full Integration
 ```
-Downloads + Email workflow tested
-50 posters downloaded from --latest
-Email successfully sent with new posters
+Digest workflow tested
+Email sent after scanning latest pages until previous digest boundary
+Email successfully delivered with new posters
 ✓ PASSED
 ```
 
 ## Usage Examples
 
-### Basic Usage
+### Basic Digest
 ```bash
-# Download latest and email
-python poster_downloader.py --latest --email-update
+# Email posters added since the last digest (scan 5 pages by default)
+python poster_downloader.py --email-digest
 ```
 
-### Multi-Page Download
+### Deeper Crawl
 ```bash
-# Download from 5 pages and email
-python poster_downloader.py --latest --pages 5 --email-update
+# Scan 10 latest pages before emailing
+python poster_downloader.py --email-digest --digest-pages 10
 ```
 
-### Year Download
+### Genre-Constrained Digest
 ```bash
-# Download all 2025 posters and email
-python poster_downloader.py --year 2025 --email-update
+# Only send posters that match both Animation and Family genres
+python poster_downloader.py --email-digest --genre Animation --genre Family
 ```
 
-### With Genre Filter
+### Test Mode
 ```bash
-# Only Animation, then email
-python poster_downloader.py --latest --genre Animation --email-update
+# Prefix email subject with [TEST]
+python poster_downloader.py --email-digest --digest-test
 ```
 
 ## Daily Automation Setup
@@ -162,13 +160,15 @@ Full instructions in `EMAIL_SETUP.md`
 
 ### New Files
 - `email_sender.py` - Email system module
+- `digest_tracker.py` - Digest state manager
 - `EMAIL_SETUP.md` - User documentation
 - `CHANGELOG.md` - Version history
 - `IMPLEMENTATION_SUMMARY.md` - This file
 - `email_tracking.json` - Auto-generated tracking file
+- `digest_state.json` - Auto-generated digest tracker file
 
 ### Modified Files
-- `poster_downloader.py` - Added email integration
+- `poster_downloader.py` - Added digest crawl and email integration
 - `README.md` - Updated with email features
 - `requirements.txt` - Added Pillow dependency
 - `.env` - Email credentials (secure, not committed)
@@ -236,4 +236,3 @@ You can now:
 **Implementation Date**: October 14, 2025  
 **Version**: 1.2.0  
 **Status**: ✅ Complete and Tested
-

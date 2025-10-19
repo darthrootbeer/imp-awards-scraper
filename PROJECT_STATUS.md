@@ -1,8 +1,8 @@
 # Project Status - IMP Awards 2025 Poster Downloader
 
 **Status**: Production Ready  
-**Version**: 1.0.0  
-**Last Updated**: 2025-10-13
+**Version**: 1.3.0  
+**Last Updated**: 2025-10-14
 
 ## Current Phase
 
@@ -30,6 +30,7 @@ Production Release - All core features implemented and tested
 ### User Interface
 - [x] Interactive menu system
 - [x] Fully automated command-line interface
+- [x] Email digest workflow (`--email-digest`, `--digest-pages`, `--digest-test`)
 - [x] Progress tracking and statistics
 - [x] Comprehensive error handling
 
@@ -109,4 +110,3 @@ None currently
 - [ ] Parallel downloads for faster processing
 - [ ] Database/JSON export of metadata
 - [ ] Duplicate detection
-

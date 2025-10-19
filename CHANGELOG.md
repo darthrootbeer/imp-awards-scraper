@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.1.0] - 2025-10-13
+## [1.3.0] - 2025-10-14
+
+### Added
+
+- `--email-digest`, `--digest-pages`, and `--digest-test` CLI flags
+- Stateful crawl that stops at the last emailed poster (via new `digest_tracker.py`)
+- `digest_state.json` tracking file alongside existing email tracking
+- Documentation updates covering digest workflow and automation recipes
+
+### Changed
+
+- Email subject helper now supports custom prefixes for test runs
+- `process_poster_page` returns download paths for downstream email usage
+- Batch processors now report already-downloaded posters separately
+
+### Fixed
+
+- Resolved tuple truthiness bug in batch processors by unpacking return values
+- Ensured recent-page crawler avoids duplicates and respects digest boundaries
+
 
 ### Changed
 

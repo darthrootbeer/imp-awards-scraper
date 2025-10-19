@@ -8,12 +8,12 @@ Try it immediately:
 
 ```bash
 cd /Users/bengoddard/projects/imp-awards-scraper
-venv/bin/python3 poster_downloader.py --latest --email-update
+venv/bin/python3 poster_downloader.py --email-digest --digest-pages 5
 ```
 
 This will:
-1. Download the latest 50 posters from IMP Awards
-2. Email you only the NEW ones you haven't received before
+1. Scan the latest IMP Awards pages (up to 5 deep) until it reaches the last digest
+2. Email you only the new posters that haven't been included before
 3. Send to: echose7en@gmail.com
 
 **Check your email!** 📧
@@ -31,7 +31,7 @@ cd /Users/bengoddard/projects/imp-awards-scraper
 cat > daily_update.sh << 'EOF'
 #!/bin/bash
 cd /Users/bengoddard/projects/imp-awards-scraper
-venv/bin/python3 poster_downloader.py --latest --email-update
+venv/bin/python3 poster_downloader.py --email-digest --digest-pages 5
 EOF
 chmod +x daily_update.sh
 ```
@@ -53,8 +53,9 @@ cat > ~/Library/LaunchAgents/com.impawards.daily.plist << 'EOF'
     <array>
         <string>/Users/bengoddard/projects/imp-awards-scraper/venv/bin/python3</string>
         <string>/Users/bengoddard/projects/imp-awards-scraper/poster_downloader.py</string>
-        <string>--latest</string>
-        <string>--email-update</string>
+        <string>--email-digest</string>
+        <string>--digest-pages</string>
+        <string>5</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
@@ -116,29 +117,26 @@ If you download 100+ posters in one run:
 - Numbered: "Daily Update (1 of 3)", "Daily Update (2 of 3)", etc.
 
 ### Never Duplicates
-- Tracks what's been sent in `email_tracking.json`
-- Only emails NEW posters
-- Run the command 10 times = still only one email per poster
+- `digest_state.json` remembers which poster URLs were already included so the crawler stops exactly where the last digest ended.
+- `email_tracking.json` remembers which downloaded files were emailed, preventing duplicate attachments.
+- Run the command daily—only brand-new posters are sent each time.
 
 ---
 
 ## Common Commands
 
 ```bash
-# Latest posters + email
-python poster_downloader.py --latest --email-update
+# Email digest (scan 5 pages or until the last digest)
+python poster_downloader.py --email-digest
 
-# Last 5 pages + email (more posters)
-python poster_downloader.py --latest --pages 5 --email-update
+# Go deeper (scan 10 pages before emailing)
+python poster_downloader.py --email-digest --digest-pages 10
 
-# Specific year + email
-python poster_downloader.py --year 2025 --email-update
+# Only send Animation + Family posters
+python poster_downloader.py --email-digest --genre Animation --genre Family
 
-# Only Animation + email
-python poster_downloader.py --latest --genre Animation --email-update
-
-# Reset and download ALL of 2024 + email
-python poster_downloader.py --startfresh --year 2024 --email-update
+# Prefix subject with [TEST]
+python poster_downloader.py --email-digest --digest-test
 ```
 
 ---
@@ -149,9 +147,9 @@ python poster_downloader.py --startfresh --year 2024 --email-update
 ✅ This is normal! It means everything has already been emailed.
 
 ### Want to resend emails?
-Delete the tracking file:
+Delete the tracking files:
 ```bash
-rm email_tracking.json
+rm digest_state.json email_tracking.json
 ```
 Next run will email everything again.
 
@@ -207,4 +205,3 @@ For detailed documentation, see:
 - `README.md` - Full project documentation
 
 Enjoy your automated poster collection! 🎬🖼️
-

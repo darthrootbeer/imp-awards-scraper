@@ -3,7 +3,7 @@
 Email notification system for IMP Awards Poster Downloader
 Sends daily digest emails with poster thumbnails and links to full-size images
 
-Version: 1.2.0
+Version: 1.3.0
 """
 
 import os
@@ -334,7 +334,7 @@ class EmailSender:
         return '\n'.join(html_parts)
     
     def send_email_batch(self, poster_files: List[str], batch_num: int = 1, 
-                        total_batches: int = 1) -> bool:
+                        total_batches: int = 1, subject_prefix: str = "") -> bool:
         """
         Send one email with a batch of posters, with retry logic.
         
@@ -357,6 +357,8 @@ class EmailSender:
                     subject = f"IMP Awards Daily Update ({batch_num} of {total_batches}) - {date_str} - {len(poster_files)} Posters"
                 else:
                     subject = f"IMP Awards Daily Update - {date_str} - {len(poster_files)} Posters"
+                if subject_prefix:
+                    subject = f"{subject_prefix.strip()} {subject}".strip()
                 
                 msg['Subject'] = subject
                 msg['From'] = self.email_from
@@ -405,7 +407,7 @@ class EmailSender:
         
         return False
     
-    def send_poster_updates(self, poster_files: List[str]) -> int:
+    def send_poster_updates(self, poster_files: List[str], subject_prefix: str = "") -> int:
         """
         Send email updates for new posters with batching support.
         
@@ -441,7 +443,7 @@ class EmailSender:
         # Send each batch
         emails_sent = 0
         for batch_num, batch in enumerate(batches, 1):
-            if self.send_email_batch(batch, batch_num, total_batches):
+            if self.send_email_batch(batch, batch_num, total_batches, subject_prefix=subject_prefix):
                 emails_sent += 1
                 # Mark this batch as sent
                 self.mark_posters_as_sent(batch)

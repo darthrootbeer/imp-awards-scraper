@@ -1,6 +1,6 @@
 # IMP Awards Scraper
 
-**Version:** 1.1.0  
+**Version:** 1.3.0  
 **Repository:** [https://github.com/darthrootbeer/imp-awards-scraper](https://github.com/darthrootbeer/imp-awards-scraper)
 
 A Python tool for downloading high-resolution movie posters from [IMP Awards](http://www.impawards.com).
@@ -20,6 +20,7 @@ This tool automatically identifies and downloads the highest resolution version 
 - **Duplicate Detection**: Automatically skips already-downloaded files (resume interrupted downloads)
 - **IMDb ID Detection**: Automatically extracts IMDb ID from poster pages
 - **Smart Resolution Selection**: Downloads highest enabled and available resolution
+- **Email Digest Automation**: Builds daily email summaries of new posters with state tracking
 - **Interactive Confirmation**: Shows genre info and asks before downloading
 - **Flat Directory Structure**: All posters in single downloads/ folder with year prefix
 - **Clean Filenames**: Includes year, poster name, resolution type, and dimensions
@@ -103,6 +104,9 @@ python poster_downloader.py --latest --pages 10 --genre Animation --genre Family
 
 # Clear and rebuild entire 2024 collection from scratch
 python poster_downloader.py --startfresh --year 2024
+
+# Email digest of posters added since the last run (scan up to 5 pages)
+python poster_downloader.py --email-digest --digest-pages 5
 ```
 
 All command-line modes automatically:
@@ -141,6 +145,16 @@ The `--pages` option works with `--latest` to process multiple archive pages:
 - Pages are processed in chronological order (newest to oldest)
 - Navigation follows the "older" links automatically
 - Example: `--latest --pages=10` processes ~374 posters across 10 pages
+
+### Key Command-Line Flags
+
+- `--latest` – Process the most recent additions page (use with `--pages` for deeper scans)
+- `--year YYYY` – Download all posters for a specific year
+- `--genre NAME` – Apply AND filtering for one or more genres
+- `--startfresh` – Clear downloads and disable duplicate detection for this run
+- `--email-digest` – Send an email digest of posters added since the last digest
+- `--digest-pages N` – Limit how deep the digest crawl goes (default: 5 pages)
+- `--digest-test` – Prefix digest email subjects with `[TEST]`
 
 ### Interactive Menu Mode
 
@@ -297,6 +311,14 @@ See [RESOLUTION_CONFIG.md](RESOLUTION_CONFIG.md) for detailed guide.
 8. **Confirm** - Asks if you want to proceed with the download (yes/no)
 9. **Download** - If confirmed, downloads the highest available resolution to an organized folder structure
 10. **Skip** - If genres blocked, resolution unavailable, or you decline, the poster is skipped
+
+### Email Digest Workflow
+
+1. **State Tracking** – `digest_state.json` records poster URLs that have already been emailed (or intentionally skipped).
+2. **Crawl Latest Pages** – The crawler walks the `latest` archive, following “older” pages until it encounters a tracked poster or reaches the `--digest-pages` limit.
+3. **Download & Reuse** – Posters are downloaded or reused from disk using the same resolution and genre rules as standard downloads.
+4. **Digest Email** – `email_sender.py` batches posters, generates thumbnails, and emails them, optionally prefixing subjects with `[TEST]`.
+5. **State Update** – Successful sends update the tracker so future digests only include genuinely new additions; skipped posters move to the ignored list.
 
 ## Resolution Priority (Configurable)
 

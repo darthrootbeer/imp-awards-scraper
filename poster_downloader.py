@@ -4,22 +4,27 @@ IMP Awards Poster Scraper
 Downloads the highest resolution movie poster from a given poster page URL.
 Priority: XXXLG > XXLG > XLG > LG (configurable)
 
-Version: 1.1.0
+Version: 1.3.0
 Repository: https://github.com/darthrootbeer/imp-awards-scraper
 """
 
-__version__ = "1.1.0"
+__version__ = "1.3.0"
 
-import requests
-from bs4 import BeautifulSoup
 import os
 import re
 import sys
 import json
 import yaml
 import argparse
+from typing import Dict, List, Optional, Tuple
+
+import requests
+from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from dotenv import load_dotenv
+
+from digest_tracker import DigestTracker
+from email_sender import EmailSender
 
 # Load environment variables from .env file
 load_dotenv()
@@ -173,19 +178,31 @@ class PosterDownloader:
                     return href
         return None
     
-    def get_recent_posters(self, latest_url="http://www.impawards.com/archives/latest.html", num_pages=1):
+    def get_recent_posters(
+        self,
+        latest_url: str = "http://www.impawards.com/archives/latest.html",
+        num_pages: int = 1,
+        stop_after_ids: Optional[set] = None,
+        return_details: bool = False
+    ):
         """
         Fetch all poster URLs from the latest additions page(s).
         
         Args:
             latest_url: URL to the latest additions page
             num_pages: Number of recent pages to process (default: 1)
+            stop_after_ids: Optional set of poster URLs that indicates when to stop crawling
+            return_details: When True, return (poster_urls, metadata dict)
             
         Returns:
             list: List of full poster page URLs from all requested pages
         """
         all_poster_links = []
         current_url = latest_url
+        seen_links = set()
+        stop_ids = set(stop_after_ids or [])
+        found_known = False
+        pages_fetched = 0
         
         for page_num in range(1, num_pages + 1):
             print(f"\nFetching recent additions page {page_num}/{num_pages}: {current_url}")
@@ -196,7 +213,7 @@ class PosterDownloader:
                 soup = BeautifulSoup(response.content, 'lxml')
                 
                 # Find all links that match poster pattern: ../YEAR/poster_name.html
-                poster_links = []
+                poster_links: List[str] = []
                 
                 # Look for links in thumbnail divs (class="minimal_thumb")
                 for div in soup.find_all('div', class_='minimal_thumb'):
@@ -209,10 +226,23 @@ class PosterDownloader:
                             # ../2025/tron_ares.html -> http://www.impawards.com/2025/tron_ares.html
                             clean_href = href.replace('../', '')
                             full_url = f"{self.base_url}/{clean_href}"
+                            if full_url in seen_links:
+                                continue
+                            if stop_ids and full_url in stop_ids:
+                                found_known = True
+                                break
                             poster_links.append(full_url)
+                            seen_links.add(full_url)
+                    if found_known:
+                        break
                 
                 print(f"  ✓ Found {len(poster_links)} posters on this page")
                 all_poster_links.extend(poster_links)
+                pages_fetched += 1
+                
+                if found_known:
+                    print("  ✓ Encountered previously processed poster. Stopping crawl.")
+                    break
                 
                 # If we need more pages, find the "older" link
                 if page_num < num_pages:
@@ -228,8 +258,19 @@ class PosterDownloader:
                 print(f"  ✗ Error fetching page {page_num}: {e}")
                 break
         
-        print(f"\n✓ Total: {len(all_poster_links)} posters across {min(page_num, num_pages)} page(s)")
+        if found_known:
+            print(f"\n✓ Total: {len(all_poster_links)} new posters before reaching known digest boundary (pages fetched: {pages_fetched})")
+        else:
+            print(f"\n✓ Total: {len(all_poster_links)} posters across {pages_fetched} page(s)")
         
+        details = {
+            'pages_fetched': pages_fetched,
+            'found_known': found_known,
+            'stop_reason': 'known_id' if found_known else 'max_pages'
+        }
+        
+        if return_details:
+            return all_poster_links, details
         return all_poster_links
     
     def get_year_posters(self, year):
@@ -540,9 +581,9 @@ class PosterDownloader:
             prompt_confirm: Whether to ask for confirmation before downloading (default: True)
             required_genres: List of required genres (AND logic) or None to skip filter
             skip_existing: Whether to skip already downloaded files (default: True)
-            
+        
         Returns:
-            tuple: (success: bool, already_existed: bool)
+            tuple: (success: bool, already_existed: bool, save_path: Optional[str])
         """
         # Parse the page
         print(f"\nFetching poster page: {url}")
@@ -556,7 +597,6 @@ class PosterDownloader:
         
         if imdb_url:
             print(f"✓ Found IMDb URL: {imdb_url}")
-            # Extract IMDb ID from URL (e.g., tt6604188 from https://www.imdb.com/title/tt6604188/)
             imdb_id_match = re.search(r'title/(tt\d+)', imdb_url)
             if imdb_id_match:
                 imdb_id = imdb_id_match.group(1)
@@ -570,14 +610,14 @@ class PosterDownloader:
                         if not matches:
                             print(f"✗ FILTERED: Movie missing required genre(s): {', '.join(missing)}")
                             print(f"  Required: {', '.join(required_genres)}")
-                            return False, False
+                            return False, False, None
                     
                     # Check genre blocklist
                     is_blocked, blocked_genres = self.check_genre_blocklist(genres)
                     if is_blocked:
                         print(f"✗ BLOCKED: Movie contains blocked genre(s): {', '.join(blocked_genres)}")
                         print(f"  Edit {GENRE_CONFIG_FILE} to change genre settings")
-                        return False, False
+                        return False, False, None
                 else:
                     print("  No genre information found")
             else:
@@ -593,11 +633,9 @@ class PosterDownloader:
         print(f"Poster: #{info['poster_number']}")
         
         # Determine which resolution to download based on configuration
-        # Priority order: XXXLG > XXLG > XLG > LG
         selected_size = None
         selected_info = None
         
-        # Check resolutions in priority order
         resolution_priority = [
             ('xxxlg', 'XXXLG'),
             ('xxlg', 'XXLG'),
@@ -607,7 +645,6 @@ class PosterDownloader:
         
         for res_key, res_name in resolution_priority:
             if info.get(res_key):
-                # Check if this resolution is enabled in config
                 res_config = self.resolution_config.get(res_name, {})
                 is_allowed = res_config.get('allow', True) if isinstance(res_config, dict) else True
                 
@@ -619,39 +656,30 @@ class PosterDownloader:
                 else:
                     print(f"  {res_name} available but disabled in {RESOLUTION_CONFIG_FILE}")
         
-        if not selected_size:
+        if not selected_size or not selected_info:
             print(f"✗ No enabled resolutions found - SKIPPING")
             print(f"  Edit {RESOLUTION_CONFIG_FILE} to enable resolutions")
-            return False, False
+            return False, False, None
         
-        # Ask user for confirmation (if not in batch mode)
         if prompt_confirm:
             print()
             response = input("Proceed with download? (yes/no): ").strip().lower()
             if response not in ['yes', 'y']:
                 print("Download cancelled by user")
-                return False, False
+                return False, False, None
         
-        # Construct the image URL from the resolution link
         download_url = self.construct_image_url(
             selected_info['link'],
             info['year']
         )
         
-        # Create save path: downloads/{year}_{base_name}_{SIZE}_{dimensions}.jpg
-        # Example: downloads/2025_tron_ares_ver2_XXLG_2025x3000.jpg
-        # Flat directory structure with year prefix
-        
         filename = f"{info['year']}_{info['base_name']}_{selected_size.upper()}_{selected_info['dimensions']}.jpg"
+        save_path = os.path.join(output_dir, filename)
         
-        save_path = os.path.join(
-            output_dir,
-            filename
-        )
-        
-        # Download (with duplicate detection)
         success, already_existed = self.download_image(download_url, save_path, skip_if_exists=skip_existing)
-        return success, already_existed
+        if success or already_existed:
+            return success, already_existed, save_path
+        return success, already_existed, None
 
 
 def main():
@@ -670,6 +698,12 @@ def main():
                         help='Number of recent pages to process (use with --latest, e.g., --latest --pages=5)')
     parser.add_argument('--startfresh', action='store_true',
                         help='Clear downloads folder and start fresh')
+    parser.add_argument('--email-digest', action='store_true',
+                        help='Send email digest of new posters since the last successful digest run')
+    parser.add_argument('--digest-pages', type=int, metavar='N', default=5,
+                        help='Maximum number of latest pages to scan when building the digest (default: 5)')
+    parser.add_argument('--digest-test', action='store_true',
+                        help='Prefix digest email subjects with [TEST]')
     
     args = parser.parse_args()
     
@@ -694,6 +728,17 @@ def main():
     downloader = PosterDownloader()
     
     # Check for command-line mode
+    if args.email_digest:
+        max_pages = args.digest_pages if args.digest_pages and args.digest_pages > 0 else 5
+        subject_prefix = "[TEST]" if args.digest_test else ""
+        run_email_digest(
+            downloader,
+            max_pages=max_pages,
+            required_genres=args.genre,
+            subject_prefix=subject_prefix,
+            skip_existing=skip_existing
+        )
+        return
     if args.latest:
         # Process recent additions via command line (auto-confirm for automation)
         num_pages = args.pages if args.pages else 1
@@ -733,7 +778,7 @@ def main():
         
         print()
         try:
-            success, already_existed = downloader.process_poster_page(url)
+            success, already_existed, _ = downloader.process_poster_page(url)
             if success:
                 if already_existed:
                     print("\n✓ Already downloaded!")
@@ -810,9 +855,16 @@ def process_recent_additions(downloader, required_genres=None, num_pages=1, auto
         print("-" * 60)
         
         try:
-            success = downloader.process_poster_page(url, prompt_confirm=False, required_genres=required_genres)
+            success, already_existed, _ = downloader.process_poster_page(
+                url,
+                prompt_confirm=False,
+                required_genres=required_genres,
+                skip_existing=skip_existing
+            )
             if success:
                 stats['downloaded'] += 1
+            elif already_existed:
+                stats['already_downloaded'] += 1
             else:
                 stats['skipped'] += 1
         except KeyboardInterrupt:
@@ -833,6 +885,90 @@ def process_recent_additions(downloader, required_genres=None, num_pages=1, auto
     print(f"Skipped:              {stats['skipped']}")
     print(f"Errors:               {stats['errors']}")
     print("=" * 60)
+
+
+def run_email_digest(
+    downloader,
+    max_pages: int,
+    required_genres=None,
+    subject_prefix: str = "",
+    skip_existing: bool = True
+):
+    """
+    Crawl recent additions until the last emailed poster, download new files,
+    and send an email digest.
+    """
+    tracker = DigestTracker()
+    known_ids = tracker.get_known_ids()
+    
+    poster_urls, crawl_details = downloader.get_recent_posters(
+        num_pages=max_pages,
+        stop_after_ids=known_ids,
+        return_details=True
+    )
+    
+    if not poster_urls:
+        if crawl_details['found_known']:
+            print("ℹ️  No new posters since the last digest.")
+        else:
+            print("ℹ️  No posters discovered within the requested page window.")
+            print("    Tip: Increase --digest-pages to scan deeper into the archive.")
+        return
+    
+    print(f"\nPreparing digest for {len(poster_urls)} poster(s)")
+    
+    downloaded_paths: List[str] = []
+    emailed_ids: List[str] = []
+    skipped_ids: List[str] = []
+    
+    for i, url in enumerate(poster_urls, 1):
+        print(f"\n[{i}/{len(poster_urls)}] Processing digest poster: {url}")
+        try:
+            success, already_existed, save_path = downloader.process_poster_page(
+                url,
+                prompt_confirm=False,
+                required_genres=required_genres,
+                skip_existing=skip_existing
+            )
+            if success or already_existed:
+                if save_path and save_path not in downloaded_paths:
+                    downloaded_paths.append(save_path)
+                emailed_ids.append(url)
+            else:
+                skipped_ids.append(url)
+        except KeyboardInterrupt:
+            print("\n✗ Digest interrupted by user")
+            break
+        except Exception as exc:
+            print(f"✗ Error processing poster for digest: {exc}")
+            skipped_ids.append(url)
+            continue
+    
+    if not downloaded_paths:
+        print("\nℹ️  No posters downloaded or already present for emailing.")
+        if skipped_ids:
+            tracker.record_ignored(skipped_ids)
+            tracker.save()
+        return
+    
+    prefix = subject_prefix.strip()
+    if prefix:
+        print(f"\nUsing email subject prefix: {prefix}")
+    
+    sender = EmailSender()
+    emails_sent = sender.send_poster_updates(downloaded_paths, subject_prefix=prefix)
+    
+    if emails_sent > 0:
+        if emailed_ids:
+            tracker.record_sent(emailed_ids)
+        if skipped_ids:
+            tracker.record_ignored(skipped_ids)
+        tracker.save()
+    else:
+        print("✗ Email delivery failed; digest state not advanced.")
+        if skipped_ids:
+            tracker.record_ignored(skipped_ids)
+            tracker.save()
 
 
 def process_year_posters(downloader, year, required_genres=None, auto_confirm=False, skip_existing=True):
@@ -883,9 +1019,16 @@ def process_year_posters(downloader, year, required_genres=None, auto_confirm=Fa
         print("-" * 60)
         
         try:
-            success = downloader.process_poster_page(url, prompt_confirm=False, required_genres=required_genres)
+            success, already_existed, _ = downloader.process_poster_page(
+                url,
+                prompt_confirm=False,
+                required_genres=required_genres,
+                skip_existing=skip_existing
+            )
             if success:
                 stats['downloaded'] += 1
+            elif already_existed:
+                stats['already_downloaded'] += 1
             else:
                 stats['skipped'] += 1
         except KeyboardInterrupt:
@@ -910,4 +1053,3 @@ def process_year_posters(downloader, year, required_genres=None, auto_confirm=Fa
 
 if __name__ == "__main__":
     main()
-
