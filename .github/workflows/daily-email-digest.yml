@@ -1,0 +1,77 @@
+name: Daily Poster Email Digest
+
+on:
+  # Run daily at 12:00 PM UTC (8:00 AM Eastern Time)
+  schedule:
+    - cron: '0 12 * * *'
+
+  # Allow manual triggering from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  email-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so we can commit back
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create .env file from secrets
+        run: |
+          cat << EOF > .env
+          TMDB_API_KEY=${{ secrets.TMDB_API_KEY }}
+          SMTP_SERVER=${{ secrets.SMTP_SERVER }}
+          SMTP_PORT=${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME=${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM=${{ secrets.EMAIL_FROM }}
+          EMAIL_TO=${{ secrets.EMAIL_TO }}
+          EMAIL_MAX_SIZE_MB=${{ secrets.EMAIL_MAX_SIZE_MB }}
+          EOF
+
+      - name: Run email digest (3 pages max)
+        run: |
+          python poster_downloader.py --email-digest --digest-pages 3
+
+      - name: Clean up downloaded images
+        run: |
+          # Remove downloads directory to keep repo lean
+          if [ -d "downloads" ]; then
+            rm -rf downloads
+          fi
+
+      - name: Commit state files back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add only the state tracking files
+          git add -f digest_state.json movie_metadata.json email_tracking.json
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No state changes to commit"
+          else
+            git commit -m "Update digest state after daily run [skip ci]"
+            git push origin master
+          fi
+
+      - name: Clean up .env file
+        if: always()
+        run: |
+          # Remove .env file to ensure secrets aren't leaked
+          rm -f .env
