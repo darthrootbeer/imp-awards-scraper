@@ -21,6 +21,9 @@ jobs:
         with:
           # Fetch full history so we can commit back
           fetch-depth: 0
+          # Use GitHub token for authentication
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
