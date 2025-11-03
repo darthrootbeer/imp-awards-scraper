@@ -4239,5 +4239,36 @@
       "http://www.impawards.com/2000/dr_seuss_how_the_grinch_stole_christmas_ver5.html"
     ],
     "last_updated": "2025-11-01T10:00:04.003890+00:00"
+  },
+  "1497": {
+    "movie_id": "1497",
+    "movie_title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+    "movie_slug": "teenage_mutant_ninja_turtles_two",
+    "year": "1991",
+    "release_date": "1991-03-22",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt0103060",
+    "tmdb_id": 1497,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/1991/teenage_mutant_ninja_turtles_two_ver2.html",
+        "local_path": "downloads/1991_teenage_mutant_ninja_turtles_two_ver2_XLG_1014x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1014x1500",
+        "variant_slug": "teenage_mutant_ninja_turtles_two_ver2",
+        "downloaded_at": "2025-11-03T20:29:28.268159+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/1991/teenage_mutant_ninja_turtles_two_ver2.html"
+    ],
+    "last_updated": "2025-11-03T20:29:28.268201+00:00"
   }
 }
