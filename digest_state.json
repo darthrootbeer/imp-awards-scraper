@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/1990/teenage_mutant_ninja_turtles_ver2.html",
+    "http://www.impawards.com/1959/mouse_that_roared_ver2.html",
+    "http://www.impawards.com/2025/bunny.html",
+    "http://www.impawards.com/2025/spike_and_mikes_animation_extravaganza_2025.html",
     "http://www.impawards.com/1991/teenage_mutant_ninja_turtles_two_ver2.html",
     "http://www.impawards.com/1927/country_doctor.html",
     "http://www.impawards.com/1985/back_to_the_future_ver11.html",
@@ -196,6 +200,7 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/joy_to_the_world.html",
     "http://www.impawards.com/1959/mouse_that_roared.html",
     "http://www.impawards.com/1976/mako_jaws_of_death.html",
     "http://www.impawards.com/2026/scream_seven.html",
@@ -251,5 +256,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-03T20:29:32.132999"
+  "last_run": "2025-11-04T12:26:32.029429"
 }
