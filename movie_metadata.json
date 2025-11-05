@@ -4382,5 +4382,161 @@
       "http://www.impawards.com/2025/spike_and_mikes_animation_extravaganza_2025.html"
     ],
     "last_updated": "2025-11-04T12:26:28.217448+00:00"
+  },
+  "1400784": {
+    "movie_id": "1400784",
+    "movie_title": "Selena y Los Dinos: A Family's Legacy",
+    "movie_slug": "selena_y_los_dinos",
+    "year": "2025",
+    "release_date": "2025-01-26",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt34963797",
+    "tmdb_id": 1400784,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/selena_y_los_dinos.html",
+        "local_path": "downloads/2025_selena_y_los_dinos_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "selena_y_los_dinos",
+        "downloaded_at": "2025-11-05T12:24:53.380654+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/selena_y_los_dinos.html"
+    ],
+    "last_updated": "2025-11-05T12:24:53.380684+00:00"
+  },
+  "1400780": {
+    "movie_id": "1400780",
+    "movie_title": "Come See Me in the Good Light",
+    "movie_slug": "come_see_me_in_the_good_light",
+    "year": "2025",
+    "release_date": "2025-11-14",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt34966013",
+    "tmdb_id": 1400780,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/come_see_me_in_the_good_light.html",
+        "local_path": "downloads/2025_come_see_me_in_the_good_light_XLG_1000x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1000x1500",
+        "variant_slug": "come_see_me_in_the_good_light",
+        "downloaded_at": "2025-11-05T12:24:53.572997+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/come_see_me_in_the_good_light.html"
+    ],
+    "last_updated": "2025-11-05T12:24:53.573015+00:00"
+  },
+  "1425122": {
+    "movie_id": "1425122",
+    "movie_title": "A Very Jonas Christmas Movie",
+    "movie_slug": "very_jonas_christmas_movie",
+    "year": "2025",
+    "release_date": "2025-11-14",
+    "genres": [
+      "Comedy"
+    ],
+    "imdb_id": "tt35600079",
+    "tmdb_id": 1425122,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/very_jonas_christmas_movie_ver3.html",
+        "local_path": "downloads/2025_very_jonas_christmas_movie_ver3_XXLG_2000x1125.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "2000x1125",
+        "variant_slug": "very_jonas_christmas_movie_ver3",
+        "downloaded_at": "2025-11-05T12:24:53.778302+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/very_jonas_christmas_movie_ver2.html",
+        "local_path": "downloads/2025_very_jonas_christmas_movie_ver2_XXLG_2400x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2400x3000",
+        "variant_slug": "very_jonas_christmas_movie_ver2",
+        "downloaded_at": "2025-11-05T12:24:54.113286+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/very_jonas_christmas_movie_ver2.html",
+      "http://www.impawards.com/2025/very_jonas_christmas_movie_ver3.html"
+    ],
+    "last_updated": "2025-11-05T12:24:54.113301+00:00"
+  },
+  "1362315": {
+    "movie_id": "1362315",
+    "movie_title": "The Hand That Rocks the Cradle",
+    "movie_slug": "hand_that_rocks_the_cradle",
+    "year": "2025",
+    "release_date": "2025-10-16",
+    "genres": [
+      "Thriller"
+    ],
+    "imdb_id": "tt33502160",
+    "tmdb_id": 1362315,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/hand_that_rocks_the_cradle_ver5.html",
+        "local_path": "downloads/2025_hand_that_rocks_the_cradle_ver5_XXLG_1638x2048.jpg",
+        "poster_number": "5",
+        "resolution": "XXLG",
+        "dimensions": "1638x2048",
+        "variant_slug": "hand_that_rocks_the_cradle_ver5",
+        "downloaded_at": "2025-11-05T12:24:54.324107+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/hand_that_rocks_the_cradle_ver4.html",
+        "local_path": "downloads/2025_hand_that_rocks_the_cradle_ver4_XLG_960x1200.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "960x1200",
+        "variant_slug": "hand_that_rocks_the_cradle_ver4",
+        "downloaded_at": "2025-11-05T12:24:54.501077+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/hand_that_rocks_the_cradle_ver4.html",
+      "http://www.impawards.com/2025/hand_that_rocks_the_cradle_ver5.html"
+    ],
+    "last_updated": "2025-11-05T12:24:54.501092+00:00"
+  },
+  "1426518": {
+    "movie_id": "1426518",
+    "movie_title": "Being Eddie",
+    "movie_slug": "being_eddie",
+    "year": "2025",
+    "release_date": "2025-11-11",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt35627915",
+    "tmdb_id": 1426518,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/being_eddie.html",
+        "local_path": "downloads/2025_being_eddie_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "being_eddie",
+        "downloaded_at": "2025-11-05T12:24:54.672835+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/being_eddie.html"
+    ],
+    "last_updated": "2025-11-05T12:24:54.672848+00:00"
   }
 }

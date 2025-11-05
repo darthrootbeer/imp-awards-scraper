@@ -1,5 +1,12 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2025/selena_y_los_dinos.html",
+    "http://www.impawards.com/2025/come_see_me_in_the_good_light.html",
+    "http://www.impawards.com/2025/very_jonas_christmas_movie_ver3.html",
+    "http://www.impawards.com/2025/very_jonas_christmas_movie_ver2.html",
+    "http://www.impawards.com/2025/hand_that_rocks_the_cradle_ver5.html",
+    "http://www.impawards.com/2025/hand_that_rocks_the_cradle_ver4.html",
+    "http://www.impawards.com/2025/being_eddie.html",
     "http://www.impawards.com/1990/teenage_mutant_ninja_turtles_ver2.html",
     "http://www.impawards.com/1959/mouse_that_roared_ver2.html",
     "http://www.impawards.com/2025/bunny.html",
@@ -200,6 +207,7 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2023/boogeyman_ver10.html",
     "http://www.impawards.com/2025/joy_to_the_world.html",
     "http://www.impawards.com/1959/mouse_that_roared.html",
     "http://www.impawards.com/1976/mako_jaws_of_death.html",
@@ -256,5 +264,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-04T12:26:32.029429"
+  "last_run": "2025-11-05T12:24:57.521976"
 }
