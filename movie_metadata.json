@@ -3924,12 +3924,22 @@
         "dimensions": "2500x1875",
         "variant_slug": "peter_hujars_day",
         "downloaded_at": "2025-10-31T00:54:28.792638+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/peter_hujars_day_ver2.html",
+        "local_path": "downloads/2025_peter_hujars_day_ver2_XXLG_1693x2500.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1693x2500",
+        "variant_slug": "peter_hujars_day_ver2",
+        "downloaded_at": "2025-11-06T12:24:34.457872+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/peter_hujars_day.html"
+      "http://www.impawards.com/2025/peter_hujars_day.html",
+      "http://www.impawards.com/2025/peter_hujars_day_ver2.html"
     ],
-    "last_updated": "2025-10-31T00:54:28.792664+00:00"
+    "last_updated": "2025-11-06T12:24:34.457905+00:00"
   },
   "2025_lost_treasures_of_arabia_the_nabataean_kingdom": {
     "movie_id": "2025_lost_treasures_of_arabia_the_nabataean_kingdom",
@@ -4538,5 +4548,140 @@
       "http://www.impawards.com/2025/being_eddie.html"
     ],
     "last_updated": "2025-11-05T12:24:54.672848+00:00"
+  },
+  "861072": {
+    "movie_id": "861072",
+    "movie_title": "Don't Make Me Go",
+    "movie_slug": "dont_make_me_go",
+    "year": "2022",
+    "release_date": "2022-06-13",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt2597804",
+    "tmdb_id": 861072,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2022/dont_make_me_go_ver2.html",
+        "local_path": "downloads/2022_dont_make_me_go_ver2_XXLG_1367x2000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1367x2000",
+        "variant_slug": "dont_make_me_go_ver2",
+        "downloaded_at": "2025-11-06T12:24:34.065458+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2022/dont_make_me_go_ver2.html"
+    ],
+    "last_updated": "2025-11-06T12:24:34.065499+00:00"
+  },
+  "897098": {
+    "movie_id": "897098",
+    "movie_title": "Year of the Fox",
+    "movie_slug": "year_of_the_fox",
+    "year": "2025",
+    "release_date": "2023-05-13",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt15565978",
+    "tmdb_id": 897098,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/year_of_the_fox.html",
+        "local_path": "downloads/2025_year_of_the_fox_XXLG_1693x2500.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1693x2500",
+        "variant_slug": "year_of_the_fox",
+        "downloaded_at": "2025-11-06T12:24:34.261256+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/year_of_the_fox.html"
+    ],
+    "last_updated": "2025-11-06T12:24:34.261290+00:00"
+  },
+  "1326015": {
+    "movie_id": "1326015",
+    "movie_title": "My Undesirable Friends: Part I \u2013 Last Air in Moscow",
+    "movie_slug": "my_undesirable_friends_part_i__last_air_in_moscow",
+    "year": "2025",
+    "release_date": "2025-08-15",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt33075192",
+    "tmdb_id": 1326015,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/my_undesirable_friends_part_i__last_air_in_moscow.html",
+        "local_path": "downloads/2025_my_undesirable_friends_part_i__last_air_in_moscow_XXLG_2000x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "my_undesirable_friends_part_i__last_air_in_moscow",
+        "downloaded_at": "2025-11-06T12:24:34.624208+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/my_undesirable_friends_part_i__last_air_in_moscow.html"
+    ],
+    "last_updated": "2025-11-06T12:24:34.624233+00:00"
+  },
+  "1243006": {
+    "movie_id": "1243006",
+    "movie_title": "H Is for Hawk",
+    "movie_slug": "h_is_for_hawk",
+    "year": "2025",
+    "release_date": "2025-08-29",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt10329560",
+    "tmdb_id": 1243006,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/h_is_for_hawk.html",
+        "local_path": "downloads/2025_h_is_for_hawk_XXLG_2000x2963.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2000x2963",
+        "variant_slug": "h_is_for_hawk",
+        "downloaded_at": "2025-11-06T12:24:34.896210+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/h_is_for_hawk.html"
+    ],
+    "last_updated": "2025-11-06T12:24:34.896229+00:00"
+  },
+  "1422029": {
+    "movie_id": "1422029",
+    "movie_title": "Shuffle",
+    "movie_slug": "shuffle",
+    "year": "2025",
+    "release_date": "2025-03-08",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt35520195",
+    "tmdb_id": 1422029,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/shuffle.html",
+        "local_path": "downloads/2025_shuffle_XXLG_2031x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2031x3000",
+        "variant_slug": "shuffle",
+        "downloaded_at": "2025-11-06T12:24:35.089023+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/shuffle.html"
+    ],
+    "last_updated": "2025-11-06T12:24:35.089044+00:00"
   }
 }

@@ -1,5 +1,11 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2022/dont_make_me_go_ver2.html",
+    "http://www.impawards.com/2025/year_of_the_fox.html",
+    "http://www.impawards.com/2025/peter_hujars_day_ver2.html",
+    "http://www.impawards.com/2025/my_undesirable_friends_part_i__last_air_in_moscow.html",
+    "http://www.impawards.com/2025/h_is_for_hawk.html",
+    "http://www.impawards.com/2025/shuffle.html",
     "http://www.impawards.com/2025/selena_y_los_dinos.html",
     "http://www.impawards.com/2025/come_see_me_in_the_good_light.html",
     "http://www.impawards.com/2025/very_jonas_christmas_movie_ver3.html",
@@ -207,6 +213,10 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/1987/prison.html",
+    "http://www.impawards.com/2025/five_nights_at_freddys_two_ver3.html",
+    "http://www.impawards.com/2025/frankenstein_ver12.html",
+    "http://www.impawards.com/2025/frankenstein_ver11.html",
     "http://www.impawards.com/2023/boogeyman_ver10.html",
     "http://www.impawards.com/2025/joy_to_the_world.html",
     "http://www.impawards.com/1959/mouse_that_roared.html",
@@ -264,5 +274,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-05T12:24:57.521976"
+  "last_run": "2025-11-06T12:24:37.966802"
 }
