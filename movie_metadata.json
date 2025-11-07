@@ -243,12 +243,22 @@
         "dimensions": "2025x3000",
         "variant_slug": "mercy",
         "downloaded_at": "2025-10-19T18:36:01.974132+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/mercy_ver2.html",
+        "local_path": "downloads/2026_mercy_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "mercy_ver2",
+        "downloaded_at": "2025-11-07T12:23:53.490345+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/mercy.html"
+      "http://www.impawards.com/2026/mercy.html",
+      "http://www.impawards.com/2026/mercy_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:53:49.690635+00:00"
+    "last_updated": "2025-11-07T12:23:53.490379+00:00"
   },
   "931285": {
     "movie_id": "931285",
@@ -2182,12 +2192,22 @@
         "dimensions": "1500x2222",
         "variant_slug": "train_dreams_ver7",
         "downloaded_at": "2025-10-19T18:54:03.185151+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/train_dreams_ver8.html",
+        "local_path": "downloads/2025_train_dreams_ver8_XXLG_1500x2222.jpg",
+        "poster_number": "8",
+        "resolution": "XXLG",
+        "dimensions": "1500x2222",
+        "variant_slug": "train_dreams_ver8",
+        "downloaded_at": "2025-11-07T12:23:51.037190+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/train_dreams_ver7.html"
+      "http://www.impawards.com/2025/train_dreams_ver7.html",
+      "http://www.impawards.com/2025/train_dreams_ver8.html"
     ],
-    "last_updated": "2025-10-19T18:54:03.185212+00:00"
+    "last_updated": "2025-11-07T12:23:51.037235+00:00"
   },
   "701387": {
     "movie_id": "701387",
@@ -4683,5 +4703,60 @@
       "http://www.impawards.com/2025/shuffle.html"
     ],
     "last_updated": "2025-11-06T12:24:35.089044+00:00"
+  },
+  "1261825": {
+    "movie_id": "1261825",
+    "movie_title": "Oh. What. Fun.",
+    "movie_slug": "oh_what_fun",
+    "year": "2025",
+    "release_date": "2025-12-02",
+    "genres": [
+      "Comedy"
+    ],
+    "imdb_id": "tt31998881",
+    "tmdb_id": 1261825,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/oh_what_fun.html",
+        "local_path": "downloads/2025_oh_what_fun_XXLG_2000x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "oh_what_fun",
+        "downloaded_at": "2025-11-07T12:23:52.704956+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/oh_what_fun.html"
+    ],
+    "last_updated": "2025-11-07T12:23:52.704989+00:00"
+  },
+  "936075": {
+    "movie_id": "936075",
+    "movie_title": "Michael",
+    "movie_slug": "michael",
+    "year": "2026",
+    "release_date": "2026-04-22",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "imdb_id": "tt11378946",
+    "tmdb_id": 936075,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/michael.html",
+        "local_path": "downloads/2026_michael_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "michael",
+        "downloaded_at": "2025-11-07T12:23:55.082537+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/michael.html"
+    ],
+    "last_updated": "2025-11-07T12:23:55.082564+00:00"
   }
 }
