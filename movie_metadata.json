@@ -1188,6 +1188,15 @@
         "dimensions": "1200x1500",
         "variant_slug": "running_man_ver4",
         "downloaded_at": "2025-10-31T00:54:20.186214+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/running_man_ver9.html",
+        "local_path": "downloads/2025_running_man_ver9_XXLG_2025x3000.jpg",
+        "poster_number": "9",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "running_man_ver9",
+        "downloaded_at": "2025-11-08T12:21:13.922486+00:00"
       }
     ],
     "source_urls": [
@@ -1197,9 +1206,10 @@
       "http://www.impawards.com/2025/running_man_ver5.html",
       "http://www.impawards.com/2025/running_man_ver6.html",
       "http://www.impawards.com/2025/running_man_ver7.html",
-      "http://www.impawards.com/2025/running_man_ver8.html"
+      "http://www.impawards.com/2025/running_man_ver8.html",
+      "http://www.impawards.com/2025/running_man_ver9.html"
     ],
-    "last_updated": "2025-10-31T00:54:20.186245+00:00"
+    "last_updated": "2025-11-08T12:21:13.922526+00:00"
   },
   "533533": {
     "movie_id": "533533",
@@ -1485,6 +1495,7 @@
     "release_date": "2025-11-05",
     "genres": [
       "Action",
+      "Adventure",
       "Science Fiction"
     ],
     "imdb_id": "tt31227572",
@@ -1579,6 +1590,15 @@
         "dimensions": "2025x3000",
         "variant_slug": "predator_badlands_ver4",
         "downloaded_at": "2025-10-19T18:54:40.531086+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/predator_badlands_ver14.html",
+        "local_path": "downloads/2025_predator_badlands_ver14_XXLG_1458x2048.jpg",
+        "poster_number": "14",
+        "resolution": "XXLG",
+        "dimensions": "1458x2048",
+        "variant_slug": "predator_badlands_ver14",
+        "downloaded_at": "2025-11-08T12:21:14.167739+00:00"
       }
     ],
     "source_urls": [
@@ -1586,6 +1606,7 @@
       "http://www.impawards.com/2025/predator_badlands_ver11.html",
       "http://www.impawards.com/2025/predator_badlands_ver12.html",
       "http://www.impawards.com/2025/predator_badlands_ver13.html",
+      "http://www.impawards.com/2025/predator_badlands_ver14.html",
       "http://www.impawards.com/2025/predator_badlands_ver4.html",
       "http://www.impawards.com/2025/predator_badlands_ver5.html",
       "http://www.impawards.com/2025/predator_badlands_ver6.html",
@@ -1593,7 +1614,7 @@
       "http://www.impawards.com/2025/predator_badlands_ver8.html",
       "http://www.impawards.com/2025/predator_badlands_ver9.html"
     ],
-    "last_updated": "2025-10-19T18:54:40.531171+00:00"
+    "last_updated": "2025-11-08T12:21:14.167767+00:00"
   },
   "1211442": {
     "movie_id": "1211442",
@@ -4758,5 +4779,88 @@
       "http://www.impawards.com/2026/michael.html"
     ],
     "last_updated": "2025-11-07T12:23:55.082564+00:00"
+  },
+  "1401778": {
+    "movie_id": "1401778",
+    "movie_title": "Turbulence",
+    "movie_slug": "turbulence",
+    "year": "2025",
+    "release_date": "2025-12-12",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "imdb_id": "tt33009027",
+    "tmdb_id": 1401778,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/turbulence.html",
+        "local_path": "downloads/2025_turbulence_XXLG_1915x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1915x3000",
+        "variant_slug": "turbulence",
+        "downloaded_at": "2025-11-08T12:21:13.615243+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/turbulence.html"
+    ],
+    "last_updated": "2025-11-08T12:21:13.615281+00:00"
+  },
+  "1325678": {
+    "movie_id": "1325678",
+    "movie_title": "Sarah's Oil",
+    "movie_slug": "sarahs_oil",
+    "year": "2025",
+    "release_date": "2025-11-06",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt31727267",
+    "tmdb_id": 1325678,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/sarahs_oil_ver2.html",
+        "local_path": "downloads/2025_sarahs_oil_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "sarahs_oil_ver2",
+        "downloaded_at": "2025-11-08T12:21:14.396761+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/sarahs_oil_ver2.html"
+    ],
+    "last_updated": "2025-11-08T12:21:14.396785+00:00"
+  },
+  "24": {
+    "movie_id": "24",
+    "movie_title": "Kill Bill: Vol. 1",
+    "movie_slug": "kill_bill",
+    "year": "2003",
+    "release_date": "2003-10-10",
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "imdb_id": "tt0266697",
+    "tmdb_id": 24,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2003/kill_bill_ver10.html",
+        "local_path": "downloads/2003_kill_bill_ver10_XXLG_2000x3000.jpg",
+        "poster_number": "10",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "kill_bill_ver10",
+        "downloaded_at": "2025-11-08T12:21:14.654133+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2003/kill_bill_ver10.html"
+    ],
+    "last_updated": "2025-11-08T12:21:14.654154+00:00"
   }
 }
