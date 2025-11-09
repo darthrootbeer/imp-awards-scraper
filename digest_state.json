@@ -1,5 +1,27 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2025/where_the_wind_blows.html",
+    "http://www.impawards.com/2025/last_appeal.html",
+    "http://www.impawards.com/2025/hello_out_there.html",
+    "http://www.impawards.com/2025/hard_redemption.html",
+    "http://www.impawards.com/2025/food_for_humans.html",
+    "http://www.impawards.com/2025/dirty_hands.html",
+    "http://www.impawards.com/2025/broken_mary_the_kevin_matthews_story_ver2.html",
+    "http://www.impawards.com/2025/amazing_grace_the_true_story.html",
+    "http://www.impawards.com/2025/duse.html",
+    "http://www.impawards.com/2025/cognitive_ver2.html",
+    "http://www.impawards.com/2025/cognitive.html",
+    "http://www.impawards.com/2025/cognaitive.html",
+    "http://www.impawards.com/2017/ninesix_souls.html",
+    "http://www.impawards.com/2025/hunting_season.html",
+    "http://www.impawards.com/2025/lone_samurai_ver2.html",
+    "http://www.impawards.com/2025/lone_samurai.html",
+    "http://www.impawards.com/2025/wicked_for_good_ver31.html",
+    "http://www.impawards.com/2025/wicked_for_good_ver30.html",
+    "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver16.html",
+    "http://www.impawards.com/2025/rosemead.html",
+    "http://www.impawards.com/2025/david_ver2.html",
+    "http://www.impawards.com/2011/gone.html",
     "http://www.impawards.com/2025/turbulence.html",
     "http://www.impawards.com/2025/running_man_ver9.html",
     "http://www.impawards.com/2025/predator_badlands_ver14.html",
@@ -222,6 +244,10 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/devils_teardrop_ver2.html",
+    "http://www.impawards.com/2025/blackeyed_children.html",
+    "http://www.impawards.com/2024/model_house.html",
+    "http://www.impawards.com/2024/on_a_dark_and_bloody_ground.html",
     "http://www.impawards.com/2025/silent_night_deadly_night_ver3.html",
     "http://www.impawards.com/1987/prison.html",
     "http://www.impawards.com/2025/five_nights_at_freddys_two_ver3.html",
@@ -284,5 +310,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-08T12:21:18.125824"
+  "last_run": "2025-11-09T12:21:10.784925"
 }
