@@ -2659,6 +2659,114 @@
         "dimensions": "1182x1478",
         "variant_slug": "zootopia_two_ver9",
         "downloaded_at": "2025-10-31T00:54:12.964320+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver26.html",
+        "local_path": "downloads/2025_zootopia_two_ver26_XLG_1012x1500.jpg",
+        "poster_number": "26",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "zootopia_two_ver26",
+        "downloaded_at": "2025-11-11T12:24:40.732124+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver25.html",
+        "local_path": "downloads/2025_zootopia_two_ver25_XLG_1182x1478.jpg",
+        "poster_number": "25",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver25",
+        "downloaded_at": "2025-11-11T12:24:41.112642+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver24.html",
+        "local_path": "downloads/2025_zootopia_two_ver24_XLG_1012x1500.jpg",
+        "poster_number": "24",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "zootopia_two_ver24",
+        "downloaded_at": "2025-11-11T12:24:41.520073+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver23.html",
+        "local_path": "downloads/2025_zootopia_two_ver23_XLG_1182x1478.jpg",
+        "poster_number": "23",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver23",
+        "downloaded_at": "2025-11-11T12:24:41.860213+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver22.html",
+        "local_path": "downloads/2025_zootopia_two_ver22_XLG_1182x1478.jpg",
+        "poster_number": "22",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver22",
+        "downloaded_at": "2025-11-11T12:24:42.201372+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver21.html",
+        "local_path": "downloads/2025_zootopia_two_ver21_XLG_1012x1500.jpg",
+        "poster_number": "21",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "zootopia_two_ver21",
+        "downloaded_at": "2025-11-11T12:24:42.545964+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver20.html",
+        "local_path": "downloads/2025_zootopia_two_ver20_XLG_1012x1500.jpg",
+        "poster_number": "20",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "zootopia_two_ver20",
+        "downloaded_at": "2025-11-11T12:24:42.825129+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver19.html",
+        "local_path": "downloads/2025_zootopia_two_ver19_XLG_1182x1478.jpg",
+        "poster_number": "19",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver19",
+        "downloaded_at": "2025-11-11T12:24:43.164962+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver18.html",
+        "local_path": "downloads/2025_zootopia_two_ver18_XLG_1182x1478.jpg",
+        "poster_number": "18",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver18",
+        "downloaded_at": "2025-11-11T12:24:43.444600+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver17.html",
+        "local_path": "downloads/2025_zootopia_two_ver17_XLG_1182x1478.jpg",
+        "poster_number": "17",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver17",
+        "downloaded_at": "2025-11-11T12:24:43.722357+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver16.html",
+        "local_path": "downloads/2025_zootopia_two_ver16_XLG_1012x1500.jpg",
+        "poster_number": "16",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "zootopia_two_ver16",
+        "downloaded_at": "2025-11-11T12:24:43.999055+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver15.html",
+        "local_path": "downloads/2025_zootopia_two_ver15_XLG_1182x1478.jpg",
+        "poster_number": "15",
+        "resolution": "XLG",
+        "dimensions": "1182x1478",
+        "variant_slug": "zootopia_two_ver15",
+        "downloaded_at": "2025-11-11T12:24:44.277935+00:00"
       }
     ],
     "source_urls": [
@@ -2667,13 +2775,25 @@
       "http://www.impawards.com/2025/zootopia_two_ver12.html",
       "http://www.impawards.com/2025/zootopia_two_ver13.html",
       "http://www.impawards.com/2025/zootopia_two_ver14.html",
+      "http://www.impawards.com/2025/zootopia_two_ver15.html",
+      "http://www.impawards.com/2025/zootopia_two_ver16.html",
+      "http://www.impawards.com/2025/zootopia_two_ver17.html",
+      "http://www.impawards.com/2025/zootopia_two_ver18.html",
+      "http://www.impawards.com/2025/zootopia_two_ver19.html",
+      "http://www.impawards.com/2025/zootopia_two_ver20.html",
+      "http://www.impawards.com/2025/zootopia_two_ver21.html",
+      "http://www.impawards.com/2025/zootopia_two_ver22.html",
+      "http://www.impawards.com/2025/zootopia_two_ver23.html",
+      "http://www.impawards.com/2025/zootopia_two_ver24.html",
+      "http://www.impawards.com/2025/zootopia_two_ver25.html",
+      "http://www.impawards.com/2025/zootopia_two_ver26.html",
       "http://www.impawards.com/2025/zootopia_two_ver5.html",
       "http://www.impawards.com/2025/zootopia_two_ver6.html",
       "http://www.impawards.com/2025/zootopia_two_ver7.html",
       "http://www.impawards.com/2025/zootopia_two_ver8.html",
       "http://www.impawards.com/2025/zootopia_two_ver9.html"
     ],
-    "last_updated": "2025-10-31T00:54:12.964374+00:00"
+    "last_updated": "2025-11-11T12:24:44.277964+00:00"
   },
   "1126336": {
     "movie_id": "1126336",
@@ -2805,12 +2925,42 @@
         "dimensions": "1971x3000",
         "variant_slug": "europes_new_faces",
         "downloaded_at": "2025-10-19T18:54:53.707979+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/europes_new_faces_ver4.html",
+        "local_path": "downloads/2025_europes_new_faces_ver4_XXLG_1971x3000.jpg",
+        "poster_number": "4",
+        "resolution": "XXLG",
+        "dimensions": "1971x3000",
+        "variant_slug": "europes_new_faces_ver4",
+        "downloaded_at": "2025-11-11T12:24:45.370598+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/europes_new_faces_ver3.html",
+        "local_path": "downloads/2025_europes_new_faces_ver3_XXLG_1971x3000.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "1971x3000",
+        "variant_slug": "europes_new_faces_ver3",
+        "downloaded_at": "2025-11-11T12:24:45.886413+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/europes_new_faces_ver2.html",
+        "local_path": "downloads/2025_europes_new_faces_ver2_XXLG_1971x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1971x3000",
+        "variant_slug": "europes_new_faces_ver2",
+        "downloaded_at": "2025-11-11T12:24:46.300043+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/europes_new_faces.html"
+      "http://www.impawards.com/2025/europes_new_faces.html",
+      "http://www.impawards.com/2025/europes_new_faces_ver2.html",
+      "http://www.impawards.com/2025/europes_new_faces_ver3.html",
+      "http://www.impawards.com/2025/europes_new_faces_ver4.html"
     ],
-    "last_updated": "2025-10-19T18:54:53.708031+00:00"
+    "last_updated": "2025-11-11T12:24:46.300068+00:00"
   },
   "1413805": {
     "movie_id": "1413805",
@@ -3188,12 +3338,22 @@
         "dimensions": "1080x1350",
         "variant_slug": "jay_kelly_ver3",
         "downloaded_at": "2025-10-19T18:55:10.298051+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/jay_kelly_ver4.html",
+        "local_path": "downloads/2025_jay_kelly_ver4_XLG_912x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "912x1350",
+        "variant_slug": "jay_kelly_ver4",
+        "downloaded_at": "2025-11-11T12:24:47.324702+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/jay_kelly_ver3.html"
+      "http://www.impawards.com/2025/jay_kelly_ver3.html",
+      "http://www.impawards.com/2025/jay_kelly_ver4.html"
     ],
-    "last_updated": "2025-10-19T18:55:10.298100+00:00"
+    "last_updated": "2025-11-11T12:24:47.324737+00:00"
   },
   "1230368": {
     "movie_id": "1230368",
@@ -5413,5 +5573,161 @@
       "http://www.impawards.com/2024/luther_never_too_much_ver2.html"
     ],
     "last_updated": "2025-11-10T12:25:01.060524+00:00"
+  },
+  "1222328": {
+    "movie_id": "1222328",
+    "movie_title": "Lost & Found in Cleveland",
+    "movie_slug": "lost_and_found_in_cleveland",
+    "year": "2025",
+    "release_date": "2025-11-07",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "imdb_id": "tt4601732",
+    "tmdb_id": 1222328,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver11.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver11_XLG_1080x1350.jpg",
+        "poster_number": "11",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver11",
+        "downloaded_at": "2025-11-11T12:24:36.651392+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver10.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver10_XLG_1080x1350.jpg",
+        "poster_number": "10",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver10",
+        "downloaded_at": "2025-11-11T12:24:37.099767+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver9.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver9_XLG_1080x1350.jpg",
+        "poster_number": "9",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver9",
+        "downloaded_at": "2025-11-11T12:24:37.445240+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver8.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver8_XLG_1080x1350.jpg",
+        "poster_number": "8",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver8",
+        "downloaded_at": "2025-11-11T12:24:37.788813+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver7.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver7_XLG_1080x1350.jpg",
+        "poster_number": "7",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver7",
+        "downloaded_at": "2025-11-11T12:24:38.068645+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver6.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver6_XLG_1080x1350.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver6",
+        "downloaded_at": "2025-11-11T12:24:38.361828+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver5.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver5_XLG_1080x1350.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver5",
+        "downloaded_at": "2025-11-11T12:24:38.641337+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver4.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver4_XLG_1080x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver4",
+        "downloaded_at": "2025-11-11T12:24:38.923210+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver3.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver3_XLG_1080x1350.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver3",
+        "downloaded_at": "2025-11-11T12:24:39.209658+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver2.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "lost_and_found_in_cleveland_ver2",
+        "downloaded_at": "2025-11-11T12:24:39.490594+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/lost_and_found_in_cleveland.html",
+        "local_path": "downloads/2025_lost_and_found_in_cleveland_XXLG_2031x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2031x3000",
+        "variant_slug": "lost_and_found_in_cleveland",
+        "downloaded_at": "2025-11-11T12:24:39.901392+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver10.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver11.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver2.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver3.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver4.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver5.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver6.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver7.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver8.html",
+      "http://www.impawards.com/2025/lost_and_found_in_cleveland_ver9.html"
+    ],
+    "last_updated": "2025-11-11T12:24:39.901415+00:00"
+  },
+  "1317288": {
+    "movie_id": "1317288",
+    "movie_title": "Marty Supreme",
+    "movie_slug": "marty_supreme",
+    "year": "2025",
+    "release_date": "2025-12-25",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "imdb_id": "tt32916440",
+    "tmdb_id": 1317288,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/marty_supreme_ver2.html",
+        "local_path": "downloads/2025_marty_supreme_ver2_XLG_955x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "955x1500",
+        "variant_slug": "marty_supreme_ver2",
+        "downloaded_at": "2025-11-11T12:24:48.475060+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/marty_supreme_ver2.html"
+    ],
+    "last_updated": "2025-11-11T12:24:48.475090+00:00"
   }
 }
