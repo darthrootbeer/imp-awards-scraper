@@ -5729,5 +5729,35 @@
       "http://www.impawards.com/2025/marty_supreme_ver2.html"
     ],
     "last_updated": "2025-11-11T12:24:48.475090+00:00"
+  },
+  "1084244": {
+    "movie_id": "1084244",
+    "movie_title": "Toy Story 5",
+    "movie_slug": "toy_story_five",
+    "year": "2026",
+    "release_date": "2026-06-17",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "imdb_id": "tt29355505",
+    "tmdb_id": 1084244,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/toy_story_five.html",
+        "local_path": "downloads/2026_toy_story_five_XLG_1012x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "toy_story_five",
+        "downloaded_at": "2025-11-12T12:25:14.006058+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/toy_story_five.html"
+    ],
+    "last_updated": "2025-11-12T12:25:14.006090+00:00"
   }
 }
