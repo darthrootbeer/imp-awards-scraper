@@ -156,13 +156,23 @@
         "dimensions": "2025x3000",
         "variant_slug": "greenland_migration_ver2",
         "downloaded_at": "2025-10-31T00:53:45.694641+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver3.html",
+        "local_path": "downloads/2026_greenland_migration_ver3_XXLG_2500x1850.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "2500x1850",
+        "variant_slug": "greenland_migration_ver3",
+        "downloaded_at": "2025-11-13T12:25:31.113621+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/greenland_migration.html",
-      "http://www.impawards.com/2026/greenland_migration_ver2.html"
+      "http://www.impawards.com/2026/greenland_migration_ver2.html",
+      "http://www.impawards.com/2026/greenland_migration_ver3.html"
     ],
-    "last_updated": "2025-10-31T00:53:45.694674+00:00"
+    "last_updated": "2025-11-13T12:25:31.113655+00:00"
   },
   "1327819": {
     "movie_id": "1327819",
@@ -764,12 +774,22 @@
         "dimensions": "1895x3000",
         "variant_slug": "super_mario_galaxy_movie",
         "downloaded_at": "2025-10-19T18:36:49.914395+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/super_mario_galaxy_movie_ver2.html",
+        "local_path": "downloads/2026_super_mario_galaxy_movie_ver2_XXLG_1895x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1895x3000",
+        "variant_slug": "super_mario_galaxy_movie_ver2",
+        "downloaded_at": "2025-11-13T12:25:39.084725+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/super_mario_galaxy_movie.html"
+      "http://www.impawards.com/2026/super_mario_galaxy_movie.html",
+      "http://www.impawards.com/2026/super_mario_galaxy_movie_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:36:49.914455+00:00"
+    "last_updated": "2025-11-13T12:25:39.084758+00:00"
   },
   "1316092": {
     "movie_id": "1316092",
@@ -2767,6 +2787,15 @@
         "dimensions": "1182x1478",
         "variant_slug": "zootopia_two_ver15",
         "downloaded_at": "2025-11-11T12:24:44.277935+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver27.html",
+        "local_path": "downloads/2025_zootopia_two_ver27_XLG_1183x1478.jpg",
+        "poster_number": "27",
+        "resolution": "XLG",
+        "dimensions": "1183x1478",
+        "variant_slug": "zootopia_two_ver27",
+        "downloaded_at": "2025-11-13T12:25:36.818363+00:00"
       }
     ],
     "source_urls": [
@@ -2787,13 +2816,14 @@
       "http://www.impawards.com/2025/zootopia_two_ver24.html",
       "http://www.impawards.com/2025/zootopia_two_ver25.html",
       "http://www.impawards.com/2025/zootopia_two_ver26.html",
+      "http://www.impawards.com/2025/zootopia_two_ver27.html",
       "http://www.impawards.com/2025/zootopia_two_ver5.html",
       "http://www.impawards.com/2025/zootopia_two_ver6.html",
       "http://www.impawards.com/2025/zootopia_two_ver7.html",
       "http://www.impawards.com/2025/zootopia_two_ver8.html",
       "http://www.impawards.com/2025/zootopia_two_ver9.html"
     ],
-    "last_updated": "2025-11-11T12:24:44.277964+00:00"
+    "last_updated": "2025-11-13T12:25:36.818406+00:00"
   },
   "1126336": {
     "movie_id": "1126336",
@@ -5759,5 +5789,213 @@
       "http://www.impawards.com/2026/toy_story_five.html"
     ],
     "last_updated": "2025-11-12T12:25:14.006090+00:00"
+  },
+  "870360": {
+    "movie_id": "870360",
+    "movie_title": "The Day the Earth Blew Up: A Looney Tunes Movie",
+    "movie_slug": "day_the_earth_blew_up_a_looney_tunes_movie",
+    "year": "2024",
+    "release_date": "2024-08-01",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt15352542",
+    "tmdb_id": 870360,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2024/day_the_earth_blew_up_a_looney_tunes_movie_ver9.html",
+        "local_path": "downloads/2024_day_the_earth_blew_up_a_looney_tunes_movie_ver9_XXLG_2201x3000.jpg",
+        "poster_number": "9",
+        "resolution": "XXLG",
+        "dimensions": "2201x3000",
+        "variant_slug": "day_the_earth_blew_up_a_looney_tunes_movie_ver9",
+        "downloaded_at": "2025-11-13T12:25:27.960794+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2024/day_the_earth_blew_up_a_looney_tunes_movie_ver9.html"
+    ],
+    "last_updated": "2025-11-13T12:25:27.960832+00:00"
+  },
+  "1025491": {
+    "movie_id": "1025491",
+    "movie_title": "Freud's Last Session",
+    "movie_slug": "freuds_last_session",
+    "year": "2023",
+    "release_date": "2023-12-22",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt20420628",
+    "tmdb_id": 1025491,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2023/freuds_last_session_ver4.html",
+        "local_path": "downloads/2023_freuds_last_session_ver4_XXLG_2203x3000.jpg",
+        "poster_number": "4",
+        "resolution": "XXLG",
+        "dimensions": "2203x3000",
+        "variant_slug": "freuds_last_session_ver4",
+        "downloaded_at": "2025-11-13T12:25:29.793835+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2023/freuds_last_session_ver4.html"
+    ],
+    "last_updated": "2025-11-13T12:25:29.793867+00:00"
+  },
+  "1368166": {
+    "movie_id": "1368166",
+    "movie_title": "The Housemaid",
+    "movie_slug": "housemaid",
+    "year": "2025",
+    "release_date": "2025-12-19",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "imdb_id": "tt27543632",
+    "tmdb_id": 1368166,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/housemaid_ver11.html",
+        "local_path": "downloads/2025_housemaid_ver11_XXLG_2000x3000.jpg",
+        "poster_number": "11",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "housemaid_ver11",
+        "downloaded_at": "2025-11-13T12:25:32.423802+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/housemaid_ver10.html",
+        "local_path": "downloads/2025_housemaid_ver10_XXLG_2000x3000.jpg",
+        "poster_number": "10",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "housemaid_ver10",
+        "downloaded_at": "2025-11-13T12:25:32.901208+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/housemaid_ver10.html",
+      "http://www.impawards.com/2025/housemaid_ver11.html"
+    ],
+    "last_updated": "2025-11-13T12:25:32.901237+00:00"
+  },
+  "1505013": {
+    "movie_id": "1505013",
+    "movie_title": "Masaka Kids, A Rhythm Within",
+    "movie_slug": "masaka_kids_a_rhythm_within",
+    "year": "2025",
+    "release_date": "2025-09-05",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt37440137",
+    "tmdb_id": 1505013,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/masaka_kids_a_rhythm_within.html",
+        "local_path": "downloads/2025_masaka_kids_a_rhythm_within_XLG_1080x1350.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "masaka_kids_a_rhythm_within",
+        "downloaded_at": "2025-11-13T12:25:33.885163+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/masaka_kids_a_rhythm_within.html"
+    ],
+    "last_updated": "2025-11-13T12:25:33.885191+00:00"
+  },
+  "1371185": {
+    "movie_id": "1371185",
+    "movie_title": "Song Sung Blue",
+    "movie_slug": "song_sung_blue",
+    "year": "2025",
+    "release_date": "2025-12-25",
+    "genres": [
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "imdb_id": "tt30343021",
+    "tmdb_id": 1371185,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/song_sung_blue.html",
+        "local_path": "downloads/2025_song_sung_blue_XXLG_1944x2880.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1944x2880",
+        "variant_slug": "song_sung_blue",
+        "downloaded_at": "2025-11-13T12:25:35.347442+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/song_sung_blue.html"
+    ],
+    "last_updated": "2025-11-13T12:25:35.347471+00:00"
+  },
+  "1314481": {
+    "movie_id": "1314481",
+    "movie_title": "The Devil Wears Prada 2",
+    "movie_slug": "devil_wears_prada_two",
+    "year": "2026",
+    "release_date": "2026-04-29",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "imdb_id": "tt33612209",
+    "tmdb_id": 1314481,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/devil_wears_prada_two.html",
+        "local_path": "downloads/2026_devil_wears_prada_two_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "devil_wears_prada_two",
+        "downloaded_at": "2025-11-13T12:25:37.897759+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/devil_wears_prada_two.html"
+    ],
+    "last_updated": "2025-11-13T12:25:37.897919+00:00"
+  },
+  "1255775": {
+    "movie_id": "1255775",
+    "movie_title": "Merv",
+    "movie_slug": "merv",
+    "year": "2025",
+    "release_date": "2025-12-09",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "imdb_id": "tt31281659",
+    "tmdb_id": 1255775,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/merv.html",
+        "local_path": "downloads/2025_merv_XXLG_2000x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "merv",
+        "downloaded_at": "2025-11-13T12:25:40.286077+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/merv.html"
+    ],
+    "last_updated": "2025-11-13T12:25:40.286105+00:00"
   }
 }
