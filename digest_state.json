@@ -1,5 +1,20 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2006/kill_bill_the_whole_bloody_affair_ver2.html",
+    "http://www.impawards.com/2006/kill_bill_the_whole_bloody_affair.html",
+    "http://www.impawards.com/2025/if_you_see_something.html",
+    "http://www.impawards.com/2025/sons_of_detroit_ver2.html",
+    "http://www.impawards.com/2025/sons_of_detroit.html",
+    "http://www.impawards.com/2026/wuthering_heights_ver6.html",
+    "http://www.impawards.com/2025/christy_ver2.html",
+    "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html",
+    "http://www.impawards.com/2026/greenland_migration_ver9.html",
+    "http://www.impawards.com/2026/greenland_migration_ver8.html",
+    "http://www.impawards.com/2026/greenland_migration_ver7.html",
+    "http://www.impawards.com/2026/greenland_migration_ver6.html",
+    "http://www.impawards.com/2026/greenland_migration_ver5.html",
+    "http://www.impawards.com/2026/greenland_migration_ver4.html",
+    "http://www.impawards.com/2025/trap_house_ver2.html",
     "http://www.impawards.com/2024/day_the_earth_blew_up_a_looney_tunes_movie_ver9.html",
     "http://www.impawards.com/2023/freuds_last_session_ver4.html",
     "http://www.impawards.com/2026/greenland_migration_ver3.html",
@@ -286,6 +301,12 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/dust_bunny_ver2.html",
+    "http://www.impawards.com/2025/five_nights_at_freddys_two_ver7.html",
+    "http://www.impawards.com/2025/five_nights_at_freddys_two_ver6.html",
+    "http://www.impawards.com/2025/five_nights_at_freddys_two_ver5.html",
+    "http://www.impawards.com/2025/five_nights_at_freddys_two_ver4.html",
+    "http://www.impawards.com/2026/cold_storage_ver2.html",
     "http://www.impawards.com/2025/silent_night_deadly_night_ver4.html",
     "http://www.impawards.com/1980/shining_ver4.html",
     "http://www.impawards.com/2025/devils_teardrop_ver2.html",
@@ -354,5 +375,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-13T12:25:45.391565"
+  "last_run": "2025-11-14T12:25:00.810092"
 }

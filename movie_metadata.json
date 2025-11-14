@@ -165,14 +165,74 @@
         "dimensions": "2500x1850",
         "variant_slug": "greenland_migration_ver3",
         "downloaded_at": "2025-11-13T12:25:31.113621+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver9.html",
+        "local_path": "downloads/2026_greenland_migration_ver9_XLG_1080x1350.jpg",
+        "poster_number": "9",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver9",
+        "downloaded_at": "2025-11-14T12:24:55.935506+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver8.html",
+        "local_path": "downloads/2026_greenland_migration_ver8_XLG_1080x1350.jpg",
+        "poster_number": "8",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver8",
+        "downloaded_at": "2025-11-14T12:24:56.110695+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver7.html",
+        "local_path": "downloads/2026_greenland_migration_ver7_XLG_1080x1350.jpg",
+        "poster_number": "7",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver7",
+        "downloaded_at": "2025-11-14T12:24:56.279214+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver6.html",
+        "local_path": "downloads/2026_greenland_migration_ver6_XLG_1080x1350.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver6",
+        "downloaded_at": "2025-11-14T12:24:56.444844+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver5.html",
+        "local_path": "downloads/2026_greenland_migration_ver5_XLG_1080x1350.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver5",
+        "downloaded_at": "2025-11-14T12:24:56.614264+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver4.html",
+        "local_path": "downloads/2026_greenland_migration_ver4_XLG_1080x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver4",
+        "downloaded_at": "2025-11-14T12:24:56.786034+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/greenland_migration.html",
       "http://www.impawards.com/2026/greenland_migration_ver2.html",
-      "http://www.impawards.com/2026/greenland_migration_ver3.html"
+      "http://www.impawards.com/2026/greenland_migration_ver3.html",
+      "http://www.impawards.com/2026/greenland_migration_ver4.html",
+      "http://www.impawards.com/2026/greenland_migration_ver5.html",
+      "http://www.impawards.com/2026/greenland_migration_ver6.html",
+      "http://www.impawards.com/2026/greenland_migration_ver7.html",
+      "http://www.impawards.com/2026/greenland_migration_ver8.html",
+      "http://www.impawards.com/2026/greenland_migration_ver9.html"
     ],
-    "last_updated": "2025-11-13T12:25:31.113655+00:00"
+    "last_updated": "2025-11-14T12:24:56.786065+00:00"
   },
   "1327819": {
     "movie_id": "1327819",
@@ -848,6 +908,15 @@
         "dimensions": "2500x1015",
         "variant_slug": "wuthering_heights_ver5",
         "downloaded_at": "2025-10-19T18:36:57.479217+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/wuthering_heights_ver6.html",
+        "local_path": "downloads/2026_wuthering_heights_ver6_XXLG_1638x2048.jpg",
+        "poster_number": "6",
+        "resolution": "XXLG",
+        "dimensions": "1638x2048",
+        "variant_slug": "wuthering_heights_ver6",
+        "downloaded_at": "2025-11-14T12:24:54.727856+00:00"
       }
     ],
     "source_urls": [
@@ -855,9 +924,10 @@
       "http://www.impawards.com/2026/wuthering_heights_ver2.html",
       "http://www.impawards.com/2026/wuthering_heights_ver3.html",
       "http://www.impawards.com/2026/wuthering_heights_ver4.html",
-      "http://www.impawards.com/2026/wuthering_heights_ver5.html"
+      "http://www.impawards.com/2026/wuthering_heights_ver5.html",
+      "http://www.impawards.com/2026/wuthering_heights_ver6.html"
     ],
-    "last_updated": "2025-10-19T18:36:57.479261+00:00"
+    "last_updated": "2025-11-14T12:24:54.727891+00:00"
   },
   "tt38691521": {
     "movie_id": "tt38691521",
@@ -3098,12 +3168,22 @@
         "dimensions": "2025x3000",
         "variant_slug": "trap_house",
         "downloaded_at": "2025-10-19T18:54:58.576687+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/trap_house_ver2.html",
+        "local_path": "downloads/2025_trap_house_ver2_XXLG_2025x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "trap_house_ver2",
+        "downloaded_at": "2025-11-14T12:24:56.986117+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/trap_house.html"
+      "http://www.impawards.com/2025/trap_house.html",
+      "http://www.impawards.com/2025/trap_house_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:54:58.576729+00:00"
+    "last_updated": "2025-11-14T12:24:56.986145+00:00"
   },
   "941109": {
     "movie_id": "941109",
@@ -5997,5 +6077,165 @@
       "http://www.impawards.com/2025/merv.html"
     ],
     "last_updated": "2025-11-13T12:25:40.286105+00:00"
+  },
+  "414419": {
+    "movie_id": "414419",
+    "movie_title": "Kill Bill: The Whole Bloody Affair",
+    "movie_slug": "kill_bill_the_whole_bloody_affair",
+    "year": "2006",
+    "release_date": "2011-03-27",
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "imdb_id": "tt6019206",
+    "tmdb_id": 414419,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2006/kill_bill_the_whole_bloody_affair_ver2.html",
+        "local_path": "downloads/2006_kill_bill_the_whole_bloody_affair_ver2_XXLG_2000x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "kill_bill_the_whole_bloody_affair_ver2",
+        "downloaded_at": "2025-11-14T12:24:53.533949+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2006/kill_bill_the_whole_bloody_affair.html",
+        "local_path": "downloads/2006_kill_bill_the_whole_bloody_affair_XXLG_2000x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "kill_bill_the_whole_bloody_affair",
+        "downloaded_at": "2025-11-14T12:24:53.786460+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2006/kill_bill_the_whole_bloody_affair.html",
+      "http://www.impawards.com/2006/kill_bill_the_whole_bloody_affair_ver2.html"
+    ],
+    "last_updated": "2025-11-14T12:24:53.786501+00:00"
+  },
+  "1358547": {
+    "movie_id": "1358547",
+    "movie_title": "If You See Something",
+    "movie_slug": "if_you_see_something",
+    "year": "2025",
+    "release_date": "2024-10-16",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt19796460",
+    "tmdb_id": 1358547,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/if_you_see_something.html",
+        "local_path": "downloads/2025_if_you_see_something_XLG_1014x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1014x1500",
+        "variant_slug": "if_you_see_something",
+        "downloaded_at": "2025-11-14T12:24:53.969178+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/if_you_see_something.html"
+    ],
+    "last_updated": "2025-11-14T12:24:53.969199+00:00"
+  },
+  "1567510": {
+    "movie_id": "1567510",
+    "movie_title": "Sons of Detroit",
+    "movie_slug": "sons_of_detroit",
+    "year": "2025",
+    "release_date": "2025-11-13",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt13608772",
+    "tmdb_id": 1567510,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/sons_of_detroit_ver2.html",
+        "local_path": "downloads/2025_sons_of_detroit_ver2_XXLG_2025x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "sons_of_detroit_ver2",
+        "downloaded_at": "2025-11-14T12:24:54.198165+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/sons_of_detroit.html",
+        "local_path": "downloads/2025_sons_of_detroit_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "sons_of_detroit",
+        "downloaded_at": "2025-11-14T12:24:54.387077+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/sons_of_detroit.html",
+      "http://www.impawards.com/2025/sons_of_detroit_ver2.html"
+    ],
+    "last_updated": "2025-11-14T12:24:54.387107+00:00"
+  },
+  "1287322": {
+    "movie_id": "1287322",
+    "movie_title": "Christy",
+    "movie_slug": "christy",
+    "year": "2025",
+    "release_date": "2025-11-06",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "imdb_id": "tt32323252",
+    "tmdb_id": 1287322,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/christy_ver2.html",
+        "local_path": "downloads/2025_christy_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "christy_ver2",
+        "downloaded_at": "2025-11-14T12:24:55.429719+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/christy_ver2.html"
+    ],
+    "last_updated": "2025-11-14T12:24:55.429743+00:00"
+  },
+  "991494": {
+    "movie_id": "991494",
+    "movie_title": "The SpongeBob Movie: Search for SquarePants",
+    "movie_slug": "spongebob_movie_search_for_squarepants",
+    "year": "2025",
+    "release_date": "2025-12-18",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "imdb_id": "tt23572848",
+    "tmdb_id": 991494,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html",
+        "local_path": "downloads/2025_spongebob_movie_search_for_squarepants_ver5_XXLG_1382x2047.jpg",
+        "poster_number": "5",
+        "resolution": "XXLG",
+        "dimensions": "1382x2047",
+        "variant_slug": "spongebob_movie_search_for_squarepants_ver5",
+        "downloaded_at": "2025-11-14T12:24:55.749141+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html"
+    ],
+    "last_updated": "2025-11-14T12:24:55.749163+00:00"
   }
 }
