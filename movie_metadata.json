@@ -843,13 +843,23 @@
         "dimensions": "1895x3000",
         "variant_slug": "super_mario_galaxy_movie_ver2",
         "downloaded_at": "2025-11-13T12:25:39.084725+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/super_mario_galaxy_movie_ver3.html",
+        "local_path": "downloads/2026_super_mario_galaxy_movie_ver3_XLG_1080x1350.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "super_mario_galaxy_movie_ver3",
+        "downloaded_at": "2025-11-15T12:21:26.371119+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/super_mario_galaxy_movie.html",
-      "http://www.impawards.com/2026/super_mario_galaxy_movie_ver2.html"
+      "http://www.impawards.com/2026/super_mario_galaxy_movie_ver2.html",
+      "http://www.impawards.com/2026/super_mario_galaxy_movie_ver3.html"
     ],
-    "last_updated": "2025-11-13T12:25:39.084758+00:00"
+    "last_updated": "2025-11-15T12:21:26.371145+00:00"
   },
   "1316092": {
     "movie_id": "1316092",
@@ -4189,12 +4199,22 @@
         "dimensions": "2000x3000",
         "variant_slug": "frontier_crucible",
         "downloaded_at": "2025-10-31T00:54:01.804836+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/frontier_crucible_ver2.html",
+        "local_path": "downloads/2025_frontier_crucible_ver2_XXLG_2000x2500.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2000x2500",
+        "variant_slug": "frontier_crucible_ver2",
+        "downloaded_at": "2025-11-15T12:21:26.112023+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/frontier_crucible.html"
+      "http://www.impawards.com/2025/frontier_crucible.html",
+      "http://www.impawards.com/2025/frontier_crucible_ver2.html"
     ],
-    "last_updated": "2025-10-31T00:54:01.804868+00:00"
+    "last_updated": "2025-11-15T12:21:26.112068+00:00"
   },
   "1263012": {
     "movie_id": "1263012",
@@ -6237,5 +6257,61 @@
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html"
     ],
     "last_updated": "2025-11-14T12:24:55.749163+00:00"
+  },
+  "83533": {
+    "movie_id": "83533",
+    "movie_title": "Avatar: Fire and Ash",
+    "movie_slug": "avatar_fire_and_ash",
+    "year": "2025",
+    "release_date": "2025-12-17",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt1757678",
+    "tmdb_id": 83533,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver3.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver3_XLG_1199x1500.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1199x1500",
+        "variant_slug": "avatar_fire_and_ash_ver3",
+        "downloaded_at": "2025-11-15T12:21:26.599305+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver3.html"
+    ],
+    "last_updated": "2025-11-15T12:21:26.599323+00:00"
+  },
+  "1465569": {
+    "movie_id": "1465569",
+    "movie_title": "Surviving Ohio State",
+    "movie_slug": "surviving_ohio_state",
+    "year": "2025",
+    "release_date": "2025-06-09",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt14263818",
+    "tmdb_id": 1465569,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/surviving_ohio_state.html",
+        "local_path": "downloads/2025_surviving_ohio_state_XLG_960x1200.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "960x1200",
+        "variant_slug": "surviving_ohio_state",
+        "downloaded_at": "2025-11-15T12:21:26.831185+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/surviving_ohio_state.html"
+    ],
+    "last_updated": "2025-11-15T12:21:26.831202+00:00"
   }
 }
