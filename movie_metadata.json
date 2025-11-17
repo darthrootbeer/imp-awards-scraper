@@ -6313,5 +6313,34 @@
       "http://www.impawards.com/2025/surviving_ohio_state.html"
     ],
     "last_updated": "2025-11-15T12:21:26.831202+00:00"
+  },
+  "605886": {
+    "movie_id": "605886",
+    "movie_title": "To Catch a Killer",
+    "movie_slug": "to_catch_a_killer",
+    "year": "2023",
+    "release_date": "2023-04-06",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "imdb_id": "tt10275534",
+    "tmdb_id": 605886,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2023/to_catch_a_killer_ver2.html",
+        "local_path": "downloads/2023_to_catch_a_killer_ver2_XXLG_1382x2048.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1382x2048",
+        "variant_slug": "to_catch_a_killer_ver2",
+        "downloaded_at": "2025-11-17T12:25:23.755230+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2023/to_catch_a_killer_ver2.html"
+    ],
+    "last_updated": "2025-11-17T12:25:23.755276+00:00"
   }
 }
