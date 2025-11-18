@@ -4786,12 +4786,22 @@
         "dimensions": "2025x3000",
         "variant_slug": "selena_y_los_dinos",
         "downloaded_at": "2025-11-05T12:24:53.380654+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/selena_y_los_dinos_ver2.html",
+        "local_path": "downloads/2025_selena_y_los_dinos_ver2_XXLG_2500x1016.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2500x1016",
+        "variant_slug": "selena_y_los_dinos_ver2",
+        "downloaded_at": "2025-11-18T12:25:56.095254+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/selena_y_los_dinos.html"
+      "http://www.impawards.com/2025/selena_y_los_dinos.html",
+      "http://www.impawards.com/2025/selena_y_los_dinos_ver2.html"
     ],
-    "last_updated": "2025-11-05T12:24:53.380684+00:00"
+    "last_updated": "2025-11-18T12:25:56.095303+00:00"
   },
   "1400780": {
     "movie_id": "1400780",
@@ -5978,13 +5988,23 @@
         "dimensions": "2000x3000",
         "variant_slug": "housemaid_ver10",
         "downloaded_at": "2025-11-13T12:25:32.901208+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/housemaid_ver12.html",
+        "local_path": "downloads/2025_housemaid_ver12_XXLG_2250x3000.jpg",
+        "poster_number": "12",
+        "resolution": "XXLG",
+        "dimensions": "2250x3000",
+        "variant_slug": "housemaid_ver12",
+        "downloaded_at": "2025-11-18T12:25:57.047619+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2025/housemaid_ver10.html",
-      "http://www.impawards.com/2025/housemaid_ver11.html"
+      "http://www.impawards.com/2025/housemaid_ver11.html",
+      "http://www.impawards.com/2025/housemaid_ver12.html"
     ],
-    "last_updated": "2025-11-13T12:25:32.901237+00:00"
+    "last_updated": "2025-11-18T12:25:57.047646+00:00"
   },
   "1505013": {
     "movie_id": "1505013",
@@ -6280,12 +6300,72 @@
         "dimensions": "1199x1500",
         "variant_slug": "avatar_fire_and_ash_ver3",
         "downloaded_at": "2025-11-15T12:21:26.599305+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver9.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver9_XLG_1012x1500.jpg",
+        "poster_number": "9",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avatar_fire_and_ash_ver9",
+        "downloaded_at": "2025-11-18T12:25:57.493879+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver8.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver8_XLG_1012x1500.jpg",
+        "poster_number": "8",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avatar_fire_and_ash_ver8",
+        "downloaded_at": "2025-11-18T12:25:57.667062+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver7.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver7_XLG_1012x1500.jpg",
+        "poster_number": "7",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avatar_fire_and_ash_ver7",
+        "downloaded_at": "2025-11-18T12:25:57.819431+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver6.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver6_XLG_1012x1500.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avatar_fire_and_ash_ver6",
+        "downloaded_at": "2025-11-18T12:25:57.980380+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver5.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver5_XLG_1012x1500.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avatar_fire_and_ash_ver5",
+        "downloaded_at": "2025-11-18T12:25:58.137416+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver4.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver4_XLG_1012x1500.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avatar_fire_and_ash_ver4",
+        "downloaded_at": "2025-11-18T12:25:58.295163+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/avatar_fire_and_ash_ver3.html"
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver3.html",
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver4.html",
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver5.html",
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver6.html",
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver7.html",
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver8.html",
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver9.html"
     ],
-    "last_updated": "2025-11-15T12:21:26.599323+00:00"
+    "last_updated": "2025-11-18T12:25:58.295186+00:00"
   },
   "1465569": {
     "movie_id": "1465569",
@@ -6342,5 +6422,234 @@
       "http://www.impawards.com/2023/to_catch_a_killer_ver2.html"
     ],
     "last_updated": "2025-11-17T12:25:23.755276+00:00"
+  },
+  "1578680": {
+    "movie_id": "1578680",
+    "movie_title": "He Wasn't Man Enough",
+    "movie_slug": "he_wasnt_man_enough",
+    "year": "2025",
+    "release_date": "2025-11-22",
+    "genres": [],
+    "imdb_id": "tt38575918",
+    "tmdb_id": 1578680,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/he_wasnt_man_enough.html",
+        "local_path": "downloads/2025_he_wasnt_man_enough_XXLG_2048x2048.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2048x2048",
+        "variant_slug": "he_wasnt_man_enough",
+        "downloaded_at": "2025-11-18T12:25:55.516120+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/he_wasnt_man_enough.html"
+    ],
+    "last_updated": "2025-11-18T12:25:55.516151+00:00"
+  },
+  "tt38895958": {
+    "movie_id": "tt38895958",
+    "movie_title": "Unknown",
+    "movie_slug": "terry_mcmillan_presents_preach_pray_love",
+    "year": "2025",
+    "release_date": null,
+    "genres": [],
+    "imdb_id": "tt38895958",
+    "tmdb_id": null,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/terry_mcmillan_presents_preach_pray_love.html",
+        "local_path": "downloads/2025_terry_mcmillan_presents_preach_pray_love_XXLG_2048x2048.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2048x2048",
+        "variant_slug": "terry_mcmillan_presents_preach_pray_love",
+        "downloaded_at": "2025-11-18T12:25:55.682122+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/terry_mcmillan_presents_preach_pray_love.html"
+    ],
+    "last_updated": "2025-11-18T12:25:55.682150+00:00"
+  },
+  "tt38592501": {
+    "movie_id": "tt38592501",
+    "movie_title": "Unknown",
+    "movie_slug": "eric_jerome_dickeys_friends_and_lovers_part_i",
+    "year": "2025",
+    "release_date": null,
+    "genres": [],
+    "imdb_id": "tt38592501",
+    "tmdb_id": null,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/eric_jerome_dickeys_friends_and_lovers_part_i.html",
+        "local_path": "downloads/2025_eric_jerome_dickeys_friends_and_lovers_part_i_XXLG_2048x2048.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2048x2048",
+        "variant_slug": "eric_jerome_dickeys_friends_and_lovers_part_i",
+        "downloaded_at": "2025-11-18T12:25:55.822031+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/eric_jerome_dickeys_friends_and_lovers_part_i.html"
+    ],
+    "last_updated": "2025-11-18T12:25:55.822055+00:00"
+  },
+  "617126": {
+    "movie_id": "617126",
+    "movie_title": "The Fantastic 4: First Steps",
+    "movie_slug": "fantastic_four",
+    "year": "2025",
+    "release_date": "2025-07-23",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt10676052",
+    "tmdb_id": 617126,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/fantastic_four_ver59.html",
+        "local_path": "downloads/2025_fantastic_four_ver59_XXLG_2025x3000.jpg",
+        "poster_number": "59",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "fantastic_four_ver59",
+        "downloaded_at": "2025-11-18T12:25:56.434574+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/fantastic_four_ver58.html",
+        "local_path": "downloads/2025_fantastic_four_ver58_XXLG_2025x3000.jpg",
+        "poster_number": "58",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "fantastic_four_ver58",
+        "downloaded_at": "2025-11-18T12:25:56.653782+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/fantastic_four_ver58.html",
+      "http://www.impawards.com/2025/fantastic_four_ver59.html"
+    ],
+    "last_updated": "2025-11-18T12:25:56.653812+00:00"
+  },
+  "1108427": {
+    "movie_id": "1108427",
+    "movie_title": "Moana",
+    "movie_slug": "moana",
+    "year": "2026",
+    "release_date": "2026-07-08",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "imdb_id": "tt27419466",
+    "tmdb_id": 1108427,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/moana.html",
+        "local_path": "downloads/2026_moana_XLG_1012x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "moana",
+        "downloaded_at": "2025-11-18T12:25:56.844518+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/moana.html"
+    ],
+    "last_updated": "2025-11-18T12:25:56.844540+00:00"
+  },
+  "1455079": {
+    "movie_id": "1455079",
+    "movie_title": "You, Me & Tuscany",
+    "movie_slug": "you_and_me_and_tuscany",
+    "year": "2026",
+    "release_date": "2026-04-08",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "imdb_id": "tt36352591",
+    "tmdb_id": 1455079,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/you_and_me_and_tuscany.html",
+        "local_path": "downloads/2026_you_and_me_and_tuscany_XXLG_1895x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1895x3000",
+        "variant_slug": "you_and_me_and_tuscany",
+        "downloaded_at": "2025-11-18T12:25:57.251464+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/you_and_me_and_tuscany.html"
+    ],
+    "last_updated": "2025-11-18T12:25:57.251484+00:00"
+  },
+  "1495712": {
+    "movie_id": "1495712",
+    "movie_title": "Montana Mavericks",
+    "movie_slug": "montana_mavericks",
+    "year": "2025",
+    "release_date": "2025-08-26",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "imdb_id": "tt33504443",
+    "tmdb_id": 1495712,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/montana_mavericks.html",
+        "local_path": "downloads/2025_montana_mavericks_XLG_1080x1350.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "montana_mavericks",
+        "downloaded_at": "2025-11-18T12:25:58.486146+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/montana_mavericks.html"
+    ],
+    "last_updated": "2025-11-18T12:25:58.486166+00:00"
+  },
+  "1392796": {
+    "movie_id": "1392796",
+    "movie_title": "Diary of a Wimpy Kid: The Last Straw",
+    "movie_slug": "diary_of_a_wimpy_kid_the_last_straw",
+    "year": "2025",
+    "release_date": "2025-12-04",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "imdb_id": "tt37751253",
+    "tmdb_id": 1392796,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/diary_of_a_wimpy_kid_the_last_straw_ver2.html",
+        "local_path": "downloads/2025_diary_of_a_wimpy_kid_the_last_straw_ver2_XLG_1013x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "diary_of_a_wimpy_kid_the_last_straw_ver2",
+        "downloaded_at": "2025-11-18T12:25:58.672202+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/diary_of_a_wimpy_kid_the_last_straw_ver2.html"
+    ],
+    "last_updated": "2025-11-18T12:25:58.672223+00:00"
   }
 }
