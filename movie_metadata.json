@@ -257,12 +257,32 @@
         "dimensions": "1012x1500",
         "variant_slug": "hoppers",
         "downloaded_at": "2025-10-19T18:35:55.308001+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/hoppers_ver3.html",
+        "local_path": "downloads/2026_hoppers_ver3_XLG_1000x1249.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1000x1249",
+        "variant_slug": "hoppers_ver3",
+        "downloaded_at": "2025-11-21T12:23:43.964998+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/hoppers_ver2.html",
+        "local_path": "downloads/2026_hoppers_ver2_XLG_1012x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "hoppers_ver2",
+        "downloaded_at": "2025-11-21T12:23:44.184617+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/hoppers.html"
+      "http://www.impawards.com/2026/hoppers.html",
+      "http://www.impawards.com/2026/hoppers_ver2.html",
+      "http://www.impawards.com/2026/hoppers_ver3.html"
     ],
-    "last_updated": "2025-10-19T18:35:55.308064+00:00"
+    "last_updated": "2025-11-21T12:23:44.184651+00:00"
   },
   "1516812": {
     "movie_id": "1516812",
@@ -6877,5 +6897,90 @@
       "http://www.impawards.com/2025/disneys_hulus_family_guys_hallmark_channels_lifetimes_familiar_holiday_mov.html"
     ],
     "last_updated": "2025-11-20T12:25:00.099933+00:00"
+  },
+  "1300968": {
+    "movie_id": "1300968",
+    "movie_title": "The Hunger Games: Sunrise on the Reaping",
+    "movie_slug": "hunger_games_sunrise_on_the_reaping",
+    "year": "2026",
+    "release_date": "2026-11-18",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt32558705",
+    "tmdb_id": 1300968,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping.html",
+        "local_path": "downloads/2026_hunger_games_sunrise_on_the_reaping_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "hunger_games_sunrise_on_the_reaping",
+        "downloaded_at": "2025-11-21T12:23:44.429075+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping.html"
+    ],
+    "last_updated": "2025-11-21T12:23:44.429097+00:00"
+  },
+  "1400381": {
+    "movie_id": "1400381",
+    "movie_title": "It's Never Over, Jeff Buckley",
+    "movie_slug": "its_never_over_jeff_buckley",
+    "year": "2025",
+    "release_date": "2025-08-08",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt34966650",
+    "tmdb_id": 1400381,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/its_never_over_jeff_buckley_ver2.html",
+        "local_path": "downloads/2025_its_never_over_jeff_buckley_ver2_XLG_1013x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "its_never_over_jeff_buckley_ver2",
+        "downloaded_at": "2025-11-21T12:23:44.641195+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/its_never_over_jeff_buckley_ver2.html"
+    ],
+    "last_updated": "2025-11-21T12:23:44.641215+00:00"
+  },
+  "1323475": {
+    "movie_id": "1323475",
+    "movie_title": "Champagne Problems",
+    "movie_slug": "champagne_problems",
+    "year": "2025",
+    "release_date": "2025-11-18",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "imdb_id": "tt33053440",
+    "tmdb_id": 1323475,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/champagne_problems.html",
+        "local_path": "downloads/2025_champagne_problems_XLG_1080x1350.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "champagne_problems",
+        "downloaded_at": "2025-11-21T12:23:44.816581+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/champagne_problems.html"
+    ],
+    "last_updated": "2025-11-21T12:23:44.816604+00:00"
   }
 }
