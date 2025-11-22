@@ -5222,12 +5222,22 @@
         "dimensions": "1915x3000",
         "variant_slug": "turbulence",
         "downloaded_at": "2025-11-08T12:21:13.615243+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/turbulence_ver2.html",
+        "local_path": "downloads/2025_turbulence_ver2_XXLG_2000x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "2000x3000",
+        "variant_slug": "turbulence_ver2",
+        "downloaded_at": "2025-11-22T12:20:46.214752+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/turbulence.html"
+      "http://www.impawards.com/2025/turbulence.html",
+      "http://www.impawards.com/2025/turbulence_ver2.html"
     ],
-    "last_updated": "2025-11-08T12:21:13.615281+00:00"
+    "last_updated": "2025-11-22T12:20:46.214786+00:00"
   },
   "1325678": {
     "movie_id": "1325678",
