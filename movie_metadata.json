@@ -275,14 +275,44 @@
         "dimensions": "1012x1500",
         "variant_slug": "hoppers_ver2",
         "downloaded_at": "2025-11-21T12:23:44.184617+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/hoppers_ver6.html",
+        "local_path": "downloads/2026_hoppers_ver6_XLG_1080x1350.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "hoppers_ver6",
+        "downloaded_at": "2025-11-23T12:20:42.140788+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/hoppers_ver5.html",
+        "local_path": "downloads/2026_hoppers_ver5_XLG_1080x1350.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "hoppers_ver5",
+        "downloaded_at": "2025-11-23T12:20:42.288585+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/hoppers_ver4.html",
+        "local_path": "downloads/2026_hoppers_ver4_XLG_1080x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "hoppers_ver4",
+        "downloaded_at": "2025-11-23T12:20:42.428265+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/hoppers.html",
       "http://www.impawards.com/2026/hoppers_ver2.html",
-      "http://www.impawards.com/2026/hoppers_ver3.html"
+      "http://www.impawards.com/2026/hoppers_ver3.html",
+      "http://www.impawards.com/2026/hoppers_ver4.html",
+      "http://www.impawards.com/2026/hoppers_ver5.html",
+      "http://www.impawards.com/2026/hoppers_ver6.html"
     ],
-    "last_updated": "2025-11-21T12:23:44.184651+00:00"
+    "last_updated": "2025-11-23T12:20:42.428287+00:00"
   },
   "1516812": {
     "movie_id": "1516812",
@@ -947,6 +977,15 @@
         "dimensions": "1638x2048",
         "variant_slug": "wuthering_heights_ver6",
         "downloaded_at": "2025-11-14T12:24:54.727856+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/wuthering_heights_ver7.html",
+        "local_path": "downloads/2026_wuthering_heights_ver7_XXLG_1600x2000.jpg",
+        "poster_number": "7",
+        "resolution": "XXLG",
+        "dimensions": "1600x2000",
+        "variant_slug": "wuthering_heights_ver7",
+        "downloaded_at": "2025-11-23T12:20:41.023150+00:00"
       }
     ],
     "source_urls": [
@@ -955,9 +994,10 @@
       "http://www.impawards.com/2026/wuthering_heights_ver3.html",
       "http://www.impawards.com/2026/wuthering_heights_ver4.html",
       "http://www.impawards.com/2026/wuthering_heights_ver5.html",
-      "http://www.impawards.com/2026/wuthering_heights_ver6.html"
+      "http://www.impawards.com/2026/wuthering_heights_ver6.html",
+      "http://www.impawards.com/2026/wuthering_heights_ver7.html"
     ],
-    "last_updated": "2025-11-14T12:24:54.727891+00:00"
+    "last_updated": "2025-11-23T12:20:41.023200+00:00"
   },
   "tt38691521": {
     "movie_id": "tt38691521",
@@ -2270,6 +2310,42 @@
         "dimensions": "1080x1350",
         "variant_slug": "wicked_for_good_ver30",
         "downloaded_at": "2025-11-09T12:21:03.792902+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wicked_for_good_ver35.html",
+        "local_path": "downloads/2025_wicked_for_good_ver35_XLG_808x1280.jpg",
+        "poster_number": "35",
+        "resolution": "XLG",
+        "dimensions": "808x1280",
+        "variant_slug": "wicked_for_good_ver35",
+        "downloaded_at": "2025-11-23T12:20:41.501489+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wicked_for_good_ver34.html",
+        "local_path": "downloads/2025_wicked_for_good_ver34_XLG_808x1280.jpg",
+        "poster_number": "34",
+        "resolution": "XLG",
+        "dimensions": "808x1280",
+        "variant_slug": "wicked_for_good_ver34",
+        "downloaded_at": "2025-11-23T12:20:41.656076+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wicked_for_good_ver33.html",
+        "local_path": "downloads/2025_wicked_for_good_ver33_XLG_808x1280.jpg",
+        "poster_number": "33",
+        "resolution": "XLG",
+        "dimensions": "808x1280",
+        "variant_slug": "wicked_for_good_ver33",
+        "downloaded_at": "2025-11-23T12:20:41.814738+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wicked_for_good_ver32.html",
+        "local_path": "downloads/2025_wicked_for_good_ver32_XLG_960x1200.jpg",
+        "poster_number": "32",
+        "resolution": "XLG",
+        "dimensions": "960x1200",
+        "variant_slug": "wicked_for_good_ver32",
+        "downloaded_at": "2025-11-23T12:20:41.953552+00:00"
       }
     ],
     "source_urls": [
@@ -2293,9 +2369,13 @@
       "http://www.impawards.com/2025/wicked_for_good_ver28.html",
       "http://www.impawards.com/2025/wicked_for_good_ver29.html",
       "http://www.impawards.com/2025/wicked_for_good_ver30.html",
-      "http://www.impawards.com/2025/wicked_for_good_ver31.html"
+      "http://www.impawards.com/2025/wicked_for_good_ver31.html",
+      "http://www.impawards.com/2025/wicked_for_good_ver32.html",
+      "http://www.impawards.com/2025/wicked_for_good_ver33.html",
+      "http://www.impawards.com/2025/wicked_for_good_ver34.html",
+      "http://www.impawards.com/2025/wicked_for_good_ver35.html"
     ],
-    "last_updated": "2025-11-09T12:21:03.792934+00:00"
+    "last_updated": "2025-11-23T12:20:41.953579+00:00"
   },
   "1208348": {
     "movie_id": "1208348",
@@ -6992,5 +7072,161 @@
       "http://www.impawards.com/2025/champagne_problems.html"
     ],
     "last_updated": "2025-11-21T12:23:44.816604+00:00"
+  },
+  "1290369": {
+    "movie_id": "1290369",
+    "movie_title": "Megadoc",
+    "movie_slug": "megadoc",
+    "year": "2025",
+    "release_date": "2025-09-19",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt34621966",
+    "tmdb_id": 1290369,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/megadoc_ver3.html",
+        "local_path": "downloads/2025_megadoc_ver3_XXLG_1728x2560.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "1728x2560",
+        "variant_slug": "megadoc_ver3",
+        "downloaded_at": "2025-11-23T12:20:41.331189+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/megadoc_ver3.html"
+    ],
+    "last_updated": "2025-11-23T12:20:41.331218+00:00"
+  },
+  "812583": {
+    "movie_id": "812583",
+    "movie_title": "Wake Up Dead Man: A Knives Out Mystery",
+    "movie_slug": "wake_up_dead_man_a_knives_out_mystery",
+    "year": "2025",
+    "release_date": "2025-11-26",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "imdb_id": "tt14364480",
+    "tmdb_id": 812583,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver12.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver12_XLG_1080x1350.jpg",
+        "poster_number": "12",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver12",
+        "downloaded_at": "2025-11-23T12:20:42.622519+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver11.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver11_XLG_1080x1350.jpg",
+        "poster_number": "11",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver11",
+        "downloaded_at": "2025-11-23T12:20:42.768570+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver10.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver10_XLG_1080x1350.jpg",
+        "poster_number": "10",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver10",
+        "downloaded_at": "2025-11-23T12:20:42.910658+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver9_XLG_1080x1350.jpg",
+        "poster_number": "9",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver9",
+        "downloaded_at": "2025-11-23T12:20:43.046570+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver8.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver8_XLG_1080x1350.jpg",
+        "poster_number": "8",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver8",
+        "downloaded_at": "2025-11-23T12:20:43.182521+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver7.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver7_XLG_1080x1350.jpg",
+        "poster_number": "7",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver7",
+        "downloaded_at": "2025-11-23T12:20:43.321558+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver6.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver6_XLG_1080x1350.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver6",
+        "downloaded_at": "2025-11-23T12:20:43.457396+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver5.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver5_XLG_1080x1350.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver5",
+        "downloaded_at": "2025-11-23T12:20:43.594679+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver4.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver4_XLG_1080x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver4",
+        "downloaded_at": "2025-11-23T12:20:43.736329+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver3.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver3_XLG_1080x1350.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver3",
+        "downloaded_at": "2025-11-23T12:20:43.872409+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver2.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver2",
+        "downloaded_at": "2025-11-23T12:20:44.008316+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver10.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver11.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver12.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver2.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver3.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver4.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver5.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver6.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver7.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver8.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html"
+    ],
+    "last_updated": "2025-11-23T12:20:44.008340+00:00"
   }
 }

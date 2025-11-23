@@ -1,5 +1,25 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/wuthering_heights_ver7.html",
+    "http://www.impawards.com/2025/megadoc_ver3.html",
+    "http://www.impawards.com/2025/wicked_for_good_ver35.html",
+    "http://www.impawards.com/2025/wicked_for_good_ver34.html",
+    "http://www.impawards.com/2025/wicked_for_good_ver33.html",
+    "http://www.impawards.com/2025/wicked_for_good_ver32.html",
+    "http://www.impawards.com/2026/hoppers_ver6.html",
+    "http://www.impawards.com/2026/hoppers_ver5.html",
+    "http://www.impawards.com/2026/hoppers_ver4.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver12.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver11.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver10.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver8.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver7.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver6.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver5.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver4.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver3.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver2.html",
     "http://www.impawards.com/2025/turbulence_ver2.html",
     "http://www.impawards.com/2026/hoppers_ver3.html",
     "http://www.impawards.com/2026/hoppers_ver2.html",
@@ -341,6 +361,8 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/dust_bunny_ver3.html",
+    "http://www.impawards.com/2026/we_bury_the_dead_ver2.html",
     "http://www.impawards.com/2024/alien_romulus_ver21.html",
     "http://www.impawards.com/2023/puppetman_ver2.html",
     "http://www.impawards.com/2023/puppetman.html",
@@ -419,5 +441,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-22T12:20:48.250857"
+  "last_run": "2025-11-23T12:20:48.369020"
 }
