@@ -2407,13 +2407,23 @@
         "dimensions": "1334x2000",
         "variant_slug": "rental_family_ver2",
         "downloaded_at": "2025-10-19T18:54:00.361739+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/rental_family_ver4.html",
+        "local_path": "downloads/2025_rental_family_ver4_XXLG_2500x1042.jpg",
+        "poster_number": "4",
+        "resolution": "XXLG",
+        "dimensions": "2500x1042",
+        "variant_slug": "rental_family_ver4",
+        "downloaded_at": "2025-11-24T12:25:33.142682+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2025/rental_family_ver2.html",
-      "http://www.impawards.com/2025/rental_family_ver3.html"
+      "http://www.impawards.com/2025/rental_family_ver3.html",
+      "http://www.impawards.com/2025/rental_family_ver4.html"
     ],
-    "last_updated": "2025-10-19T18:54:00.361819+00:00"
+    "last_updated": "2025-11-24T12:25:33.142726+00:00"
   },
   "1248226": {
     "movie_id": "1248226",
@@ -7228,5 +7238,58 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html"
     ],
     "last_updated": "2025-11-23T12:20:44.008340+00:00"
+  },
+  "1329322": {
+    "movie_id": "1329322",
+    "movie_title": "Paul Anka: His Way",
+    "movie_slug": "paul_anka_his_way",
+    "year": "2025",
+    "release_date": "2024-09-08",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt33096714",
+    "tmdb_id": 1329322,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/paul_anka_his_way.html",
+        "local_path": "downloads/2025_paul_anka_his_way_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "paul_anka_his_way",
+        "downloaded_at": "2025-11-24T12:25:34.167769+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/paul_anka_his_way.html"
+    ],
+    "last_updated": "2025-11-24T12:25:34.167806+00:00"
+  },
+  "tt38721186": {
+    "movie_id": "tt38721186",
+    "movie_title": "Unknown",
+    "movie_slug": "loud_house_christmas_movie_naughty_or_nice",
+    "year": "2025",
+    "release_date": null,
+    "genres": [],
+    "imdb_id": "tt38721186",
+    "tmdb_id": null,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/loud_house_christmas_movie_naughty_or_nice.html",
+        "local_path": "downloads/2025_loud_house_christmas_movie_naughty_or_nice_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "loud_house_christmas_movie_naughty_or_nice",
+        "downloaded_at": "2025-11-24T12:25:34.815617+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/loud_house_christmas_movie_naughty_or_nice.html"
+    ],
+    "last_updated": "2025-11-24T12:25:34.815643+00:00"
   }
 }
