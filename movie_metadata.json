@@ -864,12 +864,22 @@
         "dimensions": "2025x3000",
         "variant_slug": "star_wars_the_mandalorian_and_grogu",
         "downloaded_at": "2025-10-19T18:36:47.727165+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver2.html",
+        "local_path": "downloads/2026_star_wars_the_mandalorian_and_grogu_ver2_XLG_1200x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1200x1500",
+        "variant_slug": "star_wars_the_mandalorian_and_grogu_ver2",
+        "downloaded_at": "2025-11-27T12:25:32.977066+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu.html"
+      "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu.html",
+      "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:36:47.727232+00:00"
+    "last_updated": "2025-11-27T12:25:32.977110+00:00"
   },
   "1081003": {
     "movie_id": "1081003",
@@ -7848,5 +7858,145 @@
       "http://www.impawards.com/2025/extremely_unique_dynamic.html"
     ],
     "last_updated": "2025-11-26T12:26:27.627731+00:00"
+  },
+  "1105545": {
+    "movie_id": "1105545",
+    "movie_title": "Ex-Husbands",
+    "movie_slug": "men_of_divorce",
+    "year": "2024",
+    "release_date": "2024-06-07",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "imdb_id": "tt21347764",
+    "tmdb_id": 1105545,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2024/men_of_divorce.html",
+        "local_path": "downloads/2024_men_of_divorce_XXLG_1980x2916.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1980x2916",
+        "variant_slug": "men_of_divorce",
+        "downloaded_at": "2025-11-27T12:25:34.396556+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2024/men_of_divorce.html"
+    ],
+    "last_updated": "2025-11-27T12:25:34.396592+00:00"
+  },
+  "1241843": {
+    "movie_id": "1241843",
+    "movie_title": "The Vortex",
+    "movie_slug": "vortex",
+    "year": "2025",
+    "release_date": "2025-02-14",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "imdb_id": "tt25727008",
+    "tmdb_id": 1241843,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/vortex.html",
+        "local_path": "downloads/2025_vortex_XXLG_1988x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1988x3000",
+        "variant_slug": "vortex",
+        "downloaded_at": "2025-11-27T12:25:35.761521+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/vortex.html"
+    ],
+    "last_updated": "2025-11-27T12:25:35.761555+00:00"
+  },
+  "467905": {
+    "movie_id": "467905",
+    "movie_title": "How to Make a Killing",
+    "movie_slug": "how_to_make_a_killing",
+    "year": "2026",
+    "release_date": "2026-02-20",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "imdb_id": "tt4357198",
+    "tmdb_id": 467905,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/how_to_make_a_killing.html",
+        "local_path": "downloads/2026_how_to_make_a_killing_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "how_to_make_a_killing",
+        "downloaded_at": "2025-11-27T12:25:36.638231+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/how_to_make_a_killing.html"
+    ],
+    "last_updated": "2025-11-27T12:25:36.638266+00:00"
+  },
+  "857800": {
+    "movie_id": "857800",
+    "movie_title": "Becoming Led Zeppelin",
+    "movie_slug": "becoming_led_zeppelin",
+    "year": "2025",
+    "release_date": "2025-02-05",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt10365912",
+    "tmdb_id": 857800,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/becoming_led_zeppelin.html",
+        "local_path": "downloads/2025_becoming_led_zeppelin_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "becoming_led_zeppelin",
+        "downloaded_at": "2025-11-27T12:25:37.801350+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/becoming_led_zeppelin.html"
+    ],
+    "last_updated": "2025-11-27T12:25:37.801379+00:00"
+  },
+  "1361952": {
+    "movie_id": "1361952",
+    "movie_title": "Green and Gold",
+    "movie_slug": "green_and_gold",
+    "year": "2025",
+    "release_date": "2025-01-31",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt15143042",
+    "tmdb_id": 1361952,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/green_and_gold.html",
+        "local_path": "downloads/2025_green_and_gold_XXLG_2049x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2049x3000",
+        "variant_slug": "green_and_gold",
+        "downloaded_at": "2025-11-27T12:25:39.462740+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/green_and_gold.html"
+    ],
+    "last_updated": "2025-11-27T12:25:39.462769+00:00"
   }
 }

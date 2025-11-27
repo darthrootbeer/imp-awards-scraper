@@ -1,5 +1,11 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver2.html",
+    "http://www.impawards.com/2024/men_of_divorce.html",
+    "http://www.impawards.com/2025/vortex.html",
+    "http://www.impawards.com/2026/how_to_make_a_killing.html",
+    "http://www.impawards.com/2025/becoming_led_zeppelin.html",
+    "http://www.impawards.com/2025/green_and_gold.html",
     "http://www.impawards.com/2025/carry_the_darkness_ver2.html",
     "http://www.impawards.com/2025/carry_the_darkness.html",
     "http://www.impawards.com/2025/jesszilla_ver2.html",
@@ -389,6 +395,7 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple_ver2.html",
     "http://www.impawards.com/2025/plague.html",
     "http://www.impawards.com/2026/im_chevy_chase_and_youre_not.html",
     "http://www.impawards.com/2025/dust_bunny_ver3.html",
@@ -471,5 +478,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-11-26T12:26:32.820387"
+  "last_run": "2025-11-27T12:25:42.722400"
 }
