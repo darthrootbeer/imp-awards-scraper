@@ -6584,9 +6584,19 @@
         "dimensions": "1012x1500",
         "variant_slug": "avatar_fire_and_ash_ver4",
         "downloaded_at": "2025-11-18T12:25:58.295163+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/avatar_fire_and_ash_ver10.html",
+        "local_path": "downloads/2025_avatar_fire_and_ash_ver10_XLG_848x1199.jpg",
+        "poster_number": "10",
+        "resolution": "XLG",
+        "dimensions": "848x1199",
+        "variant_slug": "avatar_fire_and_ash_ver10",
+        "downloaded_at": "2025-11-28T12:25:04.037283+00:00"
       }
     ],
     "source_urls": [
+      "http://www.impawards.com/2025/avatar_fire_and_ash_ver10.html",
       "http://www.impawards.com/2025/avatar_fire_and_ash_ver3.html",
       "http://www.impawards.com/2025/avatar_fire_and_ash_ver4.html",
       "http://www.impawards.com/2025/avatar_fire_and_ash_ver5.html",
@@ -6595,7 +6605,7 @@
       "http://www.impawards.com/2025/avatar_fire_and_ash_ver8.html",
       "http://www.impawards.com/2025/avatar_fire_and_ash_ver9.html"
     ],
-    "last_updated": "2025-11-18T12:25:58.295186+00:00"
+    "last_updated": "2025-11-28T12:25:04.037327+00:00"
   },
   "1465569": {
     "movie_id": "1465569",
@@ -7998,5 +8008,55 @@
       "http://www.impawards.com/2025/green_and_gold.html"
     ],
     "last_updated": "2025-11-27T12:25:39.462769+00:00"
+  },
+  "2026_horse_power": {
+    "movie_id": "2026_horse_power",
+    "movie_title": "Unknown",
+    "movie_slug": "horse_power",
+    "year": "2026",
+    "release_date": null,
+    "genres": [],
+    "imdb_id": null,
+    "tmdb_id": null,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/horse_power.html",
+        "local_path": "downloads/2026_horse_power_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "horse_power",
+        "downloaded_at": "2025-11-28T12:25:03.267335+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/horse_power.html"
+    ],
+    "last_updated": "2025-11-28T12:25:03.267370+00:00"
+  },
+  "2025_secrets_of_great_salt_lake": {
+    "movie_id": "2025_secrets_of_great_salt_lake",
+    "movie_title": "Secrets of Great Salt Lake",
+    "movie_slug": "secrets_of_great_salt_lake",
+    "year": "2025",
+    "release_date": null,
+    "genres": [],
+    "imdb_id": null,
+    "tmdb_id": null,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/secrets_of_great_salt_lake_ver3.html",
+        "local_path": "downloads/2025_secrets_of_great_salt_lake_ver3_XLG_1013x1500.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "secrets_of_great_salt_lake_ver3",
+        "downloaded_at": "2025-11-28T12:25:03.430722+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/secrets_of_great_salt_lake_ver3.html"
+    ],
+    "last_updated": "2025-11-28T12:25:03.430754+00:00"
   }
 }
