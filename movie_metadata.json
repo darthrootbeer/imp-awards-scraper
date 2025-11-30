@@ -2148,14 +2148,24 @@
         "dimensions": "1080x1350",
         "variant_slug": "nuremberg_ver2",
         "downloaded_at": "2025-10-31T00:54:35.005059+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/nuremberg_ver4.html",
+        "local_path": "downloads/2025_nuremberg_ver4_XLG_750x1080.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "750x1080",
+        "variant_slug": "nuremberg_ver4",
+        "downloaded_at": "2025-11-30T12:22:12.969535+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2025/nuremberg.html",
       "http://www.impawards.com/2025/nuremberg_ver2.html",
-      "http://www.impawards.com/2025/nuremberg_ver3.html"
+      "http://www.impawards.com/2025/nuremberg_ver3.html",
+      "http://www.impawards.com/2025/nuremberg_ver4.html"
     ],
-    "last_updated": "2025-10-31T00:54:35.005098+00:00"
+    "last_updated": "2025-11-30T12:22:12.969564+00:00"
   },
   "967941": {
     "movie_id": "967941",
@@ -8124,5 +8134,33 @@
       "http://www.impawards.com/1995/clueless_ver2.html"
     ],
     "last_updated": "2025-11-29T12:21:52.964369+00:00"
+  },
+  "1264573": {
+    "movie_id": "1264573",
+    "movie_title": "Lurker",
+    "movie_slug": "lurker",
+    "year": "2025",
+    "release_date": "2025-08-22",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "imdb_id": "tt13651462",
+    "tmdb_id": 1264573,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/lurker_ver2.html",
+        "local_path": "downloads/2025_lurker_ver2_XLG_1500x844.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1500x844",
+        "variant_slug": "lurker_ver2",
+        "downloaded_at": "2025-11-30T12:22:12.807228+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/lurker_ver2.html"
+    ],
+    "last_updated": "2025-11-30T12:22:12.807266+00:00"
   }
 }
