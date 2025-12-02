@@ -4022,12 +4022,22 @@
         "dimensions": "2025x3000",
         "variant_slug": "ella_mccay_ver2",
         "downloaded_at": "2025-10-22T10:00:08.401063+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/ella_mccay_ver3.html",
+        "local_path": "downloads/2025_ella_mccay_ver3_XXLG_2025x3000.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "ella_mccay_ver3",
+        "downloaded_at": "2025-12-02T12:27:07.010320+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/ella_mccay_ver2.html"
+      "http://www.impawards.com/2025/ella_mccay_ver2.html",
+      "http://www.impawards.com/2025/ella_mccay_ver3.html"
     ],
-    "last_updated": "2025-10-22T10:00:08.401123+00:00"
+    "last_updated": "2025-12-02T12:27:07.010353+00:00"
   },
   "2025_deaf_santa_claus": {
     "movie_id": "2025_deaf_santa_claus",
@@ -6511,12 +6521,32 @@
         "dimensions": "1382x2047",
         "variant_slug": "spongebob_movie_search_for_squarepants_ver5",
         "downloaded_at": "2025-11-14T12:24:55.749141+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver7.html",
+        "local_path": "downloads/2025_spongebob_movie_search_for_squarepants_ver7_XLG_1080x1350.jpg",
+        "poster_number": "7",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "spongebob_movie_search_for_squarepants_ver7",
+        "downloaded_at": "2025-12-02T12:27:05.662232+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver6.html",
+        "local_path": "downloads/2025_spongebob_movie_search_for_squarepants_ver6_XLG_1080x1350.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "spongebob_movie_search_for_squarepants_ver6",
+        "downloaded_at": "2025-12-02T12:27:05.989544+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html"
+      "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html",
+      "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver6.html",
+      "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver7.html"
     ],
-    "last_updated": "2025-11-14T12:24:55.749163+00:00"
+    "last_updated": "2025-12-02T12:27:05.989574+00:00"
   },
   "83533": {
     "movie_id": "83533",
@@ -6779,13 +6809,23 @@
         "dimensions": "2025x3000",
         "variant_slug": "fantastic_four_ver58",
         "downloaded_at": "2025-11-18T12:25:56.653782+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/fantastic_four_ver60.html",
+        "local_path": "downloads/2025_fantastic_four_ver60_XLG_960x1200.jpg",
+        "poster_number": "60",
+        "resolution": "XLG",
+        "dimensions": "960x1200",
+        "variant_slug": "fantastic_four_ver60",
+        "downloaded_at": "2025-12-02T12:27:08.441847+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2025/fantastic_four_ver58.html",
-      "http://www.impawards.com/2025/fantastic_four_ver59.html"
+      "http://www.impawards.com/2025/fantastic_four_ver59.html",
+      "http://www.impawards.com/2025/fantastic_four_ver60.html"
     ],
-    "last_updated": "2025-11-18T12:25:56.653812+00:00"
+    "last_updated": "2025-12-02T12:27:08.441876+00:00"
   },
   "1108427": {
     "movie_id": "1108427",
@@ -7301,6 +7341,15 @@
         "dimensions": "1201x1500",
         "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver13",
         "downloaded_at": "2025-11-29T12:21:52.719831+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver14.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver14_XLG_1080x1350.jpg",
+        "poster_number": "14",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver14",
+        "downloaded_at": "2025-12-02T12:27:04.936093+00:00"
       }
     ],
     "source_urls": [
@@ -7308,6 +7357,7 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver11.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver12.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver13.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver14.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver2.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver3.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver4.html",
@@ -7317,7 +7367,7 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver8.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html"
     ],
-    "last_updated": "2025-11-29T12:21:52.719875+00:00"
+    "last_updated": "2025-12-02T12:27:04.936135+00:00"
   },
   "1329322": {
     "movie_id": "1329322",
@@ -8162,5 +8212,110 @@
       "http://www.impawards.com/2025/lurker_ver2.html"
     ],
     "last_updated": "2025-11-30T12:22:12.807266+00:00"
+  },
+  "1549892": {
+    "movie_id": "1549892",
+    "movie_title": "You Got Gold: A Celebration of John Prine",
+    "movie_slug": "you_got_gold_a_celebration_of_john_prine",
+    "year": "2025",
+    "release_date": "2025-09-21",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt37155251",
+    "tmdb_id": 1549892,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/you_got_gold_a_celebration_of_john_prine.html",
+        "local_path": "downloads/2025_you_got_gold_a_celebration_of_john_prine_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "you_got_gold_a_celebration_of_john_prine",
+        "downloaded_at": "2025-12-02T12:27:04.552056+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/you_got_gold_a_celebration_of_john_prine.html"
+    ],
+    "last_updated": "2025-12-02T12:27:04.552094+00:00"
+  },
+  "1290821": {
+    "movie_id": "1290821",
+    "movie_title": "Shelter",
+    "movie_slug": "shelter",
+    "year": "2026",
+    "release_date": "2026-01-29",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "imdb_id": "tt32357218",
+    "tmdb_id": 1290821,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/shelter.html",
+        "local_path": "downloads/2026_shelter_XLG_1008x1494.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1008x1494",
+        "variant_slug": "shelter",
+        "downloaded_at": "2025-12-02T12:27:05.317938+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/shelter.html"
+    ],
+    "last_updated": "2025-12-02T12:27:05.317968+00:00"
+  },
+  "1102883": {
+    "movie_id": "1102883",
+    "movie_title": "Mother Mary",
+    "movie_slug": "mother_mary",
+    "year": "2026",
+    "release_date": "",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "imdb_id": "tt27200708",
+    "tmdb_id": 1102883,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/mother_mary_ver3.html",
+        "local_path": "downloads/2026_mother_mary_ver3_XXLG_1382x2048.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "1382x2048",
+        "variant_slug": "mother_mary_ver3",
+        "downloaded_at": "2025-12-02T12:27:07.388299+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/mother_mary_ver2.html",
+        "local_path": "downloads/2026_mother_mary_ver2_XXLG_1382x2048.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1382x2048",
+        "variant_slug": "mother_mary_ver2",
+        "downloaded_at": "2025-12-02T12:27:07.778666+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/mother_mary.html",
+        "local_path": "downloads/2026_mother_mary_XXLG_1382x2048.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1382x2048",
+        "variant_slug": "mother_mary",
+        "downloaded_at": "2025-12-02T12:27:08.055114+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/mother_mary.html",
+      "http://www.impawards.com/2026/mother_mary_ver2.html",
+      "http://www.impawards.com/2026/mother_mary_ver3.html"
+    ],
+    "last_updated": "2025-12-02T12:27:08.055144+00:00"
   }
 }
