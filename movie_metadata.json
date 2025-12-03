@@ -3106,6 +3106,15 @@
         "dimensions": "1183x1478",
         "variant_slug": "zootopia_two_ver27",
         "downloaded_at": "2025-11-13T12:25:36.818363+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/zootopia_two_ver28.html",
+        "local_path": "downloads/2025_zootopia_two_ver28_XXLG_2500x1250.jpg",
+        "poster_number": "28",
+        "resolution": "XXLG",
+        "dimensions": "2500x1250",
+        "variant_slug": "zootopia_two_ver28",
+        "downloaded_at": "2025-12-03T12:26:35.527153+00:00"
       }
     ],
     "source_urls": [
@@ -3127,13 +3136,14 @@
       "http://www.impawards.com/2025/zootopia_two_ver25.html",
       "http://www.impawards.com/2025/zootopia_two_ver26.html",
       "http://www.impawards.com/2025/zootopia_two_ver27.html",
+      "http://www.impawards.com/2025/zootopia_two_ver28.html",
       "http://www.impawards.com/2025/zootopia_two_ver5.html",
       "http://www.impawards.com/2025/zootopia_two_ver6.html",
       "http://www.impawards.com/2025/zootopia_two_ver7.html",
       "http://www.impawards.com/2025/zootopia_two_ver8.html",
       "http://www.impawards.com/2025/zootopia_two_ver9.html"
     ],
-    "last_updated": "2025-11-13T12:25:36.818406+00:00"
+    "last_updated": "2025-12-03T12:26:35.527204+00:00"
   },
   "1126336": {
     "movie_id": "1126336",
@@ -8317,5 +8327,32 @@
       "http://www.impawards.com/2026/mother_mary_ver3.html"
     ],
     "last_updated": "2025-12-02T12:27:08.055144+00:00"
+  },
+  "1562010": {
+    "movie_id": "1562010",
+    "movie_title": "Taylor Swift | The Eras Tour | The Final Show",
+    "movie_slug": "taylor_swift_the_eras_tour__the_final_show",
+    "year": "2025",
+    "release_date": "2025-12-11",
+    "genres": [
+      "Music"
+    ],
+    "imdb_id": "tt38673135",
+    "tmdb_id": 1562010,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/taylor_swift_the_eras_tour__the_final_show.html",
+        "local_path": "downloads/2025_taylor_swift_the_eras_tour__the_final_show_XLG_1200x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1200x1500",
+        "variant_slug": "taylor_swift_the_eras_tour__the_final_show",
+        "downloaded_at": "2025-12-03T12:26:37.025542+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/taylor_swift_the_eras_tour__the_final_show.html"
+    ],
+    "last_updated": "2025-12-03T12:26:37.025575+00:00"
   }
 }
