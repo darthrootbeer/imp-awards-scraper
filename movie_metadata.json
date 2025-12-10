@@ -412,13 +412,23 @@
         "dimensions": "1080x1350",
         "variant_slug": "mercy_ver2",
         "downloaded_at": "2025-11-07T12:23:53.490345+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/mercy_ver3.html",
+        "local_path": "downloads/2026_mercy_ver3_XXLG_2025x3000.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "mercy_ver3",
+        "downloaded_at": "2025-12-10T12:26:53.405584+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/mercy.html",
-      "http://www.impawards.com/2026/mercy_ver2.html"
+      "http://www.impawards.com/2026/mercy_ver2.html",
+      "http://www.impawards.com/2026/mercy_ver3.html"
     ],
-    "last_updated": "2025-11-07T12:23:53.490379+00:00"
+    "last_updated": "2025-12-10T12:26:53.405621+00:00"
   },
   "931285": {
     "movie_id": "931285",
@@ -710,12 +720,22 @@
         "dimensions": "1080x1350",
         "variant_slug": "people_we_meet_on_vacation",
         "downloaded_at": "2025-10-19T18:36:35.030719+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/people_we_meet_on_vacation_ver2.html",
+        "local_path": "downloads/2026_people_we_meet_on_vacation_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "people_we_meet_on_vacation_ver2",
+        "downloaded_at": "2025-12-10T12:26:50.108821+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/people_we_meet_on_vacation.html"
+      "http://www.impawards.com/2026/people_we_meet_on_vacation.html",
+      "http://www.impawards.com/2026/people_we_meet_on_vacation_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:36:35.030763+00:00"
+    "last_updated": "2025-12-10T12:26:50.108854+00:00"
   },
   "687163": {
     "movie_id": "687163",
@@ -3653,12 +3673,22 @@
         "dimensions": "2400x3000",
         "variant_slug": "simpsons_movie_two",
         "downloaded_at": "2025-10-19T18:55:07.854319+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2027/simpsons_movie_two_ver2.html",
+        "local_path": "downloads/2027_simpsons_movie_two_ver2_XLG_1200x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1200x1500",
+        "variant_slug": "simpsons_movie_two_ver2",
+        "downloaded_at": "2025-12-10T12:26:50.912688+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2027/simpsons_movie_two.html"
+      "http://www.impawards.com/2027/simpsons_movie_two.html",
+      "http://www.impawards.com/2027/simpsons_movie_two_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:55:07.854382+00:00"
+    "last_updated": "2025-12-10T12:26:50.912722+00:00"
   },
   "1492608": {
     "movie_id": "1492608",
@@ -8600,5 +8630,59 @@
       "http://www.impawards.com/2026/peaky_blinders_the_immortal_man.html"
     ],
     "last_updated": "2025-12-07T12:21:53.871058+00:00"
+  },
+  "1325734": {
+    "movie_id": "1325734",
+    "movie_title": "The Drama",
+    "movie_slug": "drama",
+    "year": "2026",
+    "release_date": "2026-04-03",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "imdb_id": "tt33071426",
+    "tmdb_id": 1325734,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/drama.html",
+        "local_path": "downloads/2026_drama_XXLG_1926x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1926x3000",
+        "variant_slug": "drama",
+        "downloaded_at": "2025-12-10T12:26:49.638401+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/drama.html"
+    ],
+    "last_updated": "2025-12-10T12:26:49.638438+00:00"
+  },
+  "2026_kidnapped_elizabeth_smart": {
+    "movie_id": "2026_kidnapped_elizabeth_smart",
+    "movie_title": "Unknown",
+    "movie_slug": "kidnapped_elizabeth_smart",
+    "year": "2026",
+    "release_date": null,
+    "genres": [],
+    "imdb_id": null,
+    "tmdb_id": null,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/kidnapped_elizabeth_smart.html",
+        "local_path": "downloads/2026_kidnapped_elizabeth_smart_XLG_1200x1200.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1200x1200",
+        "variant_slug": "kidnapped_elizabeth_smart",
+        "downloaded_at": "2025-12-10T12:26:51.407745+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/kidnapped_elizabeth_smart.html"
+    ],
+    "last_updated": "2025-12-10T12:26:51.407768+00:00"
   }
 }
