@@ -923,12 +923,22 @@
         "dimensions": "1638x2048",
         "variant_slug": "supergirl",
         "downloaded_at": "2025-10-19T18:36:48.967654+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/supergirl_ver2.html",
+        "local_path": "downloads/2026_supergirl_ver2_XXLG_1638x2048.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1638x2048",
+        "variant_slug": "supergirl_ver2",
+        "downloaded_at": "2025-12-11T12:27:49.997513+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/supergirl.html"
+      "http://www.impawards.com/2026/supergirl.html",
+      "http://www.impawards.com/2026/supergirl_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:36:48.967715+00:00"
+    "last_updated": "2025-12-11T12:27:49.997553+00:00"
   },
   "1226863": {
     "movie_id": "1226863",
@@ -7206,12 +7216,22 @@
         "dimensions": "1334x2000",
         "variant_slug": "testament_of_ann_lee",
         "downloaded_at": "2025-11-20T12:24:59.992816+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/testament_of_ann_lee_ver2.html",
+        "local_path": "downloads/2025_testament_of_ann_lee_ver2_XXLG_1334x2000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1334x2000",
+        "variant_slug": "testament_of_ann_lee_ver2",
+        "downloaded_at": "2025-12-11T12:27:49.797365+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2025/testament_of_ann_lee.html"
+      "http://www.impawards.com/2025/testament_of_ann_lee.html",
+      "http://www.impawards.com/2025/testament_of_ann_lee_ver2.html"
     ],
-    "last_updated": "2025-11-20T12:24:59.992833+00:00"
+    "last_updated": "2025-12-11T12:27:49.797409+00:00"
   },
   "2025_disneys_hulus_family_guys_hallmark_channels_lifetimes_familiar_holiday_mov": {
     "movie_id": "2025_disneys_hulus_family_guys_hallmark_channels_lifetimes_familiar_holiday_mov",
