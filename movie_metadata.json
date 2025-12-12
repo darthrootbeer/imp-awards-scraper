@@ -6655,18 +6655,28 @@
         "dimensions": "1000x1481",
         "variant_slug": "spongebob_movie_search_for_squarepants_ver8",
         "downloaded_at": "2025-12-05T12:26:03.787706+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver13.html",
+        "local_path": "downloads/2025_spongebob_movie_search_for_squarepants_ver13_XLG_1080x1350.jpg",
+        "poster_number": "13",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "spongebob_movie_search_for_squarepants_ver13",
+        "downloaded_at": "2025-12-12T12:26:14.584435+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver11.html",
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver12.html",
+      "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver13.html",
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver5.html",
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver6.html",
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver7.html",
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver8.html",
       "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver9.html"
     ],
-    "last_updated": "2025-12-05T12:26:03.787741+00:00"
+    "last_updated": "2025-12-12T12:26:14.584484+00:00"
   },
   "83533": {
     "movie_id": "83533",
@@ -7500,6 +7510,15 @@
         "dimensions": "1080x1350",
         "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver14",
         "downloaded_at": "2025-12-02T12:27:04.936093+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver15.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver15_XLG_1080x1350.jpg",
+        "poster_number": "15",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver15",
+        "downloaded_at": "2025-12-12T12:26:14.353557+00:00"
       }
     ],
     "source_urls": [
@@ -7508,6 +7527,7 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver12.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver13.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver14.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver15.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver2.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver3.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver4.html",
@@ -7517,7 +7537,7 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver8.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html"
     ],
-    "last_updated": "2025-12-02T12:27:04.936135+00:00"
+    "last_updated": "2025-12-12T12:26:14.353597+00:00"
   },
   "1329322": {
     "movie_id": "1329322",
