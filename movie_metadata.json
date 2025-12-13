@@ -8724,5 +8724,259 @@
       "http://www.impawards.com/2026/kidnapped_elizabeth_smart.html"
     ],
     "last_updated": "2025-12-10T12:26:51.407768+00:00"
+  },
+  "120": {
+    "movie_id": "120",
+    "movie_title": "The Lord of the Rings: The Fellowship of the Ring",
+    "movie_slug": "lord_of_the_rings_the_fellowship_of_the_ring",
+    "year": "2001",
+    "release_date": "2001-12-18",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "imdb_id": "tt0120737",
+    "tmdb_id": 120,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2001/lord_of_the_rings_the_fellowship_of_the_ring_ver5.html",
+        "local_path": "downloads/2001_lord_of_the_rings_the_fellowship_of_the_ring_ver5_XLG_960x1200.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "960x1200",
+        "variant_slug": "lord_of_the_rings_the_fellowship_of_the_ring_ver5",
+        "downloaded_at": "2025-12-13T12:23:01.309399+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2001/lord_of_the_rings_the_fellowship_of_the_ring_ver5.html"
+    ],
+    "last_updated": "2025-12-13T12:23:01.309441+00:00"
+  },
+  "1481851": {
+    "movie_id": "1481851",
+    "movie_title": "Good Night, and Good Luck",
+    "movie_slug": "good_night_and_good_luck_on_broadway",
+    "year": "2025",
+    "release_date": "2025-06-07",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "imdb_id": "tt13286652",
+    "tmdb_id": 1481851,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway_ver2.html",
+        "local_path": "downloads/2025_good_night_and_good_luck_on_broadway_ver2_XLG_1206x1482.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1206x1482",
+        "variant_slug": "good_night_and_good_luck_on_broadway_ver2",
+        "downloaded_at": "2025-12-13T12:23:02.181212+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway.html",
+        "local_path": "downloads/2025_good_night_and_good_luck_on_broadway_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "good_night_and_good_luck_on_broadway",
+        "downloaded_at": "2025-12-13T12:23:03.084143+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway.html",
+      "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway_ver2.html"
+    ],
+    "last_updated": "2025-12-13T12:23:03.084177+00:00"
+  },
+  "1153576": {
+    "movie_id": "1153576",
+    "movie_title": "Street Fighter",
+    "movie_slug": "street_fighter",
+    "year": "2026",
+    "release_date": "2026-10-15",
+    "genres": [
+      "Action"
+    ],
+    "imdb_id": "tt27419420",
+    "tmdb_id": 1153576,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver17.html",
+        "local_path": "downloads/2026_street_fighter_ver17_XLG_1080x1350.jpg",
+        "poster_number": "17",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver17",
+        "downloaded_at": "2025-12-13T12:23:04.584627+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver16.html",
+        "local_path": "downloads/2026_street_fighter_ver16_XLG_1080x1350.jpg",
+        "poster_number": "16",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver16",
+        "downloaded_at": "2025-12-13T12:23:05.190625+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver15.html",
+        "local_path": "downloads/2026_street_fighter_ver15_XLG_1080x1350.jpg",
+        "poster_number": "15",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver15",
+        "downloaded_at": "2025-12-13T12:23:05.680570+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver14.html",
+        "local_path": "downloads/2026_street_fighter_ver14_XLG_1080x1350.jpg",
+        "poster_number": "14",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver14",
+        "downloaded_at": "2025-12-13T12:23:06.039354+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver13.html",
+        "local_path": "downloads/2026_street_fighter_ver13_XLG_1080x1350.jpg",
+        "poster_number": "13",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver13",
+        "downloaded_at": "2025-12-13T12:23:06.402217+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver12.html",
+        "local_path": "downloads/2026_street_fighter_ver12_XLG_1080x1350.jpg",
+        "poster_number": "12",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver12",
+        "downloaded_at": "2025-12-13T12:23:06.764465+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver11.html",
+        "local_path": "downloads/2026_street_fighter_ver11_XLG_1080x1350.jpg",
+        "poster_number": "11",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver11",
+        "downloaded_at": "2025-12-13T12:23:07.122773+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver10.html",
+        "local_path": "downloads/2026_street_fighter_ver10_XLG_1080x1350.jpg",
+        "poster_number": "10",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver10",
+        "downloaded_at": "2025-12-13T12:23:07.484942+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver9.html",
+        "local_path": "downloads/2026_street_fighter_ver9_XLG_1080x1350.jpg",
+        "poster_number": "9",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver9",
+        "downloaded_at": "2025-12-13T12:23:07.842942+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver8.html",
+        "local_path": "downloads/2026_street_fighter_ver8_XLG_1080x1350.jpg",
+        "poster_number": "8",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver8",
+        "downloaded_at": "2025-12-13T12:23:08.212224+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver7.html",
+        "local_path": "downloads/2026_street_fighter_ver7_XLG_1080x1350.jpg",
+        "poster_number": "7",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver7",
+        "downloaded_at": "2025-12-13T12:23:08.514054+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver6.html",
+        "local_path": "downloads/2026_street_fighter_ver6_XLG_1080x1350.jpg",
+        "poster_number": "6",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver6",
+        "downloaded_at": "2025-12-13T12:23:08.824019+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver5.html",
+        "local_path": "downloads/2026_street_fighter_ver5_XLG_1080x1350.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver5",
+        "downloaded_at": "2025-12-13T12:23:09.118276+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver4.html",
+        "local_path": "downloads/2026_street_fighter_ver4_XLG_1080x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver4",
+        "downloaded_at": "2025-12-13T12:23:09.412833+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver3.html",
+        "local_path": "downloads/2026_street_fighter_ver3_XLG_1080x1350.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver3",
+        "downloaded_at": "2025-12-13T12:23:09.709763+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter_ver2.html",
+        "local_path": "downloads/2026_street_fighter_ver2_XLG_1080x1350.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter_ver2",
+        "downloaded_at": "2025-12-13T12:23:10.008718+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/street_fighter.html",
+        "local_path": "downloads/2026_street_fighter_XLG_1080x1350.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "street_fighter",
+        "downloaded_at": "2025-12-13T12:23:10.303863+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/street_fighter.html",
+      "http://www.impawards.com/2026/street_fighter_ver10.html",
+      "http://www.impawards.com/2026/street_fighter_ver11.html",
+      "http://www.impawards.com/2026/street_fighter_ver12.html",
+      "http://www.impawards.com/2026/street_fighter_ver13.html",
+      "http://www.impawards.com/2026/street_fighter_ver14.html",
+      "http://www.impawards.com/2026/street_fighter_ver15.html",
+      "http://www.impawards.com/2026/street_fighter_ver16.html",
+      "http://www.impawards.com/2026/street_fighter_ver17.html",
+      "http://www.impawards.com/2026/street_fighter_ver2.html",
+      "http://www.impawards.com/2026/street_fighter_ver3.html",
+      "http://www.impawards.com/2026/street_fighter_ver4.html",
+      "http://www.impawards.com/2026/street_fighter_ver5.html",
+      "http://www.impawards.com/2026/street_fighter_ver6.html",
+      "http://www.impawards.com/2026/street_fighter_ver7.html",
+      "http://www.impawards.com/2026/street_fighter_ver8.html",
+      "http://www.impawards.com/2026/street_fighter_ver9.html"
+    ],
+    "last_updated": "2025-12-13T12:23:10.303891+00:00"
   }
 }
