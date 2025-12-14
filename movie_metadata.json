@@ -8978,5 +8978,30 @@
       "http://www.impawards.com/2026/street_fighter_ver9.html"
     ],
     "last_updated": "2025-12-13T12:23:10.303891+00:00"
+  },
+  "1498405": {
+    "movie_id": "1498405",
+    "movie_title": "Tether",
+    "movie_slug": "tether",
+    "year": "2025",
+    "release_date": "2025-06-22",
+    "genres": [],
+    "imdb_id": "tt30325045",
+    "tmdb_id": 1498405,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/tether.html",
+        "local_path": "downloads/2025_tether_XXLG_1500x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1500x3000",
+        "variant_slug": "tether",
+        "downloaded_at": "2025-12-14T12:23:03.989688+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/tether.html"
+    ],
+    "last_updated": "2025-12-14T12:23:03.989725+00:00"
   }
 }
