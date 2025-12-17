@@ -9023,5 +9023,43 @@
       "http://www.impawards.com/2025/tether.html"
     ],
     "last_updated": "2025-12-14T12:23:03.989725+00:00"
+  },
+  "1275779": {
+    "movie_id": "1275779",
+    "movie_title": "Disclosure Day",
+    "movie_slug": "disclosure_day",
+    "year": "2026",
+    "release_date": "2026-06-10",
+    "genres": [
+      "Drama",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt15047880",
+    "tmdb_id": 1275779,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/disclosure_day_ver2.html",
+        "local_path": "downloads/2026_disclosure_day_ver2_XXLG_1895x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1895x3000",
+        "variant_slug": "disclosure_day_ver2",
+        "downloaded_at": "2025-12-17T12:27:12.755105+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/disclosure_day.html",
+        "local_path": "downloads/2026_disclosure_day_XXLG_1895x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1895x3000",
+        "variant_slug": "disclosure_day",
+        "downloaded_at": "2025-12-17T12:27:13.294346+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/disclosure_day.html",
+      "http://www.impawards.com/2026/disclosure_day_ver2.html"
+    ],
+    "last_updated": "2025-12-17T12:27:13.294379+00:00"
   }
 }
