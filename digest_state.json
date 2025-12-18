@@ -1,5 +1,19 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/great_awakening.html",
+    "http://www.impawards.com/2025/orwell_two_plus_two_equals_five_ver2.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver25.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver24.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver23.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver22.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver21.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver20.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver19.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver18.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver17.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver16.html",
+    "http://www.impawards.com/2026/melania.html",
+    "http://www.impawards.com/2026/in_the_blink_of_an_eye.html",
     "http://www.impawards.com/2026/disclosure_day_ver2.html",
     "http://www.impawards.com/2026/disclosure_day.html",
     "http://www.impawards.com/2025/song_sung_blue_ver3.html",
@@ -465,6 +479,17 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/plague_ver2.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver20.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver19.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver18.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver17.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver16.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver15.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver14.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver13.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver12.html",
+    "http://www.impawards.com/1952/something_money_cant_buy.html",
     "http://www.impawards.com/2026/return_to_silent_hill_ver2.html",
     "http://www.impawards.com/1998/dead_mans_curve.html",
     "http://www.impawards.com/2026/night_patrol_ver2.html",
@@ -574,5 +599,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-12-17T12:27:15.503589"
+  "last_run": "2025-12-18T12:26:37.517263"
 }
