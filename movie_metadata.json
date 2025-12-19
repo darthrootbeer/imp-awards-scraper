@@ -421,14 +421,24 @@
         "dimensions": "2025x3000",
         "variant_slug": "mercy_ver3",
         "downloaded_at": "2025-12-10T12:26:53.405584+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/mercy_ver4.html",
+        "local_path": "downloads/2026_mercy_ver4_XLG_1080x1350.jpg",
+        "poster_number": "4",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "mercy_ver4",
+        "downloaded_at": "2025-12-19T12:25:12.719107+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/mercy.html",
       "http://www.impawards.com/2026/mercy_ver2.html",
-      "http://www.impawards.com/2026/mercy_ver3.html"
+      "http://www.impawards.com/2026/mercy_ver3.html",
+      "http://www.impawards.com/2026/mercy_ver4.html"
     ],
-    "last_updated": "2025-12-10T12:26:53.405621+00:00"
+    "last_updated": "2025-12-19T12:25:12.719126+00:00"
   },
   "931285": {
     "movie_id": "931285",
@@ -691,12 +701,22 @@
         "dimensions": "1895x3000",
         "variant_slug": "odyssey",
         "downloaded_at": "2025-10-19T18:36:33.941114+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/odyssey_ver2.html",
+        "local_path": "downloads/2026_odyssey_ver2_XXLG_1895x3000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1895x3000",
+        "variant_slug": "odyssey_ver2",
+        "downloaded_at": "2025-12-19T12:25:14.675402+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/odyssey.html"
+      "http://www.impawards.com/2026/odyssey.html",
+      "http://www.impawards.com/2026/odyssey_ver2.html"
     ],
-    "last_updated": "2025-10-19T18:36:33.941177+00:00"
+    "last_updated": "2025-12-19T12:25:14.675420+00:00"
   },
   "1034716": {
     "movie_id": "1034716",
@@ -1066,6 +1086,15 @@
         "dimensions": "1600x2000",
         "variant_slug": "wuthering_heights_ver7",
         "downloaded_at": "2025-11-23T12:20:41.023150+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/wuthering_heights_ver8.html",
+        "local_path": "downloads/2026_wuthering_heights_ver8_XXLG_2025x3000.jpg",
+        "poster_number": "8",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "wuthering_heights_ver8",
+        "downloaded_at": "2025-12-19T12:25:12.267985+00:00"
       }
     ],
     "source_urls": [
@@ -1075,9 +1104,10 @@
       "http://www.impawards.com/2026/wuthering_heights_ver4.html",
       "http://www.impawards.com/2026/wuthering_heights_ver5.html",
       "http://www.impawards.com/2026/wuthering_heights_ver6.html",
-      "http://www.impawards.com/2026/wuthering_heights_ver7.html"
+      "http://www.impawards.com/2026/wuthering_heights_ver7.html",
+      "http://www.impawards.com/2026/wuthering_heights_ver8.html"
     ],
-    "last_updated": "2025-11-23T12:20:41.023200+00:00"
+    "last_updated": "2025-12-19T12:25:12.268018+00:00"
   },
   "tt38691521": {
     "movie_id": "tt38691521",
@@ -4547,13 +4577,23 @@
         "dimensions": "1080x1350",
         "variant_slug": "dead_mans_wire_ver2",
         "downloaded_at": "2025-12-04T12:27:21.359758+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/dead_mans_wire_ver3.html",
+        "local_path": "downloads/2026_dead_mans_wire_ver3_XXLG_1921x3000.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "1921x3000",
+        "variant_slug": "dead_mans_wire_ver3",
+        "downloaded_at": "2025-12-19T12:25:14.085662+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/dead_mans_wire.html",
-      "http://www.impawards.com/2026/dead_mans_wire_ver2.html"
+      "http://www.impawards.com/2026/dead_mans_wire_ver2.html",
+      "http://www.impawards.com/2026/dead_mans_wire_ver3.html"
     ],
-    "last_updated": "2025-12-04T12:27:21.359784+00:00"
+    "last_updated": "2025-12-19T12:25:14.085695+00:00"
   },
   "1107216": {
     "movie_id": "1107216",
@@ -7630,6 +7670,15 @@
         "dimensions": "1080x1350",
         "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver16",
         "downloaded_at": "2025-12-18T12:26:33.071204+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver26.html",
+        "local_path": "downloads/2025_wake_up_dead_man_a_knives_out_mystery_ver26_XLG_1080x1350.jpg",
+        "poster_number": "26",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "wake_up_dead_man_a_knives_out_mystery_ver26",
+        "downloaded_at": "2025-12-19T12:25:12.909480+00:00"
       }
     ],
     "source_urls": [
@@ -7650,6 +7699,7 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver23.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver24.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver25.html",
+      "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver26.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver3.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver4.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver5.html",
@@ -7658,7 +7708,7 @@
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver8.html",
       "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver9.html"
     ],
-    "last_updated": "2025-12-18T12:26:33.071249+00:00"
+    "last_updated": "2025-12-19T12:25:12.909506+00:00"
   },
   "1329322": {
     "movie_id": "1329322",
@@ -9272,5 +9322,282 @@
       "http://www.impawards.com/2026/in_the_blink_of_an_eye.html"
     ],
     "last_updated": "2025-12-18T12:26:33.653535+00:00"
+  },
+  "1465772": {
+    "movie_id": "1465772",
+    "movie_title": "Music Box: Counting Crows: Have You Seen Me Lately?",
+    "movie_slug": "counting_crows_have_you_seen_me_lately",
+    "year": "2025",
+    "release_date": "2025-06-05",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt36591196",
+    "tmdb_id": 1465772,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/counting_crows_have_you_seen_me_lately.html",
+        "local_path": "downloads/2025_counting_crows_have_you_seen_me_lately_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "counting_crows_have_you_seen_me_lately",
+        "downloaded_at": "2025-12-19T12:25:11.620969+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/counting_crows_have_you_seen_me_lately.html"
+    ],
+    "last_updated": "2025-12-19T12:25:11.621004+00:00"
+  },
+  "1560229": {
+    "movie_id": "1560229",
+    "movie_title": "Music Box: Happy and You Know It",
+    "movie_slug": "happy_and_you_know_it",
+    "year": "2025",
+    "release_date": "2025-11-15",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt38639577",
+    "tmdb_id": 1560229,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/happy_and_you_know_it.html",
+        "local_path": "downloads/2025_happy_and_you_know_it_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "happy_and_you_know_it",
+        "downloaded_at": "2025-12-19T12:25:11.838292+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/happy_and_you_know_it.html"
+    ],
+    "last_updated": "2025-12-19T12:25:11.838313+00:00"
+  },
+  "1480025": {
+    "movie_id": "1480025",
+    "movie_title": "How to Lose a Popularity Contest",
+    "movie_slug": "how_to_lose_a_popularity_contest",
+    "year": "2026",
+    "release_date": "",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "imdb_id": "tt36934619",
+    "tmdb_id": 1480025,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/how_to_lose_a_popularity_contest.html",
+        "local_path": "downloads/2026_how_to_lose_a_popularity_contest_XLG_1080x1350.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "how_to_lose_a_popularity_contest",
+        "downloaded_at": "2025-12-19T12:25:12.036138+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/how_to_lose_a_popularity_contest.html"
+    ],
+    "last_updated": "2025-12-19T12:25:12.036159+00:00"
+  },
+  "1196067": {
+    "movie_id": "1196067",
+    "movie_title": "Worldbreaker",
+    "movie_slug": "worldbreaker",
+    "year": "2025",
+    "release_date": "2025-10-30",
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt14264694",
+    "tmdb_id": 1196067,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/worldbreaker.html",
+        "local_path": "downloads/2025_worldbreaker_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "worldbreaker",
+        "downloaded_at": "2025-12-19T12:25:12.512307+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/worldbreaker.html"
+    ],
+    "last_updated": "2025-12-19T12:25:12.512324+00:00"
+  },
+  "1340076": {
+    "movie_id": "1340076",
+    "movie_title": "Untitled Home Invasion Romance",
+    "movie_slug": "untitled_home_invasion_romance",
+    "year": "2026",
+    "release_date": "2025-09-18",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "imdb_id": "tt33204691",
+    "tmdb_id": 1340076,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/untitled_home_invasion_romance.html",
+        "local_path": "downloads/2026_untitled_home_invasion_romance_XXLG_2141x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2141x3000",
+        "variant_slug": "untitled_home_invasion_romance",
+        "downloaded_at": "2025-12-19T12:25:13.100193+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/untitled_home_invasion_romance.html"
+    ],
+    "last_updated": "2025-12-19T12:25:13.100208+00:00"
+  },
+  "1445363": {
+    "movie_id": "1445363",
+    "movie_title": "EPiC: Elvis Presley in Concert",
+    "movie_slug": "epic_elvis_presley_in_concert",
+    "year": "2026",
+    "release_date": "2026-02-19",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt35003538",
+    "tmdb_id": 1445363,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/epic_elvis_presley_in_concert.html",
+        "local_path": "downloads/2026_epic_elvis_presley_in_concert_XXLG_1890x2800.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1890x2800",
+        "variant_slug": "epic_elvis_presley_in_concert",
+        "downloaded_at": "2025-12-19T12:25:13.298736+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/epic_elvis_presley_in_concert.html"
+    ],
+    "last_updated": "2025-12-19T12:25:13.298751+00:00"
+  },
+  "1119449": {
+    "movie_id": "1119449",
+    "movie_title": "Good Luck, Have Fun, Don't Die",
+    "movie_slug": "good_luck_have_fun_dont_die",
+    "year": "2025",
+    "release_date": "2026-02-13",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt1341338",
+    "tmdb_id": 1119449,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/good_luck_have_fun_dont_die_ver3.html",
+        "local_path": "downloads/2025_good_luck_have_fun_dont_die_ver3_XXLG_1769x2621.jpg",
+        "poster_number": "3",
+        "resolution": "XXLG",
+        "dimensions": "1769x2621",
+        "variant_slug": "good_luck_have_fun_dont_die_ver3",
+        "downloaded_at": "2025-12-19T12:25:13.499318+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/good_luck_have_fun_dont_die_ver2.html",
+        "local_path": "downloads/2025_good_luck_have_fun_dont_die_ver2_XXLG_1350x2000.jpg",
+        "poster_number": "2",
+        "resolution": "XXLG",
+        "dimensions": "1350x2000",
+        "variant_slug": "good_luck_have_fun_dont_die_ver2",
+        "downloaded_at": "2025-12-19T12:25:13.675052+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2025/good_luck_have_fun_dont_die.html",
+        "local_path": "downloads/2025_good_luck_have_fun_dont_die_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "good_luck_have_fun_dont_die",
+        "downloaded_at": "2025-12-19T12:25:13.871376+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/good_luck_have_fun_dont_die.html",
+      "http://www.impawards.com/2025/good_luck_have_fun_dont_die_ver2.html",
+      "http://www.impawards.com/2025/good_luck_have_fun_dont_die_ver3.html"
+    ],
+    "last_updated": "2025-12-19T12:25:13.871396+00:00"
+  },
+  "1248832": {
+    "movie_id": "1248832",
+    "movie_title": "Digger",
+    "movie_slug": "digger",
+    "year": "2026",
+    "release_date": "2026-09-30",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "imdb_id": "tt31450459",
+    "tmdb_id": 1248832,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/digger.html",
+        "local_path": "downloads/2026_digger_XLG_1080x1350.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "digger",
+        "downloaded_at": "2025-12-19T12:25:14.272524+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/digger.html"
+    ],
+    "last_updated": "2025-12-19T12:25:14.272541+00:00"
+  },
+  "1301421": {
+    "movie_id": "1301421",
+    "movie_title": "The Sheep Detectives",
+    "movie_slug": "sheep_detectives",
+    "year": "2026",
+    "release_date": "2026-05-07",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Family",
+      "Mystery"
+    ],
+    "imdb_id": "tt32565993",
+    "tmdb_id": 1301421,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/sheep_detectives.html",
+        "local_path": "downloads/2026_sheep_detectives_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "sheep_detectives",
+        "downloaded_at": "2025-12-19T12:25:14.472629+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/sheep_detectives.html"
+    ],
+    "last_updated": "2025-12-19T12:25:14.472670+00:00"
   }
 }

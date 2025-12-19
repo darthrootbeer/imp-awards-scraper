@@ -1,5 +1,21 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2025/counting_crows_have_you_seen_me_lately.html",
+    "http://www.impawards.com/2025/happy_and_you_know_it.html",
+    "http://www.impawards.com/2026/how_to_lose_a_popularity_contest.html",
+    "http://www.impawards.com/2026/wuthering_heights_ver8.html",
+    "http://www.impawards.com/2025/worldbreaker.html",
+    "http://www.impawards.com/2026/mercy_ver4.html",
+    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver26.html",
+    "http://www.impawards.com/2026/untitled_home_invasion_romance.html",
+    "http://www.impawards.com/2026/epic_elvis_presley_in_concert.html",
+    "http://www.impawards.com/2025/good_luck_have_fun_dont_die_ver3.html",
+    "http://www.impawards.com/2025/good_luck_have_fun_dont_die_ver2.html",
+    "http://www.impawards.com/2025/good_luck_have_fun_dont_die.html",
+    "http://www.impawards.com/2026/dead_mans_wire_ver3.html",
+    "http://www.impawards.com/2026/digger.html",
+    "http://www.impawards.com/2026/sheep_detectives.html",
+    "http://www.impawards.com/2026/odyssey_ver2.html",
     "http://www.impawards.com/2026/great_awakening.html",
     "http://www.impawards.com/2025/orwell_two_plus_two_equals_five_ver2.html",
     "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver25.html",
@@ -479,6 +495,7 @@
     "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/iron_lung.html",
     "http://www.impawards.com/2025/plague_ver2.html",
     "http://www.impawards.com/2025/avatar_fire_and_ash_ver20.html",
     "http://www.impawards.com/2025/avatar_fire_and_ash_ver19.html",
@@ -599,5 +616,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-12-18T12:26:37.517263"
+  "last_run": "2025-12-19T12:25:19.463558"
 }
