@@ -4355,12 +4355,32 @@
         "dimensions": "2025x3000",
         "variant_slug": "crime_one_o_one",
         "downloaded_at": "2025-10-24T10:00:02.894793+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/crime_one_o_one_ver3.html",
+        "local_path": "downloads/2026_crime_one_o_one_ver3_XLG_1080x1350.jpg",
+        "poster_number": "3",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "crime_one_o_one_ver3",
+        "downloaded_at": "2025-12-20T12:22:45.747924+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/crime_one_o_one_ver2.html",
+        "local_path": "downloads/2026_crime_one_o_one_ver2_XLG_1013x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "crime_one_o_one_ver2",
+        "downloaded_at": "2025-12-20T12:22:45.956959+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/crime_one_o_one.html"
+      "http://www.impawards.com/2026/crime_one_o_one.html",
+      "http://www.impawards.com/2026/crime_one_o_one_ver2.html",
+      "http://www.impawards.com/2026/crime_one_o_one_ver3.html"
     ],
-    "last_updated": "2025-10-24T10:00:02.894877+00:00"
+    "last_updated": "2025-12-20T12:22:45.957000+00:00"
   },
   "2025_kid_dynamite_the_kyle_dake_story": {
     "movie_id": "2025_kid_dynamite_the_kyle_dake_story",
