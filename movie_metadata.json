@@ -256,6 +256,33 @@
         "dimensions": "1080x1350",
         "variant_slug": "greenland_migration_ver10",
         "downloaded_at": "2025-11-25T12:26:24.929801+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver16.html",
+        "local_path": "downloads/2026_greenland_migration_ver16_XLG_1080x1350.jpg",
+        "poster_number": "16",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver16",
+        "downloaded_at": "2025-12-24T12:25:52.434509+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver15.html",
+        "local_path": "downloads/2026_greenland_migration_ver15_XLG_1080x1350.jpg",
+        "poster_number": "15",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver15",
+        "downloaded_at": "2025-12-24T12:25:52.678941+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/greenland_migration_ver14.html",
+        "local_path": "downloads/2026_greenland_migration_ver14_XLG_1080x1350.jpg",
+        "poster_number": "14",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "greenland_migration_ver14",
+        "downloaded_at": "2025-12-24T12:25:52.883598+00:00"
       }
     ],
     "source_urls": [
@@ -263,6 +290,9 @@
       "http://www.impawards.com/2026/greenland_migration_ver10.html",
       "http://www.impawards.com/2026/greenland_migration_ver11.html",
       "http://www.impawards.com/2026/greenland_migration_ver12.html",
+      "http://www.impawards.com/2026/greenland_migration_ver14.html",
+      "http://www.impawards.com/2026/greenland_migration_ver15.html",
+      "http://www.impawards.com/2026/greenland_migration_ver16.html",
       "http://www.impawards.com/2026/greenland_migration_ver2.html",
       "http://www.impawards.com/2026/greenland_migration_ver3.html",
       "http://www.impawards.com/2026/greenland_migration_ver4.html",
@@ -272,7 +302,7 @@
       "http://www.impawards.com/2026/greenland_migration_ver8.html",
       "http://www.impawards.com/2026/greenland_migration_ver9.html"
     ],
-    "last_updated": "2025-11-25T12:26:24.929848+00:00"
+    "last_updated": "2025-12-24T12:25:52.883618+00:00"
   },
   "1327819": {
     "movie_id": "1327819",
@@ -9619,5 +9649,34 @@
       "http://www.impawards.com/2026/sheep_detectives.html"
     ],
     "last_updated": "2025-12-19T12:25:14.472670+00:00"
+  },
+  "1003596": {
+    "movie_id": "1003596",
+    "movie_title": "Avengers: Doomsday",
+    "movie_slug": "avengers_doomsday",
+    "year": "2026",
+    "release_date": "2026-12-16",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "imdb_id": "tt21357150",
+    "tmdb_id": 1003596,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/avengers_doomsday.html",
+        "local_path": "downloads/2026_avengers_doomsday_XLG_1012x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1012x1500",
+        "variant_slug": "avengers_doomsday",
+        "downloaded_at": "2025-12-24T12:25:53.938880+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/avengers_doomsday.html"
+    ],
+    "last_updated": "2025-12-24T12:25:53.938902+00:00"
   }
 }
