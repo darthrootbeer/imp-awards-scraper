@@ -1,5 +1,16 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2025/nuremberg_ver6.html",
+    "http://www.impawards.com/2025/duse_ver2.html",
+    "http://www.impawards.com/2026/breadwinner.html",
+    "http://www.impawards.com/2025/david_ver10.html",
+    "http://www.impawards.com/2025/david_ver9.html",
+    "http://www.impawards.com/2025/david_ver8.html",
+    "http://www.impawards.com/2025/david_ver7.html",
+    "http://www.impawards.com/2025/david_ver6.html",
+    "http://www.impawards.com/2025/david_ver5.html",
+    "http://www.impawards.com/2025/david_ver4.html",
+    "http://www.impawards.com/2025/david_ver3.html",
     "http://www.impawards.com/2026/greenland_migration_ver16.html",
     "http://www.impawards.com/2026/greenland_migration_ver15.html",
     "http://www.impawards.com/2026/greenland_migration_ver14.html",
@@ -488,19 +499,11 @@
     "http://www.impawards.com/2025/play_dirty_prime_ver3.html",
     "http://www.impawards.com/2025/play_dirty_prime_ver2.html",
     "http://www.impawards.com/2025/die_my_love_ver3.html",
-    "http://www.impawards.com/2025/die_my_love_ver2.html",
-    "http://www.impawards.com/2025/park_avenue.html",
-    "http://www.impawards.com/2025/violent_ends.html",
-    "http://www.impawards.com/2007/we_own_the_night_ver10.html",
-    "http://www.impawards.com/2025/tron_ares_ver25.html",
-    "http://www.impawards.com/2025/tron_ares_ver24.html",
-    "http://www.impawards.com/2025/fluxx.html",
-    "http://www.impawards.com/2025/karen_kingsburys_the_christmas_ring.html",
-    "http://www.impawards.com/2025/in_your_dreams_ver2.html",
-    "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver11.html",
-    "http://www.impawards.com/2025/now_you_see_me_now_you_dont_ver10.html"
+    "http://www.impawards.com/2025/die_my_love_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/primate_ver4.html",
+    "http://www.impawards.com/2026/return_to_silent_hill_ver3.html",
     "http://www.impawards.com/2026/strangers_chapter_three_ver2.html",
     "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver22.html",
     "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver21.html",
@@ -631,5 +634,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2025-12-24T12:25:57.335697"
+  "last_run": "2025-12-27T12:23:54.483738"
 }
