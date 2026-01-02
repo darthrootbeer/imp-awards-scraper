@@ -5605,12 +5605,22 @@
         "dimensions": "2025x3000",
         "variant_slug": "michael",
         "downloaded_at": "2025-11-07T12:23:55.082537+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/michael_ver2.html",
+        "local_path": "downloads/2026_michael_ver2_XLG_1062x1500.jpg",
+        "poster_number": "2",
+        "resolution": "XLG",
+        "dimensions": "1062x1500",
+        "variant_slug": "michael_ver2",
+        "downloaded_at": "2026-01-02T12:25:17.197190+00:00"
       }
     ],
     "source_urls": [
-      "http://www.impawards.com/2026/michael.html"
+      "http://www.impawards.com/2026/michael.html",
+      "http://www.impawards.com/2026/michael_ver2.html"
     ],
-    "last_updated": "2025-11-07T12:23:55.082564+00:00"
+    "last_updated": "2026-01-02T12:25:17.197232+00:00"
   },
   "1401778": {
     "movie_id": "1401778",
