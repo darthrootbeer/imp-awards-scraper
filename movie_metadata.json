@@ -460,15 +460,25 @@
         "dimensions": "1080x1350",
         "variant_slug": "mercy_ver4",
         "downloaded_at": "2025-12-19T12:25:12.719107+00:00"
+      },
+      {
+        "poster_page": "http://www.impawards.com/2026/mercy_ver5.html",
+        "local_path": "downloads/2026_mercy_ver5_XLG_1080x1350.jpg",
+        "poster_number": "5",
+        "resolution": "XLG",
+        "dimensions": "1080x1350",
+        "variant_slug": "mercy_ver5",
+        "downloaded_at": "2026-01-04T12:23:50.764825+00:00"
       }
     ],
     "source_urls": [
       "http://www.impawards.com/2026/mercy.html",
       "http://www.impawards.com/2026/mercy_ver2.html",
       "http://www.impawards.com/2026/mercy_ver3.html",
-      "http://www.impawards.com/2026/mercy_ver4.html"
+      "http://www.impawards.com/2026/mercy_ver4.html",
+      "http://www.impawards.com/2026/mercy_ver5.html"
     ],
-    "last_updated": "2025-12-19T12:25:12.719126+00:00"
+    "last_updated": "2026-01-04T12:23:50.764860+00:00"
   },
   "931285": {
     "movie_id": "931285",
@@ -9889,5 +9899,90 @@
       "http://www.impawards.com/2022/january_sixth.html"
     ],
     "last_updated": "2025-12-29T12:27:53.880012+00:00"
+  },
+  "1326654": {
+    "movie_id": "1326654",
+    "movie_title": "Janis Ian: Breaking Silence",
+    "movie_slug": "janis_ian_breaking_silence",
+    "year": "2025",
+    "release_date": "2025-03-28",
+    "genres": [
+      "Documentary",
+      "History",
+      "Music"
+    ],
+    "imdb_id": "tt34280341",
+    "tmdb_id": 1326654,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/janis_ian_breaking_silence.html",
+        "local_path": "downloads/2025_janis_ian_breaking_silence_XLG_1000x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1000x1500",
+        "variant_slug": "janis_ian_breaking_silence",
+        "downloaded_at": "2026-01-04T12:23:48.418220+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/janis_ian_breaking_silence.html"
+    ],
+    "last_updated": "2026-01-04T12:23:48.418286+00:00"
+  },
+  "1208022": {
+    "movie_id": "1208022",
+    "movie_title": "RATS!",
+    "movie_slug": "rats",
+    "year": "2025",
+    "release_date": "2025-02-28",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "imdb_id": "tt29426703",
+    "tmdb_id": 1208022,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/rats.html",
+        "local_path": "downloads/2025_rats_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "rats",
+        "downloaded_at": "2026-01-04T12:23:49.734737+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/rats.html"
+    ],
+    "last_updated": "2026-01-04T12:23:49.734770+00:00"
+  },
+  "179188": {
+    "movie_id": "179188",
+    "movie_title": "Jungle Cat",
+    "movie_slug": "jungle_cat",
+    "year": "1960",
+    "release_date": "1960-08-10",
+    "genres": [
+      "Documentary",
+      "Family"
+    ],
+    "imdb_id": "tt0053977",
+    "tmdb_id": 179188,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/1960/jungle_cat.html",
+        "local_path": "downloads/1960_jungle_cat_XXLG_1913x2906.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1913x2906",
+        "variant_slug": "jungle_cat",
+        "downloaded_at": "2026-01-04T12:23:52.545223+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/1960/jungle_cat.html"
+    ],
+    "last_updated": "2026-01-04T12:23:52.545250+00:00"
   }
 }
