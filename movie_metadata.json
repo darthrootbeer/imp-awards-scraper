@@ -9984,5 +9984,144 @@
       "http://www.impawards.com/1960/jungle_cat.html"
     ],
     "last_updated": "2026-01-04T12:23:52.545250+00:00"
+  },
+  "1234400": {
+    "movie_id": "1234400",
+    "movie_title": "Swamp Dogg Gets His Pool Painted",
+    "movie_slug": "swamp_dogg_gets_his_pool_painted",
+    "year": "2025",
+    "release_date": "2025-05-02",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "imdb_id": "tt30835291",
+    "tmdb_id": 1234400,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/swamp_dogg_gets_his_pool_painted.html",
+        "local_path": "downloads/2025_swamp_dogg_gets_his_pool_painted_XLG_1013x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "1013x1500",
+        "variant_slug": "swamp_dogg_gets_his_pool_painted",
+        "downloaded_at": "2026-01-05T12:28:26.432738+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/swamp_dogg_gets_his_pool_painted.html"
+    ],
+    "last_updated": "2026-01-05T12:28:26.432766+00:00"
+  },
+  "1284854": {
+    "movie_id": "1284854",
+    "movie_title": "Ain\u2019t No Back to a Merry-Go-Round",
+    "movie_slug": "aint_no_back_to_a_merrygoround",
+    "year": "2025",
+    "release_date": "2024-05-05",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt32279099",
+    "tmdb_id": 1284854,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/aint_no_back_to_a_merrygoround.html",
+        "local_path": "downloads/2025_aint_no_back_to_a_merrygoround_XXLG_2049x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2049x3000",
+        "variant_slug": "aint_no_back_to_a_merrygoround",
+        "downloaded_at": "2026-01-05T12:28:26.700548+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/aint_no_back_to_a_merrygoround.html"
+    ],
+    "last_updated": "2026-01-05T12:28:26.700577+00:00"
+  },
+  "1212247": {
+    "movie_id": "1212247",
+    "movie_title": "Drop Dead City",
+    "movie_slug": "drop_dead_city_new_york_on_the_brink_in_oneninesevenfive",
+    "year": "2025",
+    "release_date": "2024-11-21",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt34279942",
+    "tmdb_id": 1212247,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/drop_dead_city_new_york_on_the_brink_in_oneninesevenfive.html",
+        "local_path": "downloads/2025_drop_dead_city_new_york_on_the_brink_in_oneninesevenfive_XXLG_1767x2500.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1767x2500",
+        "variant_slug": "drop_dead_city_new_york_on_the_brink_in_oneninesevenfive",
+        "downloaded_at": "2026-01-05T12:28:26.884123+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/drop_dead_city_new_york_on_the_brink_in_oneninesevenfive.html"
+    ],
+    "last_updated": "2026-01-05T12:28:26.884144+00:00"
+  },
+  "1404629": {
+    "movie_id": "1404629",
+    "movie_title": "Raising the Bar: The Alma Richards Story",
+    "movie_slug": "raising_the_bar_the_alma_richards_story",
+    "year": "2025",
+    "release_date": "2025-04-30",
+    "genres": [
+      "Drama",
+      "Family",
+      "History"
+    ],
+    "imdb_id": "tt34957792",
+    "tmdb_id": 1404629,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/raising_the_bar_the_alma_richards_story.html",
+        "local_path": "downloads/2025_raising_the_bar_the_alma_richards_story_XXLG_1962x2898.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "1962x2898",
+        "variant_slug": "raising_the_bar_the_alma_richards_story",
+        "downloaded_at": "2026-01-05T12:28:27.079277+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/raising_the_bar_the_alma_richards_story.html"
+    ],
+    "last_updated": "2026-01-05T12:28:27.079307+00:00"
+  },
+  "1449631": {
+    "movie_id": "1449631",
+    "movie_title": "Sod and Stubble",
+    "movie_slug": "sod_and_stubble",
+    "year": "2025",
+    "release_date": "2025-04-18",
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "imdb_id": "tt22465610",
+    "tmdb_id": 1449631,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2025/sod_and_stubble.html",
+        "local_path": "downloads/2025_sod_and_stubble_XXLG_2025x3000.jpg",
+        "poster_number": "1",
+        "resolution": "XXLG",
+        "dimensions": "2025x3000",
+        "variant_slug": "sod_and_stubble",
+        "downloaded_at": "2026-01-05T12:28:27.251523+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2025/sod_and_stubble.html"
+    ],
+    "last_updated": "2026-01-05T12:28:27.251543+00:00"
   }
 }
