@@ -19,30 +19,65 @@ from pathlib import Path
 from dotenv import load_dotenv
 from PIL import Image
 import io
+import yaml
 from typing import List, Dict, Optional, Tuple, Any
 
 # Load environment variables
 load_dotenv()
 
 # ============================================================
-# CONFIGURATION CONSTANTS
+# CONFIGURATION LOADING
 # ============================================================
 
-# Email tracking file
-EMAIL_TRACKING_FILE = 'email_tracking.json'
+CONFIG_FILE = 'config.yaml'
 
-# Email configuration
+def load_config():
+    """Load unified configuration from config.yaml"""
+    default_config = {
+        'files': {
+            'email_tracking': 'email_tracking.json'
+        },
+        'email': {
+            'max_size_mb': 40,
+            'thumbnail_max_width': 800,
+            'jpeg_quality': 85,
+            'max_retries': 3,
+            'retry_delay_seconds': 5
+        }
+    }
+    
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                user_config = yaml.safe_load(f) or {}
+                # Merge with defaults
+                for key, value in user_config.items():
+                    if isinstance(value, dict) and key in default_config:
+                        default_config[key].update(value)
+                    else:
+                        default_config[key] = value
+        except Exception as e:
+            print(f"Warning: Could not load {CONFIG_FILE}: {e}, using defaults")
+    
+    return default_config
+
+CONFIG = load_config()
+
+# Email tracking file
+EMAIL_TRACKING_FILE = CONFIG['files']['email_tracking']
+
+# Email configuration (from config.yaml, env vars used for secrets)
 DEFAULT_SMTP_SERVER = 'smtp.gmail.com'
 DEFAULT_SMTP_PORT = 587
-DEFAULT_MAX_SIZE_MB = 40
+DEFAULT_MAX_SIZE_MB = CONFIG['email']['max_size_mb']
 
-# Image settings
-THUMBNAIL_MAX_WIDTH = 800
-JPEG_QUALITY = 85
+# Image settings (from config.yaml)
+THUMBNAIL_MAX_WIDTH = CONFIG['email']['thumbnail_max_width']
+JPEG_QUALITY = CONFIG['email']['jpeg_quality']
 
-# Retry settings
-MAX_EMAIL_RETRIES = 3
-EMAIL_RETRY_DELAY = 5  # seconds
+# Retry settings (from config.yaml)
+MAX_EMAIL_RETRIES = CONFIG['email']['max_retries']
+EMAIL_RETRY_DELAY = CONFIG['email']['retry_delay_seconds']
 
 # ============================================================
 # LOGGING

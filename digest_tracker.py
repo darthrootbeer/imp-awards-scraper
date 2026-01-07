@@ -10,14 +10,49 @@ from __future__ import annotations
 
 import json
 import os
+import yaml
 from datetime import datetime
 from typing import Iterable, List, Set
+
+CONFIG_FILE = 'config.yaml'
+
+def load_config():
+    """Load unified configuration from config.yaml"""
+    default_config = {
+        'files': {
+            'digest_state': 'digest_state.json'
+        },
+        'digest': {
+            'history_limit': 500
+        }
+    }
+    
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                user_config = yaml.safe_load(f) or {}
+                # Merge with defaults
+                for key, value in user_config.items():
+                    if isinstance(value, dict) and key in default_config:
+                        default_config[key].update(value)
+                    else:
+                        default_config[key] = value
+        except Exception as e:
+            print(f"Warning: Could not load {CONFIG_FILE}: {e}, using defaults")
+    
+    return default_config
+
+CONFIG = load_config()
 
 
 class DigestTracker:
     """Persists state about which poster IDs have been handled."""
 
-    def __init__(self, state_file: str = "digest_state.json", history_limit: int = 500) -> None:
+    def __init__(self, state_file: str = None, history_limit: int = None) -> None:
+        if state_file is None:
+            state_file = CONFIG['files']['digest_state']
+        if history_limit is None:
+            history_limit = CONFIG['digest']['history_limit']
         self.state_file = state_file
         self.history_limit = history_limit
         self.state = {
