@@ -1,5 +1,6 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/hamlet.html",
     "http://www.impawards.com/2026/greenland_migration_ver17.html",
     "http://www.impawards.com/2025/peter_hujars_day_ver3.html",
     "http://www.impawards.com/2019/honey_boy_ver7.html",
@@ -498,10 +499,10 @@
     "http://www.impawards.com/2025/wicked_for_good_ver14.html",
     "http://www.impawards.com/2025/wicked_for_good_ver13.html",
     "http://www.impawards.com/2025/wicked_for_good_ver12.html",
-    "http://www.impawards.com/2025/wicked_for_good_ver11.html",
-    "http://www.impawards.com/2025/tron_ares_ver29.html"
+    "http://www.impawards.com/2025/wicked_for_good_ver11.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/send_help_ver2.html",
     "http://www.impawards.com/2026/primate_ver6.html",
     "http://www.impawards.com/2025/dont_answer.html",
     "http://www.impawards.com/2026/they_will_kill_you_ver4.html",
@@ -644,5 +645,5 @@
     "http://www.impawards.com/2025/killing_faith_ver2.html",
     "http://www.impawards.com/2025/astronaut.html"
   ],
-  "last_run": "2026-01-06T12:28:56.836027"
+  "last_run": "2026-01-07T12:28:25.379125"
 }

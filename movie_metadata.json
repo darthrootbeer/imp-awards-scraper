@@ -11011,5 +11011,32 @@
       "http://www.impawards.com/2025/hung_up_on_a_dream_the_zombies_documentary.html"
     ],
     "last_updated": "2026-01-06T12:28:48.008803+00:00"
+  },
+  "843342": {
+    "movie_id": "843342",
+    "movie_title": "Hamlet",
+    "movie_slug": "hamlet",
+    "year": "2026",
+    "release_date": "2026-02-06",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt7798632",
+    "tmdb_id": 843342,
+    "posters": [
+      {
+        "poster_page": "http://www.impawards.com/2026/hamlet.html",
+        "local_path": "downloads/2026_hamlet_XLG_844x1500.jpg",
+        "poster_number": "1",
+        "resolution": "XLG",
+        "dimensions": "844x1500",
+        "variant_slug": "hamlet",
+        "downloaded_at": "2026-01-07T12:28:23.973724+00:00"
+      }
+    ],
+    "source_urls": [
+      "http://www.impawards.com/2026/hamlet.html"
+    ],
+    "last_updated": "2026-01-07T12:28:23.973763+00:00"
   }
 }
