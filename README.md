@@ -293,11 +293,23 @@ downloads/2025_tron_ares_XXLG_2025x3000.jpg
 
 File naming pattern: `{year}_{base_name}_{SIZE}_{dimensions}.jpg`
 
-## Configuration Files
+## Configuration
 
-### Genre Filtering (`genre_config.yaml`)
+All configuration is now in a single, easy-to-edit file: **`config.yaml`**
 
-Block unwanted genres permanently:
+### Unified Configuration (`config.yaml`)
+
+Edit `config.yaml` to control all aspects of the application:
+
+- **Genre Filtering** - Block unwanted genres (set `allow: false`)
+- **Resolution Control** - Choose which sizes to download (XXXLG, XXLG, XLG, LG)
+- **Email Settings** - Configure email digest behavior (size limits, thumbnail quality, etc.)
+- **HTTP/Request Settings** - Adjust timeouts and retry behavior
+- **Digest Settings** - Control default pages and history limits
+- **Automation Schedule** - Enable/disable automation and control which days it runs
+- **Site Settings** - IMP Awards website URLs (rarely need to change)
+
+#### Genre Filtering Example
 
 ```yaml
 genres:
@@ -309,11 +321,7 @@ genres:
 
 When a movie matches ANY blocked genre, it's automatically skipped.
 
-See [GENRE_BLOCKLIST.md](GENRE_BLOCKLIST.md) for detailed guide.
-
-### Resolution Control (`resolution_config.yaml`)
-
-Control which poster sizes to download:
+#### Resolution Control Example
 
 ```yaml
 resolutions:
@@ -329,7 +337,27 @@ resolutions:
 
 Script downloads highest enabled and available resolution.
 
-See [RESOLUTION_CONFIG.md](RESOLUTION_CONFIG.md) for detailed guide.
+#### Automation Schedule Example
+
+```yaml
+schedule:
+  enabled: true  # Set to false to disable automation
+  days_of_week:
+    monday: true
+    tuesday: true
+    wednesday: true
+    thursday: true
+    friday: true
+    saturday: false  # Skip weekends
+    sunday: false
+  preferred_time: "08:00"  # Informational only
+```
+
+The automation system checks this configuration before running. If `enabled: false` or today's day is disabled, execution is skipped.
+
+**Note:** Secrets (API keys, passwords) are stored in `.env` file for security. See `.env.example` for required environment variables.
+
+See [GENRE_BLOCKLIST.md](GENRE_BLOCKLIST.md) and [RESOLUTION_CONFIG.md](RESOLUTION_CONFIG.md) for detailed guides on specific features.
 
 ### Movie Metadata (`movie_metadata.json`)
 
@@ -368,21 +396,26 @@ Priority order (highest to lowest):
 
 Default: XXXLG, XXLG, and XLG enabled. LG disabled.
 
-Configure in `resolution_config.yaml` to change which sizes to download.
+Configure in `config.yaml` under the `resolutions` section to change which sizes to download.
 
 ## Project Structure
 
 ```text
 imp-awards-scraper/
 ├── poster_downloader.py       # Main downloader script
+├── schedule_checker.py        # Schedule validation for automation
+├── email_sender.py            # Email digest functionality
+├── digest_tracker.py          # State tracking for email digests
 ├── requirements.txt           # Python dependencies
-├── genre_config.yaml          # Genre blocklist configuration
-├── resolution_config.yaml     # Resolution preferences
-├── .env                       # TMDb API key (create this)
+├── config.yaml                # Unified configuration (all settings)
+├── .env                       # Secrets (API keys, passwords) - not in git
 ├── downloads/                 # Downloaded posters (flat structure)
 │   ├── 2025_tron_ares_XXLG_2025x3000.jpg
 │   ├── 2024_dune_ver2_XXLG_2024x3000.jpg
 │   └── 2021_movie_name_XLG_1080x1350.jpg
+├── scripts/
+│   ├── install.py             # Automated setup script
+│   └── run_email_digest.sh    # Email digest runner
 └── [documentation files]
 ```
 
@@ -409,7 +442,10 @@ For comprehensive usage examples including automation scripts and advanced filte
 - [x] **Command-line interface** (`--latest`, `--year`, `--genre`, `--pages`)
 - [x] Genre blocklist filtering
 - [x] Genre filter with AND logic
-- [ ] Auto-discovery of all posters for a specific movie
+- [x] **Auto-discovery of all posters for a specific movie** (`--movie`)
+- [x] **Unified configuration system** (single `config.yaml` file)
+- [x] **Automation schedule control** (enable/disable, per-day control)
+- [ ] Prototype browsable poster gallery web UI
 
 ## License
 

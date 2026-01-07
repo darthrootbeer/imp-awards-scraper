@@ -4,6 +4,11 @@
 
 - [ ] `000017` - Prototype browsable poster gallery web UI with filters and full-resolution previews _(Priority: Low)_
 
+## Recently Completed
+
+- [x] `000018` - Consolidate all configuration into unified config.yaml file - (2025-01-07)
+- [x] `000019` - Add automation schedule control with per-day enable/disable - (2025-01-07)
+
 ## Completed Tasks
 
 - [x] `000001` - Test single poster downloader with Tron Ares example - (2025-10-13_16:22:00)
