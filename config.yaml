@@ -1,0 +1,188 @@
+# IMP Awards Poster Downloader - Unified Configuration
+# All non-secret configuration in one place. Easy to view and edit.
+#
+# Note: Secrets (API keys, passwords) are stored in .env file
+# See .env.example for required environment variables
+
+# ============================================================
+# File Paths
+# ============================================================
+files:
+  movie_metadata: movie_metadata.json
+  email_tracking: email_tracking.json
+  digest_state: digest_state.json
+  downloads_dir: downloads
+
+# ============================================================
+# TMDb API Settings
+# ============================================================
+tmdb:
+  base_url: https://api.themoviedb.org/3
+  # API key loaded from TMDB_API_KEY environment variable
+
+# ============================================================
+# Genre Filtering
+# ============================================================
+# Set 'allow: false' for any genres you want to BLOCK from downloading
+# When a movie matches ANY blocked genre, it will be skipped automatically
+genres:
+  Action:
+    allow: true
+    description: "High-energy films with physical stunts, chases, fights"
+    
+  Adventure:
+    allow: true
+    description: "Exploration, quests, journeys to exotic locations"
+    
+  Animation:
+    allow: true
+    description: "Animated films (hand-drawn, CGI, stop-motion)"
+    
+  Comedy:
+    allow: true
+    description: "Humorous films designed to make audiences laugh"
+    
+  Crime:
+    allow: true
+    description: "Criminal activities, investigations, heists"
+    
+  Documentary:
+    allow: true
+    description: "Non-fiction films documenting reality"
+    
+  Drama:
+    allow: true
+    description: "Serious, plot-driven narratives with character development"
+    
+  Family:
+    allow: true
+    description: "Suitable for all ages, family-friendly content"
+    
+  Fantasy:
+    allow: true
+    description: "Magical elements, mythical creatures, imaginary worlds"
+    
+  History:
+    allow: true
+    description: "Historical events, periods, or figures"
+    
+  Horror:
+    allow: false
+    description: "Designed to frighten, scare, or disgust"
+    
+  Music:
+    allow: true
+    description: "Music-focused films, musicals, concert films"
+    
+  Mystery:
+    allow: true
+    description: "Suspenseful investigations, puzzles to solve"
+    
+  Romance:
+    allow: true
+    description: "Romantic relationships and love stories"
+    
+  Science Fiction:
+    allow: true
+    description: "Futuristic concepts, space, technology, sci-fi elements"
+    
+  TV Movie:
+    allow: true
+    description: "Films made specifically for television"
+    
+  Thriller:
+    allow: true
+    description: "Suspenseful, tension-filled narratives"
+    
+  War:
+    allow: true
+    description: "Military conflicts, warfare, combat"
+    
+  Western:
+    allow: true
+    description: "American Old West, cowboys, frontier life"
+
+# ============================================================
+# Resolution Filtering
+# ============================================================
+# Set 'allow: true' for resolutions you want to download
+# The script downloads the HIGHEST resolution that is both:
+# 1. Available on the poster page
+# 2. Enabled in this configuration
+# Priority order (highest to lowest): XXXLG > XXLG > XLG > LG
+resolutions:
+  XXXLG:
+    allow: true
+    description: "Extra-extra-extra large (rare, when available)"
+    typical_size: "3000x4500+"
+    
+  XXLG:
+    allow: true
+    description: "Extra-extra large (highest quality, most common)"
+    typical_size: "2025x3000"
+    
+  XLG:
+    allow: true
+    description: "Extra large (high quality, common fallback)"
+    typical_size: "1013x1500"
+    
+  LG:
+    allow: false
+    description: "Large (standard size, lower quality)"
+    typical_size: "675x1000"
+
+# ============================================================
+# Email Settings (Non-Secret)
+# ============================================================
+# Secret credentials loaded from .env: SMTP_USERNAME, SMTP_PASSWORD, etc.
+email:
+  max_size_mb: 40
+  thumbnail_max_width: 800
+  jpeg_quality: 85
+  max_retries: 3
+  retry_delay_seconds: 5
+  # SMTP server/port loaded from SMTP_SERVER and SMTP_PORT env vars (defaults: smtp.gmail.com:587)
+
+# ============================================================
+# HTTP/Request Settings
+# ============================================================
+http:
+  timeout_seconds: 30
+  max_retries: 3
+  retry_delay_seconds: 2
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# ============================================================
+# Digest Settings
+# ============================================================
+digest:
+  default_pages: 5
+  history_limit: 500
+
+# ============================================================
+# Automation Schedule
+# ============================================================
+# Configure when the automated email digest should run
+# The automation system will check this config before running
+schedule:
+  enabled: true  # Set to false to disable automation
+  days_of_week:
+    # Days: monday, tuesday, wednesday, thursday, friday, saturday, sunday
+    # Use lowercase day names, set to true to run on that day
+    monday: true
+    tuesday: true
+    wednesday: true
+    thursday: true
+    friday: true
+    saturday: true
+    sunday: true
+  # Time when automation should run (24-hour format)
+  # Note: This is informational - actual scheduling is done via cron/launchd/GitHub Actions
+  preferred_time: "08:00"
+
+# ============================================================
+# IMP Awards Site Settings
+# ============================================================
+site:
+  base_url: http://www.impawards.com
+  latest_url: http://www.impawards.com/archives/latest.html

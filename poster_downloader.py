@@ -26,19 +26,69 @@ from dotenv import load_dotenv
 
 from digest_tracker import DigestTracker
 from email_sender import EmailSender
+from schedule_checker import should_run_today
 
 # Load environment variables from .env file
 load_dotenv()
 
+# Unified configuration file
+CONFIG_FILE = 'config.yaml'
+
+def load_config():
+    """Load unified configuration from config.yaml"""
+    default_config = {
+        'files': {
+            'movie_metadata': 'movie_metadata.json',
+            'email_tracking': 'email_tracking.json',
+            'digest_state': 'digest_state.json',
+            'downloads_dir': 'downloads'
+        },
+        'tmdb': {
+            'base_url': 'https://api.themoviedb.org/3'
+        },
+        'genres': {},
+        'resolutions': {
+            'XXXLG': {'allow': True},
+            'XXLG': {'allow': True},
+            'XLG': {'allow': True},
+            'LG': {'allow': False}
+        },
+        'http': {
+            'timeout_seconds': 30,
+            'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        },
+        'site': {
+            'base_url': 'http://www.impawards.com',
+            'latest_url': 'http://www.impawards.com/archives/latest.html'
+        }
+    }
+    
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, 'r') as f:
+                user_config = yaml.safe_load(f) or {}
+                # Merge with defaults
+                for key, value in user_config.items():
+                    if isinstance(value, dict) and key in default_config:
+                        default_config[key].update(value)
+                    else:
+                        default_config[key] = value
+        except Exception as e:
+            print(f"  Warning: Could not load {CONFIG_FILE}: {e}")
+            print(f"  Using default configuration")
+    
+    return default_config
+
+# Load configuration
+CONFIG = load_config()
+
 # TMDb API Configuration
 # Get your free API key at: https://www.themoviedb.org/settings/api
 TMDB_API_KEY = os.environ.get('TMDB_API_KEY', '')  # Loaded from .env file or environment variable
-TMDB_BASE_URL = 'https://api.themoviedb.org/3'
+TMDB_BASE_URL = CONFIG['tmdb']['base_url']
 
-# Configuration files
-GENRE_CONFIG_FILE = 'genre_config.yaml'
-RESOLUTION_CONFIG_FILE = 'resolution_config.yaml'
-MOVIE_METADATA_FILE = 'movie_metadata.json'
+# File paths from config
+MOVIE_METADATA_FILE = CONFIG['files']['movie_metadata']
 
 
 class MovieMetadataStore:
@@ -112,77 +162,33 @@ class MovieMetadataStore:
 
 
 class PosterDownloader:
-    def __init__(self, base_url="http://www.impawards.com"):
-        self.base_url = base_url
+    def __init__(self, base_url=None):
+        # Use config value or fallback
+        self.base_url = base_url or CONFIG['site']['base_url']
         self.session = requests.Session()
+        
+        # HTTP settings from config
+        user_agent = CONFIG['http'].get('user_agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'User-Agent': user_agent,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
             'DNT': '1',
             'Connection': 'keep-alive'
         })
-        self.genre_config = self.load_genre_config()
-        self.resolution_config = self.load_resolution_config()
+        self.timeout = CONFIG['http'].get('timeout_seconds', 30)
+        
+        # Load genre and resolution configs from unified config
+        self.genre_config = CONFIG.get('genres', {})
+        self.resolution_config = CONFIG.get('resolutions', {})
+        
+        # Show which resolutions are enabled
+        enabled = [name for name, settings in self.resolution_config.items() 
+                  if isinstance(settings, dict) and settings.get('allow', True)]
+        if enabled:
+            print(f"  Resolution settings: {', '.join(enabled)} enabled")
+        
         self.metadata_store = MovieMetadataStore()
-    
-    def load_genre_config(self):
-        """
-        Load genre configuration from YAML file.
-        
-        Returns:
-            dict: Genre configuration with allow/block settings
-        """
-        try:
-            if os.path.exists(GENRE_CONFIG_FILE):
-                with open(GENRE_CONFIG_FILE, 'r') as f:
-                    config = yaml.safe_load(f)
-                    return config.get('genres', {})
-            else:
-                print(f"  Note: {GENRE_CONFIG_FILE} not found. All genres will be allowed.")
-                return {}
-        except Exception as e:
-            print(f"  Warning: Could not load {GENRE_CONFIG_FILE}: {e}")
-            return {}
-    
-    def load_resolution_config(self):
-        """
-        Load resolution configuration from YAML file.
-        
-        Returns:
-            dict: Resolution configuration with allow settings
-        """
-        try:
-            if os.path.exists(RESOLUTION_CONFIG_FILE):
-                with open(RESOLUTION_CONFIG_FILE, 'r') as f:
-                    config = yaml.safe_load(f)
-                    resolutions = config.get('resolutions', {})
-                    
-                    # Show which resolutions are enabled
-                    enabled = [name for name, settings in resolutions.items() 
-                              if isinstance(settings, dict) and settings.get('allow', True)]
-                    if enabled:
-                        print(f"  Resolution settings: {', '.join(enabled)} enabled")
-                    
-                    return resolutions
-            else:
-                print(f"  Note: {RESOLUTION_CONFIG_FILE} not found. Default: XXLG > XLG")
-                # Default configuration
-                return {
-                    'XXXLG': {'allow': True},
-                    'XXLG': {'allow': True},
-                    'XLG': {'allow': True},
-                    'LG': {'allow': False}
-                }
-        except Exception as e:
-            print(f"  Warning: Could not load {RESOLUTION_CONFIG_FILE}: {e}")
-            # Default configuration
-            return {
-                'XXXLG': {'allow': True},
-                'XXLG': {'allow': True},
-                'XLG': {'allow': True},
-                'LG': {'allow': False}
-            }
     
     def check_genre_blocklist(self, genres):
         """
@@ -253,11 +259,13 @@ class PosterDownloader:
     
     def get_recent_posters(
         self,
-        latest_url: str = "http://www.impawards.com/archives/latest.html",
+        latest_url: str = None,
         num_pages: int = 1,
         stop_after_ids: Optional[set] = None,
         return_details: bool = False
     ):
+        if latest_url is None:
+            latest_url = CONFIG['site']['latest_url']
         """
         Fetch all poster URLs from the latest additions page(s).
         
@@ -281,7 +289,7 @@ class PosterDownloader:
             print(f"\nFetching recent additions page {page_num}/{num_pages}: {current_url}")
             
             try:
-                response = self.session.get(current_url)
+                response = self.session.get(current_url, timeout=self.timeout)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.content, 'lxml')
                 
@@ -361,7 +369,7 @@ class PosterDownloader:
         print(f"\nFetching all posters for {year} from: {year_url}")
         
         try:
-            response = self.session.get(year_url)
+            response = self.session.get(year_url, timeout=self.timeout)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'lxml')
             
@@ -413,7 +421,7 @@ class PosterDownloader:
         print(f"\nFetching movie posters from: {movie_url}")
         
         try:
-            response = self.session.get(movie_url)
+            response = self.session.get(movie_url, timeout=self.timeout)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'lxml')
             
@@ -480,7 +488,7 @@ class PosterDownloader:
                 'base_name': str
             }
         """
-        response = self.session.get(url)
+        response = self.session.get(url, timeout=self.timeout)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.content, 'lxml')
@@ -619,7 +627,8 @@ class PosterDownloader:
             }
             
             print(f"  Fetching metadata from TMDb...")
-            response = requests.get(url, params=params, timeout=10)
+            timeout = CONFIG['http'].get('timeout_seconds', 30)
+            response = requests.get(url, params=params, timeout=timeout)
             response.raise_for_status()
             
             data = response.json()
@@ -636,7 +645,8 @@ class PosterDownloader:
             if metadata['tmdb_id']:
                 detail_url = f"{TMDB_BASE_URL}/movie/{metadata['tmdb_id']}"
                 detail_params = {'api_key': TMDB_API_KEY}
-                detail_resp = requests.get(detail_url, params=detail_params, timeout=10)
+                timeout = CONFIG['http'].get('timeout_seconds', 30)
+                detail_resp = requests.get(detail_url, params=detail_params, timeout=timeout)
                 detail_resp.raise_for_status()
                 detail_data = detail_resp.json()
                 metadata['release_date'] = detail_data.get('release_date') or metadata['release_date']
@@ -727,7 +737,7 @@ class PosterDownloader:
             return True, True
         
         print(f"Downloading: {url}")
-        response = self.session.get(url, stream=True)
+        response = self.session.get(url, stream=True, timeout=self.timeout)
         response.raise_for_status()
         
         # Create directory if it doesn't exist
@@ -758,7 +768,7 @@ class PosterDownloader:
         """
         # Parse the page
         print(f"\nFetching poster page: {url}")
-        response = self.session.get(url)
+        response = self.session.get(url, timeout=self.timeout)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'lxml')
         
@@ -795,7 +805,7 @@ class PosterDownloader:
             is_blocked, blocked_genres = self.check_genre_blocklist(genres)
             if is_blocked:
                 print(f"✗ BLOCKED: Movie contains blocked genre(s): {', '.join(blocked_genres)}")
-                print(f"  Edit {GENRE_CONFIG_FILE} to change genre settings")
+                print(f"  Edit {CONFIG_FILE} to change genre settings")
                 return False, False, None
         
         # Parse poster info
@@ -827,11 +837,11 @@ class PosterDownloader:
                     print(f"✓ {res_name} available: {selected_info['dimensions']}")
                     break
                 else:
-                    print(f"  {res_name} available but disabled in {RESOLUTION_CONFIG_FILE}")
+                    print(f"  {res_name} available but disabled in {CONFIG_FILE}")
         
         if not selected_size or not selected_info:
             print(f"✗ No enabled resolutions found - SKIPPING")
-            print(f"  Edit {RESOLUTION_CONFIG_FILE} to enable resolutions")
+            print(f"  Edit {CONFIG_FILE} to enable resolutions")
             return False, False, None
         
         if prompt_confirm:
@@ -1117,6 +1127,12 @@ def run_email_digest(
     Crawl recent additions until the last emailed poster, download new files,
     and send an email digest.
     """
+    # Check schedule configuration
+    should_run, reason = should_run_today()
+    if not should_run:
+        print(f"ℹ️  Skipping digest run: {reason}")
+        return
+    
     tracker = DigestTracker()
     known_ids = tracker.get_known_ids()
     

@@ -7,9 +7,6 @@ PROJECT_ROOT="$SCRIPT_DIR/.."
 
 cd "$PROJECT_ROOT"
 
-# Default to scanning 5 pages unless overridden
-PAGES="${PAGES_OVERRIDE:-5}"
-
 if [[ -d "venv" ]]; then
     PYTHON_BIN="$PROJECT_ROOT/venv/bin/python"
 else
@@ -20,5 +17,14 @@ if [[ -z "$PYTHON_BIN" ]]; then
     echo "python3 not found. Please install Python 3.8+."
     exit 1
 fi
+
+# Check if script should run today based on config.yaml schedule
+if ! "$PYTHON_BIN" schedule_checker.py >/dev/null 2>&1; then
+    "$PYTHON_BIN" schedule_checker.py
+    exit 0
+fi
+
+# Default to scanning 5 pages unless overridden
+PAGES="${PAGES_OVERRIDE:-5}"
 
 "$PYTHON_BIN" poster_downloader.py --email-digest --digest-pages "$PAGES" "$@"
