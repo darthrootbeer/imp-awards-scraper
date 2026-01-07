@@ -169,13 +169,13 @@ schedule:
   days_of_week:
     # Days: monday, tuesday, wednesday, thursday, friday, saturday, sunday
     # Use lowercase day names, set to true to run on that day
-    monday: true
-    tuesday: true
-    wednesday: true
-    thursday: true
-    friday: true
+    monday: false
+    tuesday: false
+    wednesday: false
+    thursday: false
+    friday: false
     saturday: true
-    sunday: true
+    sunday: false
   # Time when automation should run (24-hour format)
   # Note: This is informational - actual scheduling is done via cron/launchd/GitHub Actions
   preferred_time: "08:00"
