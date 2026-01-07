@@ -65,16 +65,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add only the state tracking files
-          git add -f digest_state.json movie_metadata.json email_tracking.json
-
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
-            echo "No state changes to commit"
-          else
-            git commit -m "Update digest state after daily run [skip ci]"
-            git push origin master
-          fi
+          # Note: State files (digest_state.json, movie_metadata.json, email_tracking.json)
+          # are now in .gitignore and should not be committed. They are runtime data
+          # that persists locally but not in version control.
+          echo "State files are gitignored - not committing them to repo"
 
       - name: Clean up .env file
         if: always()
