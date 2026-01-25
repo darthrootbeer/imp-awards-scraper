@@ -7,24 +7,58 @@
 # ============================================================
 # File Paths
 # ============================================================
+# Paths to data files used by the application. All paths are relative
+# to the project root directory. These files are automatically created
+# when the application runs.
 files:
+  # Movie metadata storage: Tracks all downloaded posters with their
+  # genres, IMDb/TMDb IDs, release dates, and poster variants.
+  # Format: JSON file containing movie entries keyed by ID.
   movie_metadata: movie_metadata.json
+  
+  # Email tracking: Records which poster files have already been
+  # sent in email digests to prevent duplicates.
+  # Format: JSON file with sent_posters list and last_sent timestamp.
   email_tracking: email_tracking.json
+  
+  # Digest state: Tracks which poster URLs have been processed in
+  # email digests. Used to determine when to stop crawling (when
+  # we reach a known poster from a previous digest).
+  # Format: JSON file with sent_ids and ignored_ids arrays.
   digest_state: digest_state.json
+  
+  # Downloads directory: Where all downloaded poster images are stored.
+  # Structure: downloads/YYYY_movie_name_RESOLUTION_dimensions.jpg
+  # Example: downloads/2024_dune_part_two_XXLG_2025x3000.jpg
   downloads_dir: downloads
 
 # ============================================================
 # TMDb API Settings
 # ============================================================
+# Configuration for The Movie Database (TMDb) API integration.
+# TMDb is used to fetch accurate genre information and movie metadata
+# for posters. The API key is required but stored securely in .env file.
 tmdb:
+  # Base URL for TMDb API. Generally should not be changed unless
+  # using a different API endpoint or version.
   base_url: https://api.themoviedb.org/3
-  # API key loaded from TMDB_API_KEY environment variable
+  # API key: Must be set in .env file as TMDB_API_KEY
+  # Get your free API key at: https://www.themoviedb.org/settings/api
+  # The application will warn if the key is missing but will continue
+  # to work (just without genre filtering capabilities).
 
 # ============================================================
 # Genre Filtering
 # ============================================================
-# Set 'allow: false' for any genres you want to BLOCK from downloading
-# When a movie matches ANY blocked genre, it will be skipped automatically
+# Control which movie genres are downloaded based on TMDb genre data.
+# This acts as a BLOCKLIST: if a movie has ANY blocked genre, it will
+# be automatically skipped without prompting.
+#
+# How it works:
+# - The script fetches genre information from TMDb API
+# - If a movie has ANY genre with allow: false, it is skipped
+# - Use with --genre filter flag for positive filtering (AND logic)
+# - Example: Block Horror to avoid scary movie posters
 genres:
   Action:
     allow: true
@@ -105,11 +139,19 @@ genres:
 # ============================================================
 # Resolution Filtering
 # ============================================================
-# Set 'allow: true' for resolutions you want to download
-# The script downloads the HIGHEST resolution that is both:
-# 1. Available on the poster page
-# 2. Enabled in this configuration
-# Priority order (highest to lowest): XXXLG > XXLG > XLG > LG
+# Control which poster resolution sizes are downloaded.
+# The script always downloads the HIGHEST available resolution that
+# matches your settings, so you typically want to enable multiple sizes.
+#
+# How it works:
+# - Script checks available resolutions on each poster page
+# - Downloads the highest resolution that has allow: true
+# - Priority: XXXLG (highest) > XXLG > XLG > LG (lowest)
+# - If no enabled resolutions are available, poster is skipped
+#
+# Recommendation:
+# - Enable XXXLG, XXLG, and XLG for best quality with fallback
+# - Disable LG unless you need smaller file sizes
 resolutions:
   XXXLG:
     allow: true
@@ -134,55 +176,138 @@ resolutions:
 # ============================================================
 # Email Settings (Non-Secret)
 # ============================================================
-# Secret credentials loaded from .env: SMTP_USERNAME, SMTP_PASSWORD, etc.
+# Configuration for email digest functionality.
+# Secret credentials (SMTP_USERNAME, SMTP_PASSWORD, etc.) are loaded
+# from .env file for security. These settings control email behavior.
 email:
-  max_size_mb: 10
+  # Maximum email size in megabytes. If digest has many posters,
+  # emails will be split into multiple batches to stay under this limit.
+  # Gmail limit is typically 25MB, so 40MB provides safety margin.
+  max_size_mb: 40
+  
+  # Maximum width for thumbnail images embedded in emails (in pixels).
+  # Original aspect ratio is maintained. Larger values = better quality
+  # but larger email size. 800px is a good balance.
   thumbnail_max_width: 800
+  
+  # JPEG quality for thumbnail compression (1-100).
+  # Higher = better quality but larger files. 85 provides good
+  # quality-to-size ratio for email attachments.
   jpeg_quality: 85
+  
+  # Number of retry attempts if email sending fails.
+  # Network issues or temporary SMTP problems may resolve on retry.
   max_retries: 3
+  
+  # Delay in seconds between retry attempts.
+  # Gives time for temporary issues (network, SMTP server) to resolve.
   retry_delay_seconds: 5
-  # SMTP server/port loaded from SMTP_SERVER and SMTP_PORT env vars (defaults: smtp.gmail.com:587)
+  
+  # SMTP settings (loaded from .env file):
+  # - SMTP_SERVER: SMTP server address (default: smtp.gmail.com)
+  # - SMTP_PORT: SMTP port (default: 587 for TLS)
+  # - SMTP_USERNAME: Your email username
+  # - SMTP_PASSWORD: Your email password or app password
+  # - EMAIL_FROM: Sender email address
+  # - EMAIL_TO: Recipient email address for digests
 
 # ============================================================
 # HTTP/Request Settings
 # ============================================================
+# Configuration for HTTP requests made to IMP Awards website and APIs.
+# These settings control timeouts, retries, and how the script
+# identifies itself to web servers.
 http:
+  # Request timeout in seconds. If a page takes longer than this
+  # to load, the request will be cancelled and retried.
+  # Increase if you have slow/unstable internet connection.
   timeout_seconds: 30
+  
+  # Maximum number of retry attempts for failed HTTP requests.
+  # Applies to both IMP Awards site and TMDb API requests.
+  # Temporary network issues may resolve on retry.
   max_retries: 3
+  
+  # Delay in seconds between HTTP retry attempts.
+  # Gives servers time to recover from temporary issues.
   retry_delay_seconds: 2
+  
+  # User-Agent string sent with HTTP requests.
+  # Identifies the script to web servers. Using a browser-like
+  # user agent helps avoid blocking. Generally should not be changed
+  # unless you're experiencing access issues.
   user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # ============================================================
 # Digest Settings
 # ============================================================
+# Configuration for email digest functionality and state tracking.
 digest:
+  # Default number of recent archive pages to scan when building digest.
+  # The script crawls from latest.html backwards, stopping when it
+  # finds posters that were already included in previous digests.
+  # Higher values = scan deeper into archive (slower but finds more).
+  # Can be overridden with --digest-pages command line flag.
   default_pages: 5
+  
+  # Maximum number of poster IDs to keep in digest state history.
+  # Older entries are automatically trimmed to keep state file size
+  # manageable. Higher values = better duplicate detection over time
+  # but larger state file. 500 covers approximately 2-3 months of
+  # daily digests with typical poster volume.
   history_limit: 500
 
 # ============================================================
 # Automation Schedule
 # ============================================================
-# Configure when the automated email digest should run
-# The automation system will check this config before running
+# Control when automated email digest runs.
+# The automation system checks this configuration before executing.
+# Useful for skipping weekends, holidays, or temporarily pausing automation.
+#
+# Note: This controls IF the script runs when triggered by cron/launchd.
+# The actual scheduling (when it's triggered) is configured in your
+# system scheduler (cron, launchd, or GitHub Actions).
 schedule:
-  enabled: true  # Set to false to disable automation
+  # Master enable/disable switch for automation.
+  # Set to false to completely disable automated digest runs.
+  # Useful for temporarily pausing automation without removing cron jobs.
+  # When false, the script will skip execution and exit immediately.
+  enabled: true
+  
+  # Control which days of the week the automation runs.
+  # Each day can be individually enabled (true) or disabled (false).
+  # Days must be lowercase: monday, tuesday, wednesday, thursday,
+  # friday, saturday, sunday.
+  # Example: Set saturday/sunday to false to skip weekend digests.
   days_of_week:
-    # Days: monday, tuesday, wednesday, thursday, friday, saturday, sunday
-    # Use lowercase day names, set to true to run on that day
-    monday: true
-    tuesday: true
-    wednesday: true
-    thursday: true
-    friday: true
-    saturday: true
-    sunday: true
-  # Time when automation should run (24-hour format)
-  # Note: This is informational - actual scheduling is done via cron/launchd/GitHub Actions
+    monday: true      # Enable Monday digests
+    tuesday: true     # Enable Tuesday digests
+    wednesday: true   # Enable Wednesday digests
+    thursday: true    # Enable Thursday digests
+    friday: true      # Enable Friday digests
+    saturday: true    # Enable Saturday digests
+    sunday: true      # Enable Sunday digests
+  
+  # Preferred time for automation to run (24-hour format: HH:MM).
+  # This is informational only - it documents your intended schedule.
+  # Actual scheduling must be configured in cron/launchd/GitHub Actions.
+  # Example: "08:00" means 8:00 AM, "14:30" means 2:30 PM.
   preferred_time: "08:00"
 
 # ============================================================
 # IMP Awards Site Settings
 # ============================================================
+# Configuration for the IMP Awards website URLs.
+# Generally should not be changed unless the site structure changes
+# or you're using a mirror/copy of the site.
 site:
+  # Base URL for the IMP Awards website.
+  # All poster page URLs are constructed relative to this.
+  # Change only if the site moves to a new domain.
   base_url: http://www.impawards.com
+  
+  # URL for the latest additions archive page.
+  # This is the starting point for crawling recent posters.
+  # The script follows "older" links from here to navigate backwards
+  # through the archive.
   latest_url: http://www.impawards.com/archives/latest.html
