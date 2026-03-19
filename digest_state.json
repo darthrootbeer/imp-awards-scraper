@@ -1,5 +1,25 @@
 {
   "sent_ids": [],
-  "ignored_ids": [],
-  "last_run": null
+  "ignored_ids": [
+    "http://www.impawards.com/2026/psycho_killer_ver6.html",
+    "http://www.impawards.com/2026/psycho_killer_ver5.html",
+    "http://www.impawards.com/2026/psycho_killer_ver4.html",
+    "http://www.impawards.com/2026/scary_movie.html",
+    "http://www.impawards.com/2026/doppelganger.html",
+    "http://www.impawards.com/1957/from_hell_it_came_ver2.html",
+    "http://www.impawards.com/2026/they_will_kill_you_ver5.html",
+    "http://www.impawards.com/2026/obsession_ver2.html",
+    "http://www.impawards.com/2026/hokum.html",
+    "http://www.impawards.com/2026/deep_water.html",
+    "http://www.impawards.com/2026/scream_seven_ver15.html",
+    "http://www.impawards.com/2026/ready_or_not_here_i_come_ver8.html",
+    "http://www.impawards.com/2026/cure.html",
+    "http://www.impawards.com/2026/protector_ver3.html",
+    "http://www.impawards.com/2026/mermaid.html",
+    "http://www.impawards.com/2026/forbidden_fruits_ver6.html",
+    "http://www.impawards.com/2026/mortuary_assistant_ver2.html",
+    "http://www.impawards.com/2026/slanted_ver3.html",
+    "http://www.impawards.com/2025/mr_burton.html"
+  ],
+  "last_run": "2026-03-19T12:43:57.645916"
 }
