@@ -65,10 +65,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Note: State files (digest_state.json, movie_metadata.json, email_tracking.json)
-          # are now in .gitignore and should not be committed. They are runtime data
-          # that persists locally but not in version control.
-          echo "State files are gitignored - not committing them to repo"
+          git add digest_state.json
+          if git diff --staged --quiet; then
+            echo "No state changes to commit"
+          else
+            git commit -m "chore: update digest state [skip ci]"
+            git push
+          fi
 
       - name: Clean up .env file
         if: always()
