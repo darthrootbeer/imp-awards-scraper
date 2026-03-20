@@ -1,6 +1,9 @@
 {
   "sent_ids": [],
   "ignored_ids": [
+    "http://www.impawards.com/2026/faces_of_death_ver4.html",
+    "http://www.impawards.com/2026/faces_of_death_ver3.html",
+    "http://www.impawards.com/2026/faces_of_death_ver2.html",
     "http://www.impawards.com/2026/psycho_killer_ver6.html",
     "http://www.impawards.com/2026/psycho_killer_ver5.html",
     "http://www.impawards.com/2026/psycho_killer_ver4.html",
@@ -21,5 +24,5 @@
     "http://www.impawards.com/2026/slanted_ver3.html",
     "http://www.impawards.com/2025/mr_burton.html"
   ],
-  "last_run": "2026-03-19T12:43:57.645916"
+  "last_run": "2026-03-20T12:39:04.631184"
 }
