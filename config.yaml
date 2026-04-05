@@ -136,7 +136,7 @@ resolutions:
 # ============================================================
 # Secret credentials loaded from .env: SMTP_USERNAME, SMTP_PASSWORD, etc.
 email:
-  max_size_mb: 40
+  max_size_mb: 20
   thumbnail_max_width: 800
   jpeg_quality: 85
   max_retries: 3
