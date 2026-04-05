@@ -51,7 +51,7 @@ jobs:
 
       - name: Run email digest (3 pages max)
         run: |
-          python poster_downloader.py --email-digest --digest-pages 3
+          python poster_downloader.py --email-digest --digest-pages 40
 
       - name: Clean up downloaded images
         run: |
