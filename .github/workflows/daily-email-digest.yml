@@ -46,7 +46,6 @@ jobs:
           SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM=${{ secrets.EMAIL_FROM }}
           EMAIL_TO=${{ secrets.EMAIL_TO }}
-          EMAIL_MAX_SIZE_MB=${{ secrets.EMAIL_MAX_SIZE_MB }}
           EOF
 
       - name: Run email digest (3 pages max)
