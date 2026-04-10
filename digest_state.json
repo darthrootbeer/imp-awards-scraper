@@ -1,5 +1,8 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/mortal_kombat_two_ver26.html",
+    "http://www.impawards.com/2026/mortal_kombat_two_ver25.html",
+    "http://www.impawards.com/2026/mortal_kombat_two_ver24.html",
     "http://www.impawards.com/2026/one_golden_summer_ver2.html",
     "http://www.impawards.com/2026/one_golden_summer.html",
     "http://www.impawards.com/2026/protector_ver7.html",
@@ -496,10 +499,7 @@
     "http://www.impawards.com/2026/street_fighter_ver16.html",
     "http://www.impawards.com/2026/street_fighter_ver15.html",
     "http://www.impawards.com/2026/street_fighter_ver14.html",
-    "http://www.impawards.com/2026/street_fighter_ver13.html",
-    "http://www.impawards.com/2026/street_fighter_ver12.html",
-    "http://www.impawards.com/2026/street_fighter_ver11.html",
-    "http://www.impawards.com/2026/street_fighter_ver10.html"
+    "http://www.impawards.com/2026/street_fighter_ver13.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/obsession_ver4.html",
@@ -838,5 +838,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-09T13:03:24.597147"
+  "last_run": "2026-04-10T12:50:22.282653"
 }
