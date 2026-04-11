@@ -502,6 +502,7 @@
     "http://www.impawards.com/2026/street_fighter_ver13.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/ice_cream_man_ver2.html",
     "http://www.impawards.com/2026/obsession_ver4.html",
     "http://www.impawards.com/1997/manson_family_ver2.html",
     "http://www.impawards.com/2026/red_mask.html",
@@ -838,5 +839,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-10T12:50:22.282653"
+  "last_run": "2026-04-11T12:37:40.978115"
 }
