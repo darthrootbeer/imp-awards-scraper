@@ -1,5 +1,10 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver2.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day.html",
+    "http://www.impawards.com/2026/river_remembers.html",
+    "http://www.impawards.com/2026/amazing_digital_circus_the_last_act.html",
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver3.html",
     "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver2.html",
     "http://www.impawards.com/2026/mortal_kombat_two_ver26.html",
     "http://www.impawards.com/2026/mortal_kombat_two_ver25.html",
@@ -494,14 +499,11 @@
     "http://www.impawards.com/2025/spongebob_movie_search_for_squarepants_ver14.html",
     "http://www.impawards.com/2025/tether.html",
     "http://www.impawards.com/2001/lord_of_the_rings_the_fellowship_of_the_ring_ver5.html",
-    "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway_ver2.html",
-    "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway.html",
-    "http://www.impawards.com/2026/street_fighter_ver17.html",
-    "http://www.impawards.com/2026/street_fighter_ver16.html",
-    "http://www.impawards.com/2026/street_fighter_ver15.html",
-    "http://www.impawards.com/2026/street_fighter_ver14.html"
+    "http://www.impawards.com/2025/good_night_and_good_luck_on_broadway_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/insidious_out_of_the_further.html",
+    "http://www.impawards.com/2026/hokum_ver4.html",
     "http://www.impawards.com/2026/ice_cream_man_ver2.html",
     "http://www.impawards.com/2026/obsession_ver4.html",
     "http://www.impawards.com/1997/manson_family_ver2.html",
@@ -839,5 +841,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-13T13:04:56.636613"
+  "last_run": "2026-04-14T13:05:54.478131"
 }
