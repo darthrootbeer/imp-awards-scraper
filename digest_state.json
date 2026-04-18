@@ -1,5 +1,13 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/coyote_v_acme_ver2.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver11.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver10.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver9.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver8.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver7.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver6.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver5.html",
     "http://www.impawards.com/2026/brink_of_war.html",
     "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver4.html",
     "http://www.impawards.com/2026/dog_stars.html",
@@ -491,17 +499,10 @@
     "http://www.impawards.com/2026/crime_one_o_one_ver3.html",
     "http://www.impawards.com/2026/crime_one_o_one_ver2.html",
     "http://www.impawards.com/2025/counting_crows_have_you_seen_me_lately.html",
-    "http://www.impawards.com/2025/happy_and_you_know_it.html",
-    "http://www.impawards.com/2026/how_to_lose_a_popularity_contest.html",
-    "http://www.impawards.com/2026/wuthering_heights_ver8.html",
-    "http://www.impawards.com/2026/mercy_ver4.html",
-    "http://www.impawards.com/2025/wake_up_dead_man_a_knives_out_mystery_ver26.html",
-    "http://www.impawards.com/2026/epic_elvis_presley_in_concert.html",
-    "http://www.impawards.com/2026/good_luck_have_fun_dont_die_ver3.html",
-    "http://www.impawards.com/2026/good_luck_have_fun_dont_die_ver2.html",
-    "http://www.impawards.com/2026/good_luck_have_fun_dont_die.html"
+    "http://www.impawards.com/2025/happy_and_you_know_it.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/hokum_ver7.html",
     "http://www.impawards.com/2026/speed_demon.html",
     "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver3.html",
     "http://www.impawards.com/2026/wolf_and_the_lamb.html",
@@ -851,5 +852,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-17T12:59:29.826133"
+  "last_run": "2026-04-18T12:41:19.034338"
 }
