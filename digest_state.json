@@ -1,5 +1,8 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver6.html",
+    "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver5.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver12.html",
     "http://www.impawards.com/1991/reunion_ver2.html",
     "http://www.impawards.com/2026/coyote_v_acme_ver2.html",
     "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver11.html",
@@ -496,10 +499,7 @@
     "http://www.impawards.com/2026/greenland_migration_ver16.html",
     "http://www.impawards.com/2026/greenland_migration_ver15.html",
     "http://www.impawards.com/2026/greenland_migration_ver14.html",
-    "http://www.impawards.com/2026/avengers_doomsday.html",
-    "http://www.impawards.com/2026/crime_one_o_one_ver3.html",
-    "http://www.impawards.com/2026/crime_one_o_one_ver2.html",
-    "http://www.impawards.com/2025/counting_crows_have_you_seen_me_lately.html"
+    "http://www.impawards.com/2026/avengers_doomsday.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/obsession_ver5.html",
@@ -853,5 +853,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-19T12:40:38.454038"
+  "last_run": "2026-04-20T13:09:23.999069"
 }
