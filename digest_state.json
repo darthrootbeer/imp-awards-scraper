@@ -1,5 +1,15 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/idiots.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver6.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver5.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver4.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver3.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver2.html",
+    "http://www.impawards.com/2026/super_troopers_three.html",
+    "http://www.impawards.com/2025/one_spoon_of_chocolate_ver2.html",
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver13.html",
+    "http://www.impawards.com/1991/reunion_ver3.html",
     "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver6.html",
     "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver5.html",
     "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver12.html",
@@ -489,19 +499,11 @@
     "http://www.impawards.com/2025/duse_ver2.html",
     "http://www.impawards.com/2026/breadwinner.html",
     "http://www.impawards.com/2025/david_ver10.html",
-    "http://www.impawards.com/2025/david_ver9.html",
-    "http://www.impawards.com/2025/david_ver8.html",
-    "http://www.impawards.com/2025/david_ver7.html",
-    "http://www.impawards.com/2025/david_ver6.html",
-    "http://www.impawards.com/2025/david_ver5.html",
-    "http://www.impawards.com/2025/david_ver4.html",
-    "http://www.impawards.com/2025/david_ver3.html",
-    "http://www.impawards.com/2026/greenland_migration_ver16.html",
-    "http://www.impawards.com/2026/greenland_migration_ver15.html",
-    "http://www.impawards.com/2026/greenland_migration_ver14.html",
-    "http://www.impawards.com/2026/avengers_doomsday.html"
+    "http://www.impawards.com/2025/david_ver9.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/scary_movie_ver3.html",
+    "http://www.impawards.com/1991/reunion_ver4.html",
     "http://www.impawards.com/2026/obsession_ver5.html",
     "http://www.impawards.com/2026/hokum_ver7.html",
     "http://www.impawards.com/2026/speed_demon.html",
@@ -853,5 +855,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-20T13:09:23.999069"
+  "last_run": "2026-04-21T13:03:56.647656"
 }
