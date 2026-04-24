@@ -1,5 +1,13 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/gregg_allman_the_music_of_my_soul.html",
+    "http://www.impawards.com/2026/balloonists.html",
+    "http://www.impawards.com/2026/apex_ver5.html",
+    "http://www.impawards.com/2026/apex_ver4.html",
+    "http://www.impawards.com/2026/moana_ver3.html",
+    "http://www.impawards.com/2026/mortal_kombat_two_ver30.html",
+    "http://www.impawards.com/2026/mortal_kombat_two_ver29.html",
+    "http://www.impawards.com/2026/birthday_party.html",
     "http://www.impawards.com/2024/ghost_trap.html",
     "http://www.impawards.com/2026/six_days_in_evergreen.html",
     "http://www.impawards.com/2026/by_design_ver2.html",
@@ -491,17 +499,11 @@
     "http://www.impawards.com/2025/we_strangers_ver4.html",
     "http://www.impawards.com/2025/pools.html",
     "http://www.impawards.com/2026/rip_ver2.html",
-    "http://www.impawards.com/2025/boys_go_to_jupiter.html",
-    "http://www.impawards.com/2025/wildman_of_shaggy_creek.html",
-    "http://www.impawards.com/2025/nothing_but_a_winner.html",
-    "http://www.impawards.com/2025/monk_in_pieces_ver2.html",
-    "http://www.impawards.com/2025/monk_in_pieces.html",
-    "http://www.impawards.com/2025/aj_goes_to_the_dog_park.html",
-    "http://www.impawards.com/2025/last_class.html",
-    "http://www.impawards.com/2025/been_here_stay_here.html",
-    "http://www.impawards.com/2025/familiar_touch_ver2.html"
+    "http://www.impawards.com/2025/boys_go_to_jupiter.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/send_help_ver6.html",
+    "http://www.impawards.com/2026/misdirection.html",
     "http://www.impawards.com/2025/dont_log_off.html",
     "http://www.impawards.com/2026/hokum_ver8.html",
     "http://www.impawards.com/2026/victorian_psycho.html",
@@ -865,5 +867,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-04-23T13:05:21.844890"
+  "last_run": "2026-04-24T13:02:15.211562"
 }
