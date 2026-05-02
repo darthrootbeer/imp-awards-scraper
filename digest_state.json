@@ -1,5 +1,8 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/normal_ver3.html",
+    "http://www.impawards.com/2026/is_god_is_ver2.html",
+    "http://www.impawards.com/2026/american_youngboy.html",
     "http://www.impawards.com/2026/office_romance.html",
     "http://www.impawards.com/2026/tuner_ver2.html",
     "http://www.impawards.com/2026/mortal_kombat_two_ver33.html",
@@ -496,12 +499,10 @@
     "http://www.impawards.com/2026/goat_ver4.html",
     "http://www.impawards.com/2026/goat_ver3.html",
     "http://www.impawards.com/2026/how_to_make_a_killing_ver2.html",
-    "http://www.impawards.com/2025/h_is_for_hawk_ver2.html",
-    "http://www.impawards.com/2026/epic_elvis_presley_in_concert_ver2.html",
-    "http://www.impawards.com/2026/bluff.html",
-    "http://www.impawards.com/2026/napa_boys.html"
+    "http://www.impawards.com/2025/h_is_for_hawk_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/pitfall.html",
     "http://www.impawards.com/2026/hokum_ver11.html",
     "http://www.impawards.com/2026/obsession_ver11.html",
     "http://www.impawards.com/2026/obsession_ver10.html",
@@ -877,5 +878,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-05-01T12:58:42.470047"
+  "last_run": "2026-05-02T12:50:07.946803"
 }
