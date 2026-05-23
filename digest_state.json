@@ -1,5 +1,8 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/ask_e_jean.html",
+    "http://www.impawards.com/2026/earth_wind_and_fire.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver8.html",
     "http://www.impawards.com/2026/time_and_water.html",
     "http://www.impawards.com/2026/gail_daughtry_and_the_celebrity_sex_pass.html",
     "http://www.impawards.com/2026/lucky_strike.html",
@@ -496,10 +499,7 @@
     "http://www.impawards.com/2026/devil_wears_prada_two_ver4.html",
     "http://www.impawards.com/2026/devil_wears_prada_two_ver3.html",
     "http://www.impawards.com/2026/devil_wears_prada_two_ver2.html",
-    "http://www.impawards.com/2026/michael_ver3.html",
-    "http://www.impawards.com/2026/protector.html",
-    "http://www.impawards.com/2026/crime_one_o_one_ver12.html",
-    "http://www.impawards.com/2026/crime_one_o_one_ver11.html"
+    "http://www.impawards.com/2026/michael_ver3.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/resident_evil_ver2.html",
@@ -901,5 +901,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-05-22T14:19:24.314698"
+  "last_run": "2026-05-23T13:04:13.680157"
 }
