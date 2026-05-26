@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/enola_holmes_three_ver2.html",
+    "http://www.impawards.com/2026/enola_holmes_three.html",
+    "http://www.impawards.com/2026/jackass_best_and_last_ver2.html",
+    "http://www.impawards.com/2026/masters_of_the_universe_ver28.html",
     "http://www.impawards.com/2026/ask_e_jean.html",
     "http://www.impawards.com/2026/earth_wind_and_fire.html",
     "http://www.impawards.com/2026/super_troopers_three_ver8.html",
@@ -495,11 +499,7 @@
     "http://www.impawards.com/2026/drama_ver3.html",
     "http://www.impawards.com/2026/drama_ver2.html",
     "http://www.impawards.com/2026/devil_wears_prada_two_ver6.html",
-    "http://www.impawards.com/2026/devil_wears_prada_two_ver5.html",
-    "http://www.impawards.com/2026/devil_wears_prada_two_ver4.html",
-    "http://www.impawards.com/2026/devil_wears_prada_two_ver3.html",
-    "http://www.impawards.com/2026/devil_wears_prada_two_ver2.html",
-    "http://www.impawards.com/2026/michael_ver3.html"
+    "http://www.impawards.com/2026/devil_wears_prada_two_ver5.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/resident_evil_ver2.html",
@@ -901,5 +901,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-05-23T13:04:13.680157"
+  "last_run": "2026-05-26T14:47:20.867480"
 }
