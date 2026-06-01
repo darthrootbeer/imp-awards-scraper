@@ -1,5 +1,15 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/masters_of_the_universe_ver31.html",
+    "http://www.impawards.com/2026/end_of_oak_street_ver2.html",
+    "http://www.impawards.com/2026/get_out.html",
+    "http://www.impawards.com/2026/forty_dates_and_forty_nights_ver2.html",
+    "http://www.impawards.com/2026/forty_dates_and_forty_nights.html",
+    "http://www.impawards.com/2026/stepfather.html",
+    "http://www.impawards.com/2026/tuner_ver6.html",
+    "http://www.impawards.com/2026/tuner_ver5.html",
+    "http://www.impawards.com/2026/tuner_ver4.html",
+    "http://www.impawards.com/2026/kill_will.html",
     "http://www.impawards.com/2026/man_of_war.html",
     "http://www.impawards.com/2026/masters_of_the_universe_ver30.html",
     "http://www.impawards.com/2026/masters_of_the_universe_ver29.html",
@@ -489,19 +499,10 @@
     "http://www.impawards.com/2026/goat_ver31.html",
     "http://www.impawards.com/2026/goat_ver30.html",
     "http://www.impawards.com/2026/goat_ver29.html",
-    "http://www.impawards.com/2026/girls_like_girls.html",
-    "http://www.impawards.com/2026/crime_one_o_one_ver14.html",
-    "http://www.impawards.com/2026/wuthering_heights_ver16.html",
-    "http://www.impawards.com/2026/sunset_strip_killers.html",
-    "http://www.impawards.com/2025/ice_fall_ver3.html",
-    "http://www.impawards.com/2026/stray_kids_the_dominate_experience.html",
-    "http://www.impawards.com/2026/supergirl_ver3.html",
-    "http://www.impawards.com/2026/minions_three.html",
-    "http://www.impawards.com/2026/project_hail_mary_ver3.html",
-    "http://www.impawards.com/2026/signal_zero_ver2.html",
-    "http://www.impawards.com/2026/signal_zero.html"
+    "http://www.impawards.com/2026/girls_like_girls.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/minions_three_ver6.html",
     "http://www.impawards.com/2026/scary_movie_ver16.html",
     "http://www.impawards.com/2026/leviticus_ver3.html",
     "http://www.impawards.com/2026/summoning.html",
@@ -908,5 +909,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-05-31T13:17:25.576672"
+  "last_run": "2026-06-01T17:19:35.629271"
 }
