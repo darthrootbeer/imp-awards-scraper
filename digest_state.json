@@ -1,5 +1,8 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/by_any_means.html",
+    "http://www.impawards.com/2026/how_to_rob_a_bank.html",
+    "http://www.impawards.com/2026/girls_like_girls_ver2.html",
     "http://www.impawards.com/2026/masters_of_the_universe_ver31.html",
     "http://www.impawards.com/2026/end_of_oak_street_ver2.html",
     "http://www.impawards.com/2026/get_out.html",
@@ -496,12 +499,11 @@
     "http://www.impawards.com/2026/eric_church_evangeline_vs_the_machine_comes_alive.html",
     "http://www.impawards.com/2026/deb_is_boss.html",
     "http://www.impawards.com/2021/american_night_ver2.html",
-    "http://www.impawards.com/2026/goat_ver31.html",
-    "http://www.impawards.com/2026/goat_ver30.html",
-    "http://www.impawards.com/2026/goat_ver29.html",
-    "http://www.impawards.com/2026/girls_like_girls.html"
+    "http://www.impawards.com/2026/goat_ver31.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/onslaught_ver2.html",
+    "http://www.impawards.com/2026/onslaught.html",
     "http://www.impawards.com/2026/minions_three_ver6.html",
     "http://www.impawards.com/2026/scary_movie_ver16.html",
     "http://www.impawards.com/2026/leviticus_ver3.html",
@@ -909,5 +911,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-01T17:19:35.629271"
+  "last_run": "2026-06-02T16:04:16.232941"
 }
