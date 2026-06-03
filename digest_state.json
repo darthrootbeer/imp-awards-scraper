@@ -1,5 +1,19 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/hoppers_ver31.html",
+    "http://www.impawards.com/2026/disclosure_day_ver10.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver5.html",
+    "http://www.impawards.com/2026/horsegirls.html",
+    "http://www.impawards.com/2026/mosquito_in_the_ear_ver2.html",
+    "http://www.impawards.com/2026/mosquito_in_the_ear.html",
+    "http://www.impawards.com/2026/frampton.html",
+    "http://www.impawards.com/2026/man_of_war_ver2.html",
+    "http://www.impawards.com/2026/supergirl_ver11.html",
+    "http://www.impawards.com/2026/supergirl_ver10.html",
+    "http://www.impawards.com/2026/supergirl_ver9.html",
+    "http://www.impawards.com/2026/supergirl_ver8.html",
+    "http://www.impawards.com/2026/supergirl_ver7.html",
+    "http://www.impawards.com/2026/disclosure_day_ver9.html",
     "http://www.impawards.com/2026/by_any_means.html",
     "http://www.impawards.com/2026/how_to_rob_a_bank.html",
     "http://www.impawards.com/2026/girls_like_girls_ver2.html",
@@ -485,23 +499,12 @@
     "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver3.html",
     "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver2.html",
     "http://www.impawards.com/2026/good_luck_have_fun_dont_die_ver6.html",
-    "http://www.impawards.com/2026/napa_boys_ver2.html",
-    "http://www.impawards.com/2026/november_1963.html",
-    "http://www.impawards.com/2026/peaky_blinders_the_immortal_man_ver2.html",
-    "http://www.impawards.com/2017/american_assassin_ver17.html",
-    "http://www.impawards.com/1960/time_machine_ver4.html",
-    "http://www.impawards.com/2026/goat_ver34.html",
-    "http://www.impawards.com/2026/goat_ver33.html",
-    "http://www.impawards.com/2026/goat_ver32.html",
-    "http://www.impawards.com/2026/omaha.html",
-    "http://www.impawards.com/2026/ghost_elephants.html",
-    "http://www.impawards.com/2026/rosebush_pruning.html",
-    "http://www.impawards.com/2026/eric_church_evangeline_vs_the_machine_comes_alive.html",
-    "http://www.impawards.com/2026/deb_is_boss.html",
-    "http://www.impawards.com/2021/american_night_ver2.html",
-    "http://www.impawards.com/2026/goat_ver31.html"
+    "http://www.impawards.com/2026/napa_boys_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/ice_cream_man_ver3.html",
+    "http://www.impawards.com/2026/obsession_ver12.html",
+    "http://www.impawards.com/2026/black_box.html",
     "http://www.impawards.com/2026/onslaught_ver2.html",
     "http://www.impawards.com/2026/onslaught.html",
     "http://www.impawards.com/2026/minions_three_ver6.html",
@@ -911,5 +914,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-02T16:04:16.232941"
+  "last_run": "2026-06-03T16:19:27.754132"
 }
