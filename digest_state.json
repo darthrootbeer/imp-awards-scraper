@@ -1,5 +1,18 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/funny_feelings_ver2.html",
+    "http://www.impawards.com/2026/crooks.html",
+    "http://www.impawards.com/2026/fall_two_deadpoint.html",
+    "http://www.impawards.com/2026/invite_ver6.html",
+    "http://www.impawards.com/2026/invite_ver5.html",
+    "http://www.impawards.com/2026/invite_ver4.html",
+    "http://www.impawards.com/2026/invite_ver3.html",
+    "http://www.impawards.com/2026/supergirl_ver16.html",
+    "http://www.impawards.com/2026/supergirl_ver15.html",
+    "http://www.impawards.com/2026/supergirl_ver14.html",
+    "http://www.impawards.com/2026/supergirl_ver13.html",
+    "http://www.impawards.com/2026/supergirl_ver12.html",
+    "http://www.impawards.com/2026/odyssey_ver4.html",
     "http://www.impawards.com/2026/hoppers_ver31.html",
     "http://www.impawards.com/2026/disclosure_day_ver10.html",
     "http://www.impawards.com/2026/spiderman_brand_new_day_ver5.html",
@@ -486,22 +499,10 @@
     "http://www.impawards.com/2026/super_mario_galaxy_movie_ver9.html",
     "http://www.impawards.com/2026/toy_story_five_ver2.html",
     "http://www.impawards.com/2026/super_mario_galaxy_movie_ver8.html",
-    "http://www.impawards.com/2026/super_mario_galaxy_movie_ver7.html",
-    "http://www.impawards.com/2026/super_mario_galaxy_movie_ver6.html",
-    "http://www.impawards.com/2026/super_mario_galaxy_movie_ver5.html",
-    "http://www.impawards.com/2026/project_hail_mary_ver4.html",
-    "http://www.impawards.com/2026/goat_ver36.html",
-    "http://www.impawards.com/2026/goat_ver35.html",
-    "http://www.impawards.com/2025/twinless_ver2.html",
-    "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver6.html",
-    "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver5.html",
-    "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver4.html",
-    "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver3.html",
-    "http://www.impawards.com/2026/tyler_perrys_joes_college_road_trip_ver2.html",
-    "http://www.impawards.com/2026/good_luck_have_fun_dont_die_ver6.html",
-    "http://www.impawards.com/2026/napa_boys_ver2.html"
+    "http://www.impawards.com/2026/super_mario_galaxy_movie_ver7.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/speed_demon_ver2.html",
     "http://www.impawards.com/2026/ice_cream_man_ver3.html",
     "http://www.impawards.com/2026/obsession_ver12.html",
     "http://www.impawards.com/2026/black_box.html",
@@ -914,5 +915,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-03T16:19:27.754132"
+  "last_run": "2026-06-04T14:37:53.323285"
 }
