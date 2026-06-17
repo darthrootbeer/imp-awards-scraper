@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/hexed_ver2.html",
+    "http://www.impawards.com/2026/hexed.html",
     "http://www.impawards.com/2026/heartstopper_forever.html",
     "http://www.impawards.com/2026/moana_ver14.html",
     "http://www.impawards.com/2026/moana_ver13.html",
@@ -497,9 +499,7 @@
     "http://www.impawards.com/2026/preschool.html",
     "http://www.impawards.com/2026/ballistic.html",
     "http://www.impawards.com/2026/tuner.html",
-    "http://www.impawards.com/2025/zootopia_two_ver29.html",
-    "http://www.impawards.com/2026/wuthering_heights_ver18.html",
-    "http://www.impawards.com/2026/iron_maiden_burning_ambition.html"
+    "http://www.impawards.com/2025/zootopia_two_ver29.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/last_house.html",
@@ -924,5 +924,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-16T16:25:42.236144"
+  "last_run": "2026-06-17T14:53:25.618297"
 }
