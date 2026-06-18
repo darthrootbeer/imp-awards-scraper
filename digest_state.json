@@ -1,5 +1,24 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver10.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver9.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver8.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver7.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver6.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver5.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver4.html",
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver3.html",
+    "http://www.impawards.com/2026/bonding_ver2.html",
+    "http://www.impawards.com/2026/pretty_ugly_the_story_of_the_lunachicks.html",
+    "http://www.impawards.com/2026/night_after_night.html",
+    "http://www.impawards.com/2026/enola_holmes_three_ver3.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver13.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver12.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver11.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver10.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver9.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver8.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver7.html",
     "http://www.impawards.com/2026/hexed_ver2.html",
     "http://www.impawards.com/2026/hexed.html",
     "http://www.impawards.com/2026/heartstopper_forever.html",
@@ -480,28 +499,11 @@
     "http://www.impawards.com/2026/your_attention_please.html",
     "http://www.impawards.com/2026/swapped.html",
     "http://www.impawards.com/2026/hamlet_ver2.html",
-    "http://www.impawards.com/2026/bunnylovr.html",
-    "http://www.impawards.com/2026/john_lilly_and_the_earth_coincidence_control_office.html",
-    "http://www.impawards.com/2026/underland.html",
-    "http://www.impawards.com/2026/ai_doc_or_how_i_became_an_apocaloptimist.html",
-    "http://www.impawards.com/2026/lifehack.html",
-    "http://www.impawards.com/2026/gates_ver2.html",
-    "http://www.impawards.com/2026/rory_mcilroy_the_masters_wait_ver2.html",
-    "http://www.impawards.com/2026/rory_mcilroy_the_masters_wait.html",
-    "http://www.impawards.com/2026/own_spotlight_roberta.html",
-    "http://www.impawards.com/2026/untold_the_death_and_life_of_lamar_odom.html",
-    "http://www.impawards.com/2026/war_machine_ver2.html",
-    "http://www.impawards.com/2026/finding_harmony_a_kings_vision.html",
-    "http://www.impawards.com/2026/goat_ver37.html",
-    "http://www.impawards.com/2026/super_mario_galaxy_movie_ver12.html",
-    "http://www.impawards.com/2026/protector_ver4.html",
-    "http://www.impawards.com/2026/lorne.html",
-    "http://www.impawards.com/2026/preschool.html",
-    "http://www.impawards.com/2026/ballistic.html",
-    "http://www.impawards.com/2026/tuner.html",
-    "http://www.impawards.com/2025/zootopia_two_ver29.html"
+    "http://www.impawards.com/2026/bunnylovr.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2002/crazy_as_hell.html",
+    "http://www.impawards.com/2026/big_baby.html",
     "http://www.impawards.com/2026/last_house.html",
     "http://www.impawards.com/2026/leviticus_ver4.html",
     "http://www.impawards.com/2026/tuner_ver7.html",
@@ -924,5 +926,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-17T14:53:25.618297"
+  "last_run": "2026-06-18T14:49:03.341699"
 }
