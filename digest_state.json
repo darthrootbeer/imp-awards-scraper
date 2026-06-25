@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/dog_stars_ver4.html",
+    "http://www.impawards.com/2026/minions_three_ver11.html",
+    "http://www.impawards.com/2026/sense_and_sensibility_ver2.html",
+    "http://www.impawards.com/2026/sense_and_sensibility.html",
     "http://www.impawards.com/2026/super_troopers_three_ver10.html",
     "http://www.impawards.com/2026/carolina_caroline_ver2.html",
     "http://www.impawards.com/2026/digger_ver4.html",
@@ -495,11 +499,7 @@
     "http://www.impawards.com/2026/dune_part_three_ver2.html",
     "http://www.impawards.com/2026/dune_part_three.html",
     "http://www.impawards.com/2026/outcome.html",
-    "http://www.impawards.com/2023/puffin_rock_and_the_new_friends.html",
-    "http://www.impawards.com/2026/roommates.html",
-    "http://www.impawards.com/2026/louis_theroux_inside_the_manosphere.html",
-    "http://www.impawards.com/2026/life_we_leave.html",
-    "http://www.impawards.com/2025/if_i_had_legs_id_kick_you_ver2.html"
+    "http://www.impawards.com/2023/puffin_rock_and_the_new_friends.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/dont_move.html",
@@ -928,5 +928,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-24T14:09:10.679780"
+  "last_run": "2026-06-25T14:06:09.091991"
 }
