@@ -1,5 +1,15 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/mustache.html",
+    "http://www.impawards.com/2026/earths_greatest_enemy.html",
+    "http://www.impawards.com/2022/stutz_ver2.html",
+    "http://www.impawards.com/2022/stutz.html",
+    "http://www.impawards.com/2023/disappearance_of_shere_hite_ver2.html",
+    "http://www.impawards.com/2023/good_grief_ver2.html",
+    "http://www.impawards.com/2026/cookie_queens.html",
+    "http://www.impawards.com/2026/weight.html",
+    "http://www.impawards.com/2026/klara_and_the_sun.html",
+    "http://www.impawards.com/2025/avatar_fire_and_ash_ver22.html",
     "http://www.impawards.com/2026/dog_stars_ver4.html",
     "http://www.impawards.com/2026/minions_three_ver11.html",
     "http://www.impawards.com/2026/sense_and_sensibility_ver2.html",
@@ -489,17 +499,7 @@
     "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d.html",
     "http://www.impawards.com/2026/toy_story_five_ver4.html",
     "http://www.impawards.com/2026/all_of_the_above.html",
-    "http://www.impawards.com/2026/dune_part_three_ver9.html",
-    "http://www.impawards.com/2026/dune_part_three_ver8.html",
-    "http://www.impawards.com/2026/dune_part_three_ver7.html",
-    "http://www.impawards.com/2026/dune_part_three_ver6.html",
-    "http://www.impawards.com/2026/dune_part_three_ver5.html",
-    "http://www.impawards.com/2026/dune_part_three_ver4.html",
-    "http://www.impawards.com/2026/dune_part_three_ver3.html",
-    "http://www.impawards.com/2026/dune_part_three_ver2.html",
-    "http://www.impawards.com/2026/dune_part_three.html",
-    "http://www.impawards.com/2026/outcome.html",
-    "http://www.impawards.com/2023/puffin_rock_and_the_new_friends.html"
+    "http://www.impawards.com/2026/dune_part_three_ver9.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/dont_move.html",
@@ -928,5 +928,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-25T14:06:09.091991"
+  "last_run": "2026-06-26T14:05:08.564328"
 }
