@@ -502,6 +502,7 @@
     "http://www.impawards.com/2026/beast_ver3.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/1990/mister_frost.html",
     "http://www.impawards.com/2026/ready_or_not_here_i_come_ver9.html",
     "http://www.impawards.com/2026/above_the_line.html",
     "http://www.impawards.com/2026/bay.html",
@@ -931,5 +932,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-27T13:13:31.148407"
+  "last_run": "2026-06-28T13:19:01.931221"
 }
