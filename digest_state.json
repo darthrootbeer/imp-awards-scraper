@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/idiots_ver4.html",
+    "http://www.impawards.com/2026/idiots_ver3.html",
     "http://www.impawards.com/2026/angry_birds_movie_three.html",
     "http://www.impawards.com/2026/idiots_ver2.html",
     "http://www.impawards.com/2026/strung.html",
@@ -497,11 +499,11 @@
     "http://www.impawards.com/2026/bts_the_return.html",
     "http://www.impawards.com/2026/wild_horse_nine.html",
     "http://www.impawards.com/2025/carman_family_deaths.html",
-    "http://www.impawards.com/2025/unknown_number_the_high_school_catfish.html",
-    "http://www.impawards.com/2026/eye_of_the_catfish.html",
-    "http://www.impawards.com/2026/noah_kahan_out_of_body.html"
+    "http://www.impawards.com/2025/unknown_number_the_high_school_catfish.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/evil_dead_burn_ver4.html",
+    "http://www.impawards.com/2026/devils_mouth.html",
     "http://www.impawards.com/2026/kill_trip.html",
     "http://www.impawards.com/2026/ready_or_not_here_i_come_ver10.html",
     "http://www.impawards.com/2026/isolate_thief.html",
@@ -936,5 +938,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-06-29T15:32:18.065439"
+  "last_run": "2026-06-30T13:58:42.251415"
 }
