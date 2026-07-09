@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/avatar_aang_the_last_airbender_ver2.html",
+    "http://www.impawards.com/2026/dune_part_three_ver10.html",
     "http://www.impawards.com/2026/dead_souls.html",
     "http://www.impawards.com/2026/legend_of_the_white_dragon_ver2.html",
     "http://www.impawards.com/2026/avatar_aang_the_last_airbender.html",
@@ -497,9 +499,7 @@
     "http://www.impawards.com/2026/i_love_boosters_ver2.html",
     "http://www.impawards.com/2026/paw_patrol_the_dino_movie.html",
     "http://www.impawards.com/2026/rosebush_pruning_ver2.html",
-    "http://www.impawards.com/2026/come_what_may.html",
-    "http://www.impawards.com/2026/steal_this_story_please.html",
-    "http://www.impawards.com/2026/magic_hour.html"
+    "http://www.impawards.com/2026/come_what_may.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2011/meerkats_threed.html",
@@ -944,5 +944,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-07-08T13:42:50.832743"
+  "last_run": "2026-07-09T14:33:26.284127"
 }
