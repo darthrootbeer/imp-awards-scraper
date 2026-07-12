@@ -502,6 +502,7 @@
     "http://www.impawards.com/2026/devil_wears_prada_two_ver10.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/attack_of_the_killer_tomatoes_organic_intelligence.html",
     "http://www.impawards.com/2026/above_and_below.html",
     "http://www.impawards.com/2011/meerkats_threed.html",
     "http://www.impawards.com/1987/deadline.html",
@@ -945,5 +946,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-07-11T12:58:03.950750"
+  "last_run": "2026-07-12T12:58:45.279522"
 }
