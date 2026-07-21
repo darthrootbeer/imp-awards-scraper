@@ -1,5 +1,13 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/bad_counselors.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver20.html",
+    "http://www.impawards.com/2026/american_doctor.html",
+    "http://www.impawards.com/2026/scout.html",
+    "http://www.impawards.com/2016/la_la_land_ver19.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver12.html",
+    "http://www.impawards.com/2025/namaka.html",
+    "http://www.impawards.com/2025/reeling.html",
     "http://www.impawards.com/2026/avengers_doomsday_ver2.html",
     "http://www.impawards.com/2026/stealing_magic.html",
     "http://www.impawards.com/2026/paw_patrol_the_dino_movie_ver15.html",
@@ -491,15 +499,7 @@
     "http://www.impawards.com/2026/rosebush_pruning_ver5.html",
     "http://www.impawards.com/2026/rosebush_pruning_ver4.html",
     "http://www.impawards.com/2026/rosebush_pruning_ver3.html",
-    "http://www.impawards.com/2026/home_delivery.html",
-    "http://www.impawards.com/2022/acting_the_first_six_lessons.html",
-    "http://www.impawards.com/2026/normal_ver2.html",
-    "http://www.impawards.com/2026/original_sound.html",
-    "http://www.impawards.com/2026/last_movie_critic.html",
-    "http://www.impawards.com/2008/speed_racer_ver10.html",
-    "http://www.impawards.com/2026/spiderman_brand_new_day_ver2.html",
-    "http://www.impawards.com/2026/spiderman_brand_new_day.html",
-    "http://www.impawards.com/2026/river_remembers.html"
+    "http://www.impawards.com/2026/home_delivery.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/bagworm.html",
@@ -948,5 +948,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-07-20T13:49:38.783404"
+  "last_run": "2026-07-21T13:19:10.575256"
 }
