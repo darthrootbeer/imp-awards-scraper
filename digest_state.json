@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/matchbox_the_movie.html",
+    "http://www.impawards.com/2026/one_night_only_ver2.html",
+    "http://www.impawards.com/2026/mutiny_ver4.html",
+    "http://www.impawards.com/2026/spiderman_brand_new_day_ver21.html",
     "http://www.impawards.com/2026/seventy_two_hours_ver2.html",
     "http://www.impawards.com/2026/ebenezer.html",
     "http://www.impawards.com/2026/wildwood.html",
@@ -495,13 +499,12 @@
     "http://www.impawards.com/1991/reunion_ver3.html",
     "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver6.html",
     "http://www.impawards.com/2026/billie_eilish_hit_me_hard_and_soft__the_tour_live_in_3d_ver5.html",
-    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver12.html",
-    "http://www.impawards.com/1991/reunion_ver2.html",
-    "http://www.impawards.com/2026/coyote_v_acme_ver2.html",
-    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver11.html",
-    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver10.html"
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver12.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/onslaught_ver4.html",
+    "http://www.impawards.com/2026/onslaught_ver3.html",
+    "http://www.impawards.com/2026/gentleman_thief.html",
     "http://www.impawards.com/2026/last_house_ver2.html",
     "http://www.impawards.com/2026/bad_karaoke.html",
     "http://www.impawards.com/2026/buddy.html",
@@ -956,5 +959,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-07-24T13:19:15.650607"
+  "last_run": "2026-07-25T13:03:42.638342"
 }
