@@ -1,5 +1,15 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/late_fame.html",
+    "http://www.impawards.com/2026/coyote_v_acme_ver7.html",
+    "http://www.impawards.com/2026/april_x.html",
+    "http://www.impawards.com/1996/nutty_professor_ver4.html",
+    "http://www.impawards.com/2001/wet_hot_american_summer_ver3.html",
+    "http://www.impawards.com/2008/x_files_two_ver4.html",
+    "http://www.impawards.com/2026/love_hypothesis.html",
+    "http://www.impawards.com/2026/primetime_ver2.html",
+    "http://www.impawards.com/2026/deputy.html",
+    "http://www.impawards.com/2026/wildwood_ver2.html",
     "http://www.impawards.com/2026/coyote_v_acme_ver6.html",
     "http://www.impawards.com/2026/linkin_park_unshatter.html",
     "http://www.impawards.com/2026/violent_night_two.html",
@@ -489,17 +499,7 @@
     "http://www.impawards.com/2026/power_ballad_ver4.html",
     "http://www.impawards.com/2026/sheep_detectives_ver4.html",
     "http://www.impawards.com/2001/shrek_ver5.html",
-    "http://www.impawards.com/2026/flag_day.html",
-    "http://www.impawards.com/2026/cholesterol_code_ver2.html",
-    "http://www.impawards.com/2026/cholesterol_code.html",
-    "http://www.impawards.com/2026/disclosure_day_ver4.html",
-    "http://www.impawards.com/2026/love_on_tap.html",
-    "http://www.impawards.com/2025/lifeline.html",
-    "http://www.impawards.com/2019/chokehold.html",
-    "http://www.impawards.com/2026/catch_the_wind.html",
-    "http://www.impawards.com/2025/chrismystery.html",
-    "http://www.impawards.com/2025/twenty_five_miles_to_normal.html",
-    "http://www.impawards.com/2025/bodyguard_of_lies.html"
+    "http://www.impawards.com/2026/flag_day.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/insidious_out_of_the_further_ver8.html",
@@ -971,5 +971,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-08-05T13:44:54.931144"
+  "last_run": "2026-08-06T13:43:23.577888"
 }
