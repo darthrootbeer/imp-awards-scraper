@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2027/cocomelon_the_movie.html",
+    "http://www.impawards.com/2026/practical_magic_two_ver2.html",
     "http://www.impawards.com/2026/late_fame.html",
     "http://www.impawards.com/2026/coyote_v_acme_ver7.html",
     "http://www.impawards.com/2026/april_x.html",
@@ -497,11 +499,10 @@
     "http://www.impawards.com/2026/masters_of_the_universe_ver2.html",
     "http://www.impawards.com/2026/jackass_best_and_last.html",
     "http://www.impawards.com/2026/power_ballad_ver4.html",
-    "http://www.impawards.com/2026/sheep_detectives_ver4.html",
-    "http://www.impawards.com/2001/shrek_ver5.html",
-    "http://www.impawards.com/2026/flag_day.html"
+    "http://www.impawards.com/2026/sheep_detectives_ver4.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/soul_snatchers.html",
     "http://www.impawards.com/2026/insidious_out_of_the_further_ver8.html",
     "http://www.impawards.com/2026/insidious_out_of_the_further_ver7.html",
     "http://www.impawards.com/2026/insidious_out_of_the_further_ver6.html",
@@ -971,5 +972,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-08-06T13:43:23.577888"
+  "last_run": "2026-08-07T12:41:41.333872"
 }
