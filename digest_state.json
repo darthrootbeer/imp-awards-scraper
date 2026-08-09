@@ -1,5 +1,11 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/host.html",
+    "http://www.impawards.com/2026/sixty_year_mission.html",
+    "http://www.impawards.com/2026/once_upon_a_time_in_harlem_ver2.html",
+    "http://www.impawards.com/2026/once_upon_a_time_in_harlem.html",
+    "http://www.impawards.com/2026/clash_of_the_thundermans.html",
+    "http://www.impawards.com/2026/klara_and_the_sun_ver2.html",
     "http://www.impawards.com/2027/cocomelon_the_movie.html",
     "http://www.impawards.com/2026/practical_magic_two_ver2.html",
     "http://www.impawards.com/2026/late_fame.html",
@@ -493,13 +499,7 @@
     "http://www.impawards.com/2026/i_love_boosters_ver4.html",
     "http://www.impawards.com/2026/i_love_boosters_ver3.html",
     "http://www.impawards.com/2026/one_night_only.html",
-    "http://www.impawards.com/2026/masters_of_the_universe_ver3.html",
-    "http://www.impawards.com/2026/christophers_ver2.html",
-    "http://www.impawards.com/2026/supergirl_ver5.html",
-    "http://www.impawards.com/2026/masters_of_the_universe_ver2.html",
-    "http://www.impawards.com/2026/jackass_best_and_last.html",
-    "http://www.impawards.com/2026/power_ballad_ver4.html",
-    "http://www.impawards.com/2026/sheep_detectives_ver4.html"
+    "http://www.impawards.com/2026/masters_of_the_universe_ver3.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/soul_snatchers.html",
@@ -972,5 +972,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-08-07T12:41:41.333872"
+  "last_run": "2026-08-09T12:30:39.904994"
 }
