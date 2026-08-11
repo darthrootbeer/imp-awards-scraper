@@ -1,5 +1,16 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/katseye_wild_hearts.html",
+    "http://www.impawards.com/2026/catvideofest_2026.html",
+    "http://www.impawards.com/2026/run_hide_fight_infidels.html",
+    "http://www.impawards.com/2026/april_x_ver2.html",
+    "http://www.impawards.com/2026/in_the_grey_ver9.html",
+    "http://www.impawards.com/2026/in_the_grey_ver8.html",
+    "http://www.impawards.com/2026/in_the_grey_ver7.html",
+    "http://www.impawards.com/2026/in_the_grey_ver6.html",
+    "http://www.impawards.com/2026/in_the_grey_ver5.html",
+    "http://www.impawards.com/2026/in_the_grey_ver4.html",
+    "http://www.impawards.com/2026/verity_ver2.html",
     "http://www.impawards.com/2026/alterity.html",
     "http://www.impawards.com/2023/hunger_games_the_ballad_of_songbirds_and_snakes_ver28.html",
     "http://www.impawards.com/2015/hunger_games_mockingjay__part_two_ver30.html",
@@ -488,20 +499,10 @@
     "http://www.impawards.com/2022/top_gun_maverick_ver21.html",
     "http://www.impawards.com/1986/top_gun_ver13.html",
     "http://www.impawards.com/1986/top_gun_ver12.html",
-    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver15.html",
-    "http://www.impawards.com/2026/my_seven_grandmas.html",
-    "http://www.impawards.com/2026/christophers_ver3.html",
-    "http://www.impawards.com/2025/running_man_ver10.html",
-    "http://www.impawards.com/2026/normal_ver4.html",
-    "http://www.impawards.com/1992/american_dream_ver2.html",
-    "http://www.impawards.com/2025/list_fifteen_stories_from_asian_and_pacific_diasporas.html",
-    "http://www.impawards.com/1980/jazz_singer_ver2.html",
-    "http://www.impawards.com/2026/moana_ver4.html",
-    "http://www.impawards.com/2026/stop_that_train_ver2.html",
-    "http://www.impawards.com/2026/normal_ver3.html",
-    "http://www.impawards.com/2026/is_god_is_ver2.html"
+    "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver15.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/1971/devils_ver3.html",
     "http://www.impawards.com/2026/soul_snatchers.html",
     "http://www.impawards.com/2026/insidious_out_of_the_further_ver8.html",
     "http://www.impawards.com/2026/insidious_out_of_the_further_ver7.html",
@@ -972,5 +973,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-08-10T12:46:32.565133"
+  "last_run": "2026-08-11T12:42:35.736209"
 }
