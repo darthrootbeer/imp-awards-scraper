@@ -1,5 +1,6 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/fall_two_deadpoint_ver3.html",
     "http://www.impawards.com/2026/teenage_wasteland.html",
     "http://www.impawards.com/2026/coyote_v_acme_ver8.html",
     "http://www.impawards.com/2026/just_play_dead.html",
@@ -498,10 +499,10 @@
     "http://www.impawards.com/2026/super_troopers_three_ver7.html",
     "http://www.impawards.com/2025/secrets_we_bury.html",
     "http://www.impawards.com/2026/odyssey_ver3.html",
-    "http://www.impawards.com/2026/tuner_ver3.html",
-    "http://www.impawards.com/2026/carolina_caroline.html"
+    "http://www.impawards.com/2026/tuner_ver3.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/beware_boiuna.html",
     "http://www.impawards.com/2026/onslaught_ver12.html",
     "http://www.impawards.com/2026/onslaught_ver11.html",
     "http://www.impawards.com/2026/onslaught_ver10.html",
@@ -983,5 +984,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-08-13T12:48:42.040819"
+  "last_run": "2026-08-14T12:43:00.606808"
 }
