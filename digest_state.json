@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2006/cars_ver14.html",
+    "http://www.impawards.com/2026/daughters_of_nine_eleven.html",
     "http://www.impawards.com/1996/white_squall_ver4.html",
     "http://www.impawards.com/2026/first_they_came_for_my_college.html",
     "http://www.impawards.com/2017/in_vino.html",
@@ -497,11 +499,10 @@
     "http://www.impawards.com/2026/masters_of_the_universe_ver24.html",
     "http://www.impawards.com/2026/masters_of_the_universe_ver23.html",
     "http://www.impawards.com/2026/masters_of_the_universe_ver22.html",
-    "http://www.impawards.com/2026/masters_of_the_universe_ver21.html",
-    "http://www.impawards.com/2026/masters_of_the_universe_ver20.html",
-    "http://www.impawards.com/2026/masters_of_the_universe_ver19.html"
+    "http://www.impawards.com/2026/masters_of_the_universe_ver21.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/dropbear.html",
     "http://www.impawards.com/2026/mr_t_i_pity_the_fool.html",
     "http://www.impawards.com/2026/onslaught_ver13.html",
     "http://www.impawards.com/2026/whalefall_ver2.html",
@@ -989,5 +990,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-08-24T12:28:59.362224"
+  "last_run": "2026-08-25T12:29:33.701304"
 }
