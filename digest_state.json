@@ -1,5 +1,14 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/tiny_fugitives.html",
+    "http://www.impawards.com/2026/once_upon_a_time_in_harlem_ver3.html",
+    "http://www.impawards.com/2026/she_listens_alone.html",
+    "http://www.impawards.com/2026/hurricane_seasons.html",
+    "http://www.impawards.com/2026/band_of_brothers_legacy.html",
+    "http://www.impawards.com/2026/best_of_the_best_ver2.html",
+    "http://www.impawards.com/2026/sense_and_sensibility_ver4.html",
+    "http://www.impawards.com/2026/fall_two_deadpoint_ver7.html",
+    "http://www.impawards.com/2026/heart_of_the_beast_ver4.html",
     "http://www.impawards.com/2026/always_lalisa.html",
     "http://www.impawards.com/2026/doing_life.html",
     "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver17.html",
@@ -490,16 +499,7 @@
     "http://www.impawards.com/2026/mosquito_in_the_ear.html",
     "http://www.impawards.com/2026/frampton.html",
     "http://www.impawards.com/2026/man_of_war_ver2.html",
-    "http://www.impawards.com/2026/supergirl_ver11.html",
-    "http://www.impawards.com/2026/supergirl_ver10.html",
-    "http://www.impawards.com/2026/supergirl_ver9.html",
-    "http://www.impawards.com/2026/supergirl_ver8.html",
-    "http://www.impawards.com/2026/supergirl_ver7.html",
-    "http://www.impawards.com/2026/disclosure_day_ver9.html",
-    "http://www.impawards.com/2026/by_any_means.html",
-    "http://www.impawards.com/2026/how_to_rob_a_bank.html",
-    "http://www.impawards.com/2026/girls_like_girls_ver2.html",
-    "http://www.impawards.com/2026/masters_of_the_universe_ver31.html"
+    "http://www.impawards.com/2026/supergirl_ver11.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/resident_evil_ver8.html",
@@ -999,5 +999,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-09-04T15:28:58.136106"
+  "last_run": "2026-09-05T14:16:53.684786"
 }
