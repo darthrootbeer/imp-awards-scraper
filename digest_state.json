@@ -1,5 +1,6 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2025/rebel_royals_an_unlikely_love_story.html",
     "http://www.impawards.com/2026/tiny_fugitives.html",
     "http://www.impawards.com/2026/once_upon_a_time_in_harlem_ver3.html",
     "http://www.impawards.com/2026/she_listens_alone.html",
@@ -498,10 +499,10 @@
     "http://www.impawards.com/2026/mosquito_in_the_ear_ver2.html",
     "http://www.impawards.com/2026/mosquito_in_the_ear.html",
     "http://www.impawards.com/2026/frampton.html",
-    "http://www.impawards.com/2026/man_of_war_ver2.html",
-    "http://www.impawards.com/2026/supergirl_ver11.html"
+    "http://www.impawards.com/2026/man_of_war_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/1955/african_lion.html",
     "http://www.impawards.com/2026/resident_evil_ver8.html",
     "http://www.impawards.com/2026/uprising_ver3.html",
     "http://www.impawards.com/2026/resident_evil_ver7.html",
@@ -999,5 +1000,5 @@
     "http://www.impawards.com/2026/twenty_eight_years_later_the_bone_temple.html",
     "http://www.impawards.com/2025/him_ver5.html"
   ],
-  "last_run": "2026-09-05T14:16:53.684786"
+  "last_run": "2026-09-06T14:39:59.494837"
 }
