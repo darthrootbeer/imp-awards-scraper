@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/mr_irrelevant.html",
+    "http://www.impawards.com/1994/troll_in_central_park.html",
     "http://www.impawards.com/2002/twenty_four_hour_party_people_ver7.html",
     "http://www.impawards.com/2026/social_reckoning_ver4.html",
     "http://www.impawards.com/2023/escaping_paradise.html",
@@ -497,9 +499,7 @@
     "http://www.impawards.com/2026/cat_in_the_hat_ver2.html",
     "http://www.impawards.com/2026/disclosure_day_ver12.html",
     "http://www.impawards.com/2026/groundswell.html",
-    "http://www.impawards.com/2020/wake_up_stories_from_the_frontlines_of_suicide_prevention.html",
-    "http://www.impawards.com/2026/disclosure_day_ver11.html",
-    "http://www.impawards.com/2026/time_of_death_ver2.html"
+    "http://www.impawards.com/2020/wake_up_stories_from_the_frontlines_of_suicide_prevention.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/clayface_ver2.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/shelby_oaks_ver2.html",
     "http://www.impawards.com/2025/long_walk_ver17.html"
   ],
-  "last_run": "2026-09-12T14:40:35.046348"
+  "last_run": "2026-09-14T17:17:06.761572"
 }
