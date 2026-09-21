@@ -1,6 +1,6 @@
 ## Summary
 
-[STRY-XX](https://linear.app/strytlr/issue/STRY-XX) — One sentence on what this PR does and why.
+One sentence on what this PR does and why.
 
 ## Details
 
