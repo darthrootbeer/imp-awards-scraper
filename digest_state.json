@@ -1,5 +1,10 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/daniel.html",
+    "http://www.impawards.com/2026/unabomber_ver4.html",
+    "http://www.impawards.com/2026/street_fighter_ver31.html",
+    "http://www.impawards.com/2026/verity_ver4.html",
+    "http://www.impawards.com/2026/sctv_the_greatest_show_youve_never_heard_of.html",
     "http://www.impawards.com/2027/day_drinker.html",
     "http://www.impawards.com/2026/madden.html",
     "http://www.impawards.com/2026/wild_horse_nine_ver2.html",
@@ -494,12 +499,7 @@
     "http://www.impawards.com/2026/descendants_wicked_wonderland_ver10.html",
     "http://www.impawards.com/2026/descendants_wicked_wonderland_ver9.html",
     "http://www.impawards.com/2026/descendants_wicked_wonderland_ver8.html",
-    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver7.html",
-    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver6.html",
-    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver5.html",
-    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver4.html",
-    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver3.html",
-    "http://www.impawards.com/2026/bonding_ver2.html"
+    "http://www.impawards.com/2026/descendants_wicked_wonderland_ver7.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/vhs_mixtape.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/1999/just_looking.html",
     "http://www.impawards.com/2025/chain_reactions.html"
   ],
-  "last_run": "2026-09-24T16:10:48.851844"
+  "last_run": "2026-09-25T16:11:14.551787"
 }
