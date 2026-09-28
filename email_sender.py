@@ -444,26 +444,27 @@ class EmailSender:
         
         return False
     
-    def send_poster_updates(self, poster_files: List[str], subject_prefix: str = "") -> int:
+    def send_poster_updates(self, poster_files: List[str], subject_prefix: str = "") -> Tuple[int, List[str]]:
         """
         Send email updates for new posters with batching support.
         
         Args:
             poster_files: List of poster file paths
+            subject_prefix: Optional prefix for email subject (e.g. [TEST])
             
         Returns:
-            Number of emails sent successfully
+            Tuple of (number of emails sent successfully, list of paths actually emailed)
         """
         if not poster_files:
             logger.info("No new posters to email")
-            return 0
+            return 0, []
         
         # Filter to only unsent posters
         unsent_posters = self.get_unsent_posters(poster_files)
         
         if not unsent_posters:
             logger.info(f"All {len(poster_files)} posters have already been emailed")
-            return 0
+            return 0, []
         
         logger.info(f"\n{'='*60}")
         logger.info(f"PREPARING EMAIL UPDATE")
@@ -477,13 +478,14 @@ class EmailSender:
         if total_batches > 1:
             logger.info(f"Posters will be sent in {total_batches} emails ({self.max_size_mb}MB limit per email)")
         
-        # Send each batch
+        # Send each batch; collect paths we actually emailed
         emails_sent = 0
+        sent_paths: List[str] = []
         for batch_num, batch in enumerate(batches, 1):
             if self.send_email_batch(batch, batch_num, total_batches, subject_prefix=subject_prefix):
                 emails_sent += 1
-                # Mark this batch as sent
                 self.mark_posters_as_sent(batch)
+                sent_paths.extend(batch)
             else:
                 logger.warning(f"  Skipping remaining batches due to email failure")
                 break
@@ -492,10 +494,10 @@ class EmailSender:
         logger.info(f"EMAIL UPDATE COMPLETE")
         logger.info(f"{'='*60}")
         logger.info(f"Emails sent: {emails_sent}/{total_batches}")
-        logger.info(f"Posters delivered: {len(unsent_posters) if emails_sent == total_batches else 'Partial'}")
+        logger.info(f"Posters delivered: {len(sent_paths) if emails_sent == total_batches else 'Partial'}")
         logger.info(f"{'='*60}\n")
         
-        return emails_sent
+        return emails_sent, sent_paths
 
 
 # ============================================================

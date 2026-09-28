@@ -29,8 +29,8 @@ ENV/
 # Downloads
 downloads/
 
-# Tracking files
-email_tracking.json
+# Tracking files (movie_metadata and caches stay local-only)
+# digest_state.json and email_tracking.json are committed by CI for digest dedup
 movie_metadata.json
 tmdb_cache.json
 progress.json

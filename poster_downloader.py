@@ -1153,7 +1153,7 @@ def run_email_digest(
     print(f"\nPreparing digest for {len(poster_urls)} poster(s)")
     
     downloaded_paths: List[str] = []
-    emailed_ids: List[str] = []
+    path_to_url: Dict[str, str] = {}
     skipped_ids: List[str] = []
     
     for i, url in enumerate(poster_urls, 1):
@@ -1168,7 +1168,8 @@ def run_email_digest(
             if success or already_existed:
                 if save_path and save_path not in downloaded_paths:
                     downloaded_paths.append(save_path)
-                emailed_ids.append(url)
+                if save_path:
+                    path_to_url[save_path] = url
             else:
                 skipped_ids.append(url)
         except KeyboardInterrupt:
@@ -1191,11 +1192,13 @@ def run_email_digest(
         print(f"\nUsing email subject prefix: {prefix}")
     
     sender = EmailSender()
-    emails_sent = sender.send_poster_updates(downloaded_paths, subject_prefix=prefix)
+    emails_sent, sent_paths = sender.send_poster_updates(downloaded_paths, subject_prefix=prefix)
     
     if emails_sent > 0:
-        if emailed_ids:
-            tracker.record_sent(emailed_ids)
+        # Only record URLs for posters we actually emailed (avoids advancing boundary on partial failure)
+        urls_to_record = [path_to_url[p] for p in sent_paths if p in path_to_url]
+        if urls_to_record:
+            tracker.record_sent(urls_to_record)
         if skipped_ids:
             tracker.record_ignored(skipped_ids)
         tracker.save()

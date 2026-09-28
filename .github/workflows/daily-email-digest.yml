@@ -46,6 +46,7 @@ jobs:
           SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM=${{ secrets.EMAIL_FROM }}
           EMAIL_TO=${{ secrets.EMAIL_TO }}
+          EMAIL_MAX_SIZE_MB=${{ secrets.EMAIL_MAX_SIZE_MB }}
           EOF
 
       - name: Run email digest (3 pages max)
@@ -64,11 +65,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add digest_state.json
+          # Persist digest_state.json and email_tracking.json so next run knows
+          # which posters were already emailed (fixes ~50% duplicate digests).
+          for f in digest_state.json email_tracking.json; do
+            [ -f "$f" ] && git add "$f"
+          done
           if git diff --staged --quiet; then
-            echo "No state changes to commit"
+            echo "No state file changes to commit"
           else
-            git commit -m "chore: update digest state [skip ci]"
+            git commit -m "chore: persist digest and email tracking state"
             git push
           fi
 
