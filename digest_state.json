@@ -1,5 +1,19 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/whalefall_ver3.html",
+    "http://www.impawards.com/2026/man_with_the_bag.html",
+    "http://www.impawards.com/2026/forgotten_island_ver21.html",
+    "http://www.impawards.com/2026/street_fighter_ver33.html",
+    "http://www.impawards.com/2026/i_shot_the_president.html",
+    "http://www.impawards.com/2024/family_tree.html",
+    "http://www.impawards.com/2025/partisan.html",
+    "http://www.impawards.com/2026/how_to_build_a_library.html",
+    "http://www.impawards.com/2026/paul_and_greg_and_amelia.html",
+    "http://www.impawards.com/2026/my_undesirable_friends_part_ii__exile.html",
+    "http://www.impawards.com/2026/love_hypothesis_ver3.html",
+    "http://www.impawards.com/2026/carlton_taylor_has_major_problems.html",
+    "http://www.impawards.com/2026/street_fighter_ver32.html",
+    "http://www.impawards.com/2026/verity_ver5.html",
     "http://www.impawards.com/2026/iyanu_the_war_of_twin_princes.html",
     "http://www.impawards.com/2026/four_thousand_days.html",
     "http://www.impawards.com/2026/simple_soldier.html",
@@ -485,21 +499,7 @@
     "http://www.impawards.com/2026/sense_and_sensibility_ver2.html",
     "http://www.impawards.com/2026/sense_and_sensibility.html",
     "http://www.impawards.com/2026/super_troopers_three_ver10.html",
-    "http://www.impawards.com/2026/carolina_caroline_ver2.html",
-    "http://www.impawards.com/2026/digger_ver4.html",
-    "http://www.impawards.com/2026/digger_ver3.html",
-    "http://www.impawards.com/2026/digger_ver2.html",
-    "http://www.impawards.com/2026/forgotten_island_ver3.html",
-    "http://www.impawards.com/2014/boyhood_ver2.html",
-    "http://www.impawards.com/2026/dink.html",
-    "http://www.impawards.com/2026/debut_ver2.html",
-    "http://www.impawards.com/2026/debut.html",
-    "http://www.impawards.com/2026/minions_three_ver10.html",
-    "http://www.impawards.com/2026/minions_three_ver9.html",
-    "http://www.impawards.com/2026/mutiny_ver2.html",
-    "http://www.impawards.com/2027/not_alone.html",
-    "http://www.impawards.com/2026/supergirl_ver19.html",
-    "http://www.impawards.com/2026/welcome_table.html"
+    "http://www.impawards.com/2026/carolina_caroline_ver2.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/cognaitive_ver2.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/strangers_chapter_two_ver12.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver11.html"
   ],
-  "last_run": "2026-09-29T17:19:38.037152"
+  "last_run": "2026-09-30T17:17:20.755828"
 }
