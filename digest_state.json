@@ -1,5 +1,10 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/behemoth_ver2.html",
+    "http://www.impawards.com/2026/ebenezer_ver2.html",
+    "http://www.impawards.com/2026/hail_to_the_breadsticks.html",
+    "http://www.impawards.com/2026/social_reckoning_ver5.html",
+    "http://www.impawards.com/2026/whalefall_ver4.html",
     "http://www.impawards.com/2026/whalefall_ver3.html",
     "http://www.impawards.com/2026/man_with_the_bag.html",
     "http://www.impawards.com/2026/forgotten_island_ver21.html",
@@ -494,14 +499,11 @@
     "http://www.impawards.com/2026/weight.html",
     "http://www.impawards.com/2026/klara_and_the_sun.html",
     "http://www.impawards.com/2025/avatar_fire_and_ash_ver22.html",
-    "http://www.impawards.com/2026/dog_stars_ver4.html",
-    "http://www.impawards.com/2026/minions_three_ver11.html",
-    "http://www.impawards.com/2026/sense_and_sensibility_ver2.html",
-    "http://www.impawards.com/2026/sense_and_sensibility.html",
-    "http://www.impawards.com/2026/super_troopers_three_ver10.html",
-    "http://www.impawards.com/2026/carolina_caroline_ver2.html"
+    "http://www.impawards.com/2026/dog_stars_ver4.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/other_mommy_ver7.html",
+    "http://www.impawards.com/2026/vampire_carnival.html",
     "http://www.impawards.com/2026/cognaitive_ver2.html",
     "http://www.impawards.com/2026/paralyzed_by_hope_the_maria_bamford_story.html",
     "http://www.impawards.com/2026/clayface_ver4.html",
@@ -999,9 +1001,7 @@
     "http://www.impawards.com/2025/strangers_chapter_two_ver16.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver15.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver14.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver13.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver12.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver11.html"
+    "http://www.impawards.com/2025/strangers_chapter_two_ver13.html"
   ],
-  "last_run": "2026-09-30T17:17:20.755828"
+  "last_run": "2026-10-01T17:45:22.025587"
 }
