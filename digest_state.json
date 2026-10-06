@@ -1,5 +1,10 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/brotherhood_a_cinematic_musical_ver2.html",
+    "http://www.impawards.com/2026/brotherhood_a_cinematic_musical.html",
+    "http://www.impawards.com/2026/digger_ver9.html",
+    "http://www.impawards.com/2026/always_lalisa_ver2.html",
+    "http://www.impawards.com/2024/chief_of_station_ver2.html",
     "http://www.impawards.com/2026/animals_ver8.html",
     "http://www.impawards.com/2026/animals_ver7.html",
     "http://www.impawards.com/2026/animals_ver6.html",
@@ -494,14 +499,13 @@
     "http://www.impawards.com/2026/why_did_i_get_married_again.html",
     "http://www.impawards.com/2026/seventy_two_hours.html",
     "http://www.impawards.com/2026/social_reckoning_ver3.html",
-    "http://www.impawards.com/2026/social_reckoning_ver2.html",
-    "http://www.impawards.com/2026/social_reckoning.html",
-    "http://www.impawards.com/2026/idiots_ver6.html",
-    "http://www.impawards.com/2026/response.html",
-    "http://www.impawards.com/2026/idiots_ver5.html",
-    "http://www.impawards.com/2026/enola_holmes_three_ver4.html"
+    "http://www.impawards.com/2026/social_reckoning_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/pendulum.html",
+    "http://www.impawards.com/2026/other_mommy_ver9.html",
+    "http://www.impawards.com/2026/slayground_ver5.html",
+    "http://www.impawards.com/2024/chief_of_station.html",
     "http://www.impawards.com/2026/other_mommy_ver8.html",
     "http://www.impawards.com/2026/victorian_psycho_ver3.html",
     "http://www.impawards.com/2026/slayground_ver4.html",
@@ -997,11 +1001,7 @@
     "http://www.impawards.com/2025/strangers_chapter_two_ver21.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver20.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver19.html",
-    "http://www.impawards.com/2025/coyotes_ver2.html",
-    "http://www.impawards.com/2026/night_patrol.html",
-    "http://www.impawards.com/2025/rabbit_trap_ver3.html",
-    "http://www.impawards.com/1990/jacobs_ladder_ver2.html",
-    "http://www.impawards.com/2025/anaconda.html"
+    "http://www.impawards.com/2025/coyotes_ver2.html"
   ],
-  "last_run": "2026-10-05T19:58:16.291054"
+  "last_run": "2026-10-06T17:38:18.752356"
 }
