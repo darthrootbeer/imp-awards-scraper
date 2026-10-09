@@ -502,6 +502,8 @@
     "http://www.impawards.com/2026/end_of_oak_street_ver3.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/christmas_at_the_kringles_ver2.html",
+    "http://www.impawards.com/2026/last_temptation_of_becky.html",
     "http://www.impawards.com/2026/stiletto.html",
     "http://www.impawards.com/2026/clayface_ver6.html",
     "http://www.impawards.com/2026/clayface_ver5.html",
@@ -999,9 +1001,7 @@
     "http://www.impawards.com/2025/bone_lake_ver6.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver28.html",
     "http://www.impawards.com/2025/strangers_chapter_two_ver27.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver26.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver25.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver24.html"
+    "http://www.impawards.com/2025/strangers_chapter_two_ver26.html"
   ],
-  "last_run": "2026-10-08T18:12:51.121733"
+  "last_run": "2026-10-09T17:45:15.636911"
 }
