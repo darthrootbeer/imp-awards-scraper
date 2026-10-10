@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/mouse_ii.html",
+    "http://www.impawards.com/2026/steps_ver2.html",
+    "http://www.impawards.com/2026/further_misadventures_of_cliff_booth.html",
+    "http://www.impawards.com/2026/street_fighter_ver36.html",
     "http://www.impawards.com/2026/diary_of_a_wimpy_kid_christmas_the_getaway.html",
     "http://www.impawards.com/1992/raise_the_red_lantern_ver2.html",
     "http://www.impawards.com/2026/florist.html",
@@ -495,13 +499,14 @@
     "http://www.impawards.com/2026/floaters.html",
     "http://www.impawards.com/2026/minions_three_ver12.html",
     "http://www.impawards.com/2026/super_troopers_three_ver11.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver7.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver6.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver5.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver4.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver3.html"
+    "http://www.impawards.com/2026/end_of_oak_street_ver7.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/teenage_sex_and_death_at_camp_miasma_ver2.html",
+    "http://www.impawards.com/2027/exorcist_martyrs.html",
+    "http://www.impawards.com/2026/obsession_ver13.html",
+    "http://www.impawards.com/2026/clayface_ver8.html",
+    "http://www.impawards.com/2026/clayface_ver7.html",
     "http://www.impawards.com/2026/christmas_at_the_kringles_ver2.html",
     "http://www.impawards.com/2026/last_temptation_of_becky.html",
     "http://www.impawards.com/2026/stiletto.html",
@@ -996,12 +1001,7 @@
     "http://www.impawards.com/2025/bone_lake_ver7.html",
     "http://www.impawards.com/2025/shell.html",
     "http://www.impawards.com/2026/primate.html",
-    "http://www.impawards.com/2026/return_to_silent_hill.html",
-    "http://www.impawards.com/2018/system.html",
-    "http://www.impawards.com/2025/bone_lake_ver6.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver28.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver27.html",
-    "http://www.impawards.com/2025/strangers_chapter_two_ver26.html"
+    "http://www.impawards.com/2026/return_to_silent_hill.html"
   ],
-  "last_run": "2026-10-09T17:45:15.636911"
+  "last_run": "2026-10-10T16:38:27.023913"
 }
