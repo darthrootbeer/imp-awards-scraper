@@ -1,5 +1,21 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/very_merry_breakup.html",
+    "http://www.impawards.com/2026/shooting_sid.html",
+    "http://www.impawards.com/2026/good_sport.html",
+    "http://www.impawards.com/2026/wildwood_ver24.html",
+    "http://www.impawards.com/2026/wildwood_ver23.html",
+    "http://www.impawards.com/2026/wildwood_ver22.html",
+    "http://www.impawards.com/2026/wildwood_ver21.html",
+    "http://www.impawards.com/2026/wildwood_ver20.html",
+    "http://www.impawards.com/2026/wildwood_ver19.html",
+    "http://www.impawards.com/2026/wildwood_ver18.html",
+    "http://www.impawards.com/2026/kingdom_of_rexmonte_ver3.html",
+    "http://www.impawards.com/2026/kingdom_of_rexmonte_ver2.html",
+    "http://www.impawards.com/2026/kingdom_of_rexmonte.html",
+    "http://www.impawards.com/2026/she_keeps_me_young.html",
+    "http://www.impawards.com/2026/joybubbles.html",
+    "http://www.impawards.com/2026/wicker_ver5.html",
     "http://www.impawards.com/2026/mouse_ii.html",
     "http://www.impawards.com/2026/steps_ver2.html",
     "http://www.impawards.com/2026/further_misadventures_of_cliff_booth.html",
@@ -483,25 +499,10 @@
     "http://www.impawards.com/2026/paw_patrol_the_dino_movie_ver4.html",
     "http://www.impawards.com/2026/paw_patrol_the_dino_movie_ver3.html",
     "http://www.impawards.com/2026/whisper_man.html",
-    "http://www.impawards.com/2026/avatar_aang_the_last_airbender_ver2.html",
-    "http://www.impawards.com/2026/dune_part_three_ver10.html",
-    "http://www.impawards.com/2026/dead_souls.html",
-    "http://www.impawards.com/2026/legend_of_the_white_dragon_ver2.html",
-    "http://www.impawards.com/2026/avatar_aang_the_last_airbender.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver8.html",
-    "http://www.impawards.com/2026/yugly_ver2.html",
-    "http://www.impawards.com/2026/yugly.html",
-    "http://www.impawards.com/2026/toy_story_five_ver18.html",
-    "http://www.impawards.com/2026/spiderman_brand_new_day_ver19.html",
-    "http://www.impawards.com/2026/summers_last_resort.html",
-    "http://www.impawards.com/1986/star_trek_iv_ver5.html",
-    "http://www.impawards.com/2026/floaters_ver2.html",
-    "http://www.impawards.com/2026/floaters.html",
-    "http://www.impawards.com/2026/minions_three_ver12.html",
-    "http://www.impawards.com/2026/super_troopers_three_ver11.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver7.html"
+    "http://www.impawards.com/2026/avatar_aang_the_last_airbender_ver2.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/key_of_bones_curse_of_the_ghost_pirate.html",
     "http://www.impawards.com/2026/teenage_sex_and_death_at_camp_miasma_ver2.html",
     "http://www.impawards.com/2027/exorcist_martyrs.html",
     "http://www.impawards.com/2026/obsession_ver13.html",
@@ -1000,8 +1001,7 @@
     "http://www.impawards.com/2026/bride.html",
     "http://www.impawards.com/2025/bone_lake_ver7.html",
     "http://www.impawards.com/2025/shell.html",
-    "http://www.impawards.com/2026/primate.html",
-    "http://www.impawards.com/2026/return_to_silent_hill.html"
+    "http://www.impawards.com/2026/primate.html"
   ],
-  "last_run": "2026-10-10T16:38:27.023913"
+  "last_run": "2026-10-11T17:04:48.553609"
 }
