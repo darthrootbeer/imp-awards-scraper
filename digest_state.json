@@ -1,5 +1,16 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2027/hurricanna.html",
+    "http://www.impawards.com/2026/long_winter.html",
+    "http://www.impawards.com/2026/in_a_holidaze.html",
+    "http://www.impawards.com/2026/fourteenth_ver2.html",
+    "http://www.impawards.com/2026/fourteenth.html",
+    "http://www.impawards.com/2026/josephine.html",
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver20.html",
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver19.html",
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver18.html",
+    "http://www.impawards.com/2026/wild_inside.html",
+    "http://www.impawards.com/2026/swallowtail_and_dragonfly.html",
     "http://www.impawards.com/2026/ueck_ver2.html",
     "http://www.impawards.com/2026/ueck.html",
     "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver17.html",
@@ -488,20 +499,10 @@
     "http://www.impawards.com/2026/never_change.html",
     "http://www.impawards.com/2026/mutiny_ver3.html",
     "http://www.impawards.com/2026/angry_birds_movie_three_ver2.html",
-    "http://www.impawards.com/2026/fix.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver11.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver10.html",
-    "http://www.impawards.com/2026/end_of_oak_street_ver9.html",
-    "http://www.impawards.com/2026/their_town.html",
-    "http://www.impawards.com/2024/how_the_west_was_one_ver2.html",
-    "http://www.impawards.com/2024/how_the_west_was_one.html",
-    "http://www.impawards.com/2016/la_la_land_ver20.html",
-    "http://www.impawards.com/2026/brother_joseph_again.html",
-    "http://www.impawards.com/2026/camp_rock_three_ver4.html",
-    "http://www.impawards.com/2026/paw_patrol_the_dino_movie_ver24.html",
-    "http://www.impawards.com/2026/paw_patrol_the_dino_movie_ver23.html"
+    "http://www.impawards.com/2026/fix.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2025/in_a_violent_nature_two_ver2.html",
     "http://www.impawards.com/2026/haunted_heist.html",
     "http://www.impawards.com/2026/blind_bargain.html",
     "http://www.impawards.com/2026/obex_ver2.html",
@@ -1000,8 +1001,7 @@
     "http://www.impawards.com/2024/god_bless_bitcoin.html",
     "http://www.impawards.com/2025/noah_live.html",
     "http://www.impawards.com/2026/night_shift.html",
-    "http://www.impawards.com/2025/vhs_halloween.html",
-    "http://www.impawards.com/2025/hand_that_rocks_the_cradle.html"
+    "http://www.impawards.com/2025/vhs_halloween.html"
   ],
-  "last_run": "2026-10-15T16:00:04.889503"
+  "last_run": "2026-10-16T15:48:35.132861"
 }
