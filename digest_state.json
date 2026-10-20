@@ -1,5 +1,26 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/hexed_ver9.html",
+    "http://www.impawards.com/2026/hexed_ver8.html",
+    "http://www.impawards.com/2026/hexed_ver7.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver16.html",
+    "http://www.impawards.com/2026/hexed_ver6.html",
+    "http://www.impawards.com/2026/best_pancakes_in_the_county.html",
+    "http://www.impawards.com/2026/nuisance_bear.html",
+    "http://www.impawards.com/2026/wicker_ver6.html",
+    "http://www.impawards.com/2026/above_the_below.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver15.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver14.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver13.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver12.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver11.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver10.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver9.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver8.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver7.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver6.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver5.html",
+    "http://www.impawards.com/2026/cat_in_the_hat_ver4.html",
     "http://www.impawards.com/2026/cat_in_the_hat_ver3.html",
     "http://www.impawards.com/2026/november_1963_ver2.html",
     "http://www.impawards.com/2026/everest_the_other_side_ver2.html",
@@ -478,28 +499,7 @@
     "http://www.impawards.com/2003/hells_highway_the_true_story_of_highway_safety_films.html",
     "http://www.impawards.com/1986/queen_live_in_budapest.html",
     "http://www.impawards.com/2026/hachan_shake_your_booty.html",
-    "http://www.impawards.com/2026/coyote_v_acme_ver4.html",
-    "http://www.impawards.com/2026/spiderman_brand_new_day_ver23.html",
-    "http://www.impawards.com/2026/last_sunrise.html",
-    "http://www.impawards.com/2026/wicker_ver2.html",
-    "http://www.impawards.com/2026/wicker.html",
-    "http://www.impawards.com/2026/in_the_grey_ver3.html",
-    "http://www.impawards.com/2026/in_the_grey_ver2.html",
-    "http://www.impawards.com/2026/zero_ad_ver9.html",
-    "http://www.impawards.com/2026/zero_ad_ver8.html",
-    "http://www.impawards.com/2026/fall_two_deadpoint_ver2.html",
-    "http://www.impawards.com/2027/thomas_crown_affair.html",
-    "http://www.impawards.com/2026/one_night_only_ver3.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver11.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver10.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver9.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver8.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver7.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver6.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver5.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver4.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver3.html",
-    "http://www.impawards.com/2027/children_of_blood_and_bone_ver2.html"
+    "http://www.impawards.com/2026/coyote_v_acme_ver4.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/slayground_ver6.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2024/god_bless_bitcoin.html",
     "http://www.impawards.com/2025/noah_live.html"
   ],
-  "last_run": "2026-10-19T17:59:36.276430"
+  "last_run": "2026-10-20T16:03:52.989850"
 }
