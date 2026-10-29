@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver24.html",
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver23.html",
     "http://www.impawards.com/2026/how_to_rob_a_bank_ver3.html",
     "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver22.html",
     "http://www.impawards.com/2026/eyes_of_ghana.html",
@@ -497,9 +499,7 @@
     "http://www.impawards.com/1992/incident_at_oglala.html",
     "http://www.impawards.com/2026/camp_rock_three_ver9.html",
     "http://www.impawards.com/2026/camp_rock_three_ver8.html",
-    "http://www.impawards.com/2026/camp_rock_three_ver7.html",
-    "http://www.impawards.com/2026/camp_rock_three_ver6.html",
-    "http://www.impawards.com/2026/camp_rock_three_ver5.html"
+    "http://www.impawards.com/2026/camp_rock_three_ver7.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/last_temptation_of_becky_ver2.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2022/all_jacked_up_and_full_of_worms.html",
     "http://www.impawards.com/2022/survivor_ver2.html"
   ],
-  "last_run": "2026-10-28T17:40:46.024159"
+  "last_run": "2026-10-29T17:48:07.823163"
 }
