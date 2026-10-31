@@ -1,5 +1,18 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/atonement.html",
+    "http://www.impawards.com/2026/deep_in_the_heart_two_texas_rivers.html",
+    "http://www.impawards.com/2026/traces_of_home.html",
+    "http://www.impawards.com/2026/you_had_to_be_there.html",
+    "http://www.impawards.com/2026/oldest_person_in_the_world.html",
+    "http://www.impawards.com/2026/on_a_string.html",
+    "http://www.impawards.com/2026/ebenezer_ver14.html",
+    "http://www.impawards.com/2026/ebenezer_ver13.html",
+    "http://www.impawards.com/2026/ebenezer_ver12.html",
+    "http://www.impawards.com/2026/ebenezer_ver11.html",
+    "http://www.impawards.com/2026/ebenezer_ver10.html",
+    "http://www.impawards.com/2026/ebenezer_ver9.html",
+    "http://www.impawards.com/2026/how_to_rob_a_bank_ver4.html",
     "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver26.html",
     "http://www.impawards.com/2026/lets_have_kids_ver2.html",
     "http://www.impawards.com/2026/lets_have_kids.html",
@@ -486,22 +499,11 @@
     "http://www.impawards.com/2026/mutiny_ver5.html",
     "http://www.impawards.com/2026/avengers_doomsday_ver4.html",
     "http://www.impawards.com/2026/fall_two_deadpoint_ver3.html",
-    "http://www.impawards.com/2026/teenage_wasteland.html",
-    "http://www.impawards.com/2026/coyote_v_acme_ver8.html",
-    "http://www.impawards.com/2026/just_play_dead.html",
-    "http://www.impawards.com/2026/animals.html",
-    "http://www.impawards.com/2026/angel_and_the_badman.html",
-    "http://www.impawards.com/2016/kubo_and_the_two_strings_ver16.html",
-    "http://www.impawards.com/2026/katseye_wild_hearts.html",
-    "http://www.impawards.com/2026/catvideofest_2026.html",
-    "http://www.impawards.com/2026/run_hide_fight_infidels.html",
-    "http://www.impawards.com/2026/april_x_ver2.html",
-    "http://www.impawards.com/2026/in_the_grey_ver9.html",
-    "http://www.impawards.com/2026/in_the_grey_ver8.html",
-    "http://www.impawards.com/2026/in_the_grey_ver7.html",
-    "http://www.impawards.com/2026/in_the_grey_ver6.html"
+    "http://www.impawards.com/2026/teenage_wasteland.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/1961/gorgo_ver3.html",
+    "http://www.impawards.com/2026/appofeniacs.html",
     "http://www.impawards.com/1961/gorgo_ver2.html",
     "http://www.impawards.com/2027/witchcraft_the_lanterne_of_light.html",
     "http://www.impawards.com/2026/last_temptation_of_becky_ver2.html",
@@ -999,9 +1001,7 @@
     "http://www.impawards.com/2025/frankenstein_ver3.html",
     "http://www.impawards.com/2025/astronaut_ver2.html",
     "http://www.impawards.com/2025/stay.html",
-    "http://www.impawards.com/2002/super_sucker.html",
-    "http://www.impawards.com/2025/killing_faith_ver2.html",
-    "http://www.impawards.com/2025/astronaut.html"
+    "http://www.impawards.com/2002/super_sucker.html"
   ],
-  "last_run": "2026-10-30T17:29:34.319486"
+  "last_run": "2026-10-31T16:33:29.792944"
 }
