@@ -1,5 +1,7 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/hunger_games_sunrise_on_the_reaping_ver27.html",
+    "http://www.impawards.com/1992/raise_the_red_lantern_ver4.html",
     "http://www.impawards.com/2026/avengers_doomsday_ver14.html",
     "http://www.impawards.com/2026/atonement.html",
     "http://www.impawards.com/2026/deep_in_the_heart_two_texas_rivers.html",
@@ -497,11 +499,11 @@
     "http://www.impawards.com/2026/coyote_v_acme_ver9.html",
     "http://www.impawards.com/2026/star_wars_the_mandalorian_and_grogu_ver16.html",
     "http://www.impawards.com/2026/by_any_means_ver2.html",
-    "http://www.impawards.com/2026/mutiny_ver5.html",
-    "http://www.impawards.com/2026/avengers_doomsday_ver4.html",
-    "http://www.impawards.com/2026/fall_two_deadpoint_ver3.html"
+    "http://www.impawards.com/2026/mutiny_ver5.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/jeffrey_dollmer.html",
+    "http://www.impawards.com/1992/raise_the_red_lantern_ver3.html",
     "http://www.impawards.com/2025/rl_stines_pumpkinhead.html",
     "http://www.impawards.com/1961/gorgo_ver3.html",
     "http://www.impawards.com/2026/appofeniacs.html",
@@ -999,9 +1001,7 @@
     "http://www.impawards.com/2025/bone_lake_ver8.html",
     "http://www.impawards.com/2026/psycho_killer.html",
     "http://www.impawards.com/2025/shelby_oaks_ver7.html",
-    "http://www.impawards.com/2025/frankenstein_ver3.html",
-    "http://www.impawards.com/2025/astronaut_ver2.html",
-    "http://www.impawards.com/2025/stay.html"
+    "http://www.impawards.com/2025/frankenstein_ver3.html"
   ],
-  "last_run": "2026-11-01T17:25:46.423332"
+  "last_run": "2026-11-02T21:07:44.881282"
 }
