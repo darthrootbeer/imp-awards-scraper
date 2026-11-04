@@ -1,5 +1,18 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/angry_birds_movie_three_ver5.html",
+    "http://www.impawards.com/2026/drummer_boy_ver9.html",
+    "http://www.impawards.com/2026/drummer_boy_ver8.html",
+    "http://www.impawards.com/2026/drummer_boy_ver7.html",
+    "http://www.impawards.com/2026/drummer_boy_ver6.html",
+    "http://www.impawards.com/2026/drummer_boy_ver5.html",
+    "http://www.impawards.com/2026/drummer_boy_ver4.html",
+    "http://www.impawards.com/2026/drummer_boy_ver3.html",
+    "http://www.impawards.com/2026/drummer_boy_ver2.html",
+    "http://www.impawards.com/2026/dogs_perfect_christmas.html",
+    "http://www.impawards.com/2026/after_the_silence.html",
+    "http://www.impawards.com/2026/boris_is_dead.html",
+    "http://www.impawards.com/2026/super_troopers_three_ver13.html",
     "http://www.impawards.com/2023/holdovers_ver3.html",
     "http://www.impawards.com/2026/omaha_ver2.html",
     "http://www.impawards.com/2025/rebuilding_ver2.html",
@@ -486,20 +499,7 @@
     "http://www.impawards.com/2026/mouse_ver2.html",
     "http://www.impawards.com/2026/mouse.html",
     "http://www.impawards.com/2026/artist_i_am.html",
-    "http://www.impawards.com/2026/symphony_of_dance.html",
-    "http://www.impawards.com/2025/without_blood_ver2.html",
-    "http://www.impawards.com/2026/orion.html",
-    "http://www.impawards.com/2026/dont_look_back_in_anger.html",
-    "http://www.impawards.com/2026/katy_perry_the_lifetimes_tour__live_from_paris.html",
-    "http://www.impawards.com/2026/paw_patrol_the_dino_movie_ver28.html",
-    "http://www.impawards.com/2026/club_kid.html",
-    "http://www.impawards.com/2012/hunger_games_ver31.html",
-    "http://www.impawards.com/2026/whisper_man_ver6.html",
-    "http://www.impawards.com/2026/whisper_man_ver5.html",
-    "http://www.impawards.com/2026/whisper_man_ver4.html",
-    "http://www.impawards.com/2026/whisper_man_ver3.html",
-    "http://www.impawards.com/2026/mayday_ver2.html",
-    "http://www.impawards.com/2024/watchmen_chapter_ii.html"
+    "http://www.impawards.com/2026/symphony_of_dance.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2026/lucky_lu.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/bone_lake_ver8.html",
     "http://www.impawards.com/2026/psycho_killer.html"
   ],
-  "last_run": "2026-11-03T18:51:24.252229"
+  "last_run": "2026-11-04T19:07:59.089840"
 }
