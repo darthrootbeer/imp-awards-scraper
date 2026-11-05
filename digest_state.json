@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2027/karoshi.html",
+    "http://www.impawards.com/2026/disciple.html",
+    "http://www.impawards.com/2026/hexed_ver19.html",
+    "http://www.impawards.com/2026/twelve_dates_of_christmas.html",
     "http://www.impawards.com/2026/angry_birds_movie_three_ver5.html",
     "http://www.impawards.com/2026/drummer_boy_ver9.html",
     "http://www.impawards.com/2026/drummer_boy_ver8.html",
@@ -495,13 +499,13 @@
     "http://www.impawards.com/1996/white_squall_ver4.html",
     "http://www.impawards.com/2026/first_they_came_for_my_college.html",
     "http://www.impawards.com/2017/in_vino.html",
-    "http://www.impawards.com/2026/weight_ver3.html",
-    "http://www.impawards.com/2026/mouse_ver2.html",
-    "http://www.impawards.com/2026/mouse.html",
-    "http://www.impawards.com/2026/artist_i_am.html",
-    "http://www.impawards.com/2026/symphony_of_dance.html"
+    "http://www.impawards.com/2026/weight_ver3.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2027/drag.html",
+    "http://www.impawards.com/2026/dreamquil_ver2.html",
+    "http://www.impawards.com/2026/dreamquil.html",
+    "http://www.impawards.com/2026/diary_of_a_wimpy_kid_christmas_the_getaway_ver2.html",
     "http://www.impawards.com/2026/lucky_lu.html",
     "http://www.impawards.com/2026/spirit_tasting.html",
     "http://www.impawards.com/2026/jeffrey_dollmer.html",
@@ -997,11 +1001,7 @@
     "http://www.impawards.com/2025/children_of_the_woods.html",
     "http://www.impawards.com/2025/keeper_ver5.html",
     "http://www.impawards.com/2025/keeper_ver4.html",
-    "http://www.impawards.com/2025/keeper_ver3.html",
-    "http://www.impawards.com/2025/keeper_ver2.html",
-    "http://www.impawards.com/2025/black_phone_two_ver4.html",
-    "http://www.impawards.com/2025/bone_lake_ver8.html",
-    "http://www.impawards.com/2026/psycho_killer.html"
+    "http://www.impawards.com/2025/keeper_ver3.html"
   ],
-  "last_run": "2026-11-04T19:07:59.089840"
+  "last_run": "2026-11-05T19:15:28.212132"
 }
