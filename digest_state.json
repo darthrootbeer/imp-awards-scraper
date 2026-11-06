@@ -1,5 +1,10 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/unbearable_christmas.html",
+    "http://www.impawards.com/2026/oh_season.html",
+    "http://www.impawards.com/2021/i_hate_you_but_its_killing_me_ver2.html",
+    "http://www.impawards.com/2026/disconnected.html",
+    "http://www.impawards.com/2026/bad_day.html",
     "http://www.impawards.com/2027/karoshi.html",
     "http://www.impawards.com/2026/disciple.html",
     "http://www.impawards.com/2026/hexed_ver19.html",
@@ -494,14 +499,10 @@
     "http://www.impawards.com/2026/best_of_the_best.html",
     "http://www.impawards.com/2026/ali_g_who_iz_i.html",
     "http://www.impawards.com/1990/where_the_heart_is.html",
-    "http://www.impawards.com/2006/cars_ver14.html",
-    "http://www.impawards.com/2026/daughters_of_nine_eleven.html",
-    "http://www.impawards.com/1996/white_squall_ver4.html",
-    "http://www.impawards.com/2026/first_they_came_for_my_college.html",
-    "http://www.impawards.com/2017/in_vino.html",
-    "http://www.impawards.com/2026/weight_ver3.html"
+    "http://www.impawards.com/2006/cars_ver14.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2011/certain_prey.html",
     "http://www.impawards.com/2027/drag.html",
     "http://www.impawards.com/2026/dreamquil_ver2.html",
     "http://www.impawards.com/2026/dreamquil.html",
@@ -1000,8 +1001,7 @@
     "http://www.impawards.com/2025/queens_of_the_dead_ver2.html",
     "http://www.impawards.com/2025/children_of_the_woods.html",
     "http://www.impawards.com/2025/keeper_ver5.html",
-    "http://www.impawards.com/2025/keeper_ver4.html",
-    "http://www.impawards.com/2025/keeper_ver3.html"
+    "http://www.impawards.com/2025/keeper_ver4.html"
   ],
-  "last_run": "2026-11-05T19:15:28.212132"
+  "last_run": "2026-11-06T18:42:07.164719"
 }
