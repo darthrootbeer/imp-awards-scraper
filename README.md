@@ -5,6 +5,8 @@
 
 A Python tool for downloading high-resolution movie posters from [IMP Awards](http://www.impawards.com).
 
+> **Why it's here:** a personal automation project I use every day. A scheduled GitHub Actions job checks for new posters, filters them by genre, and emails me a daily digest, with no hands on it.
+
 ## Overview
 
 This tool automatically identifies and downloads the highest resolution version available for movie posters on IMP Awards. It prioritizes XXLG resolution over XLG, and skips posters that don't have either.
