@@ -20,7 +20,7 @@ scripts/run_email_digest.sh --digest-pages 5
 This will:
 1. Scan the latest IMP Awards pages (up to 5 deep) until it reaches the last digest
 2. Email you only the new posters that haven't been included before
-3. Send to: echose7en@gmail.com
+3. Send to: you@example.com
 
 **Check your email!** 📧
 

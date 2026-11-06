@@ -15,7 +15,7 @@ The IMP Awards Poster Downloader now supports automated email notifications! Get
 ### 1. Email Credentials (Already Configured)
 
 Your Gmail credentials are already set up in the `.env` file:
-- **From/To**: echose7en@gmail.com
+- **From/To**: you@example.com
 - **SMTP**: Gmail (smtp.gmail.com:587)
 - **Max Size**: 40MB per email
 

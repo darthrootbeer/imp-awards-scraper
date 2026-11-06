@@ -31,7 +31,7 @@ The automated email notification system has been successfully implemented and te
 ### Configuration
 - **`.env` file**: Email credentials securely stored (never committed to git)
   - Gmail SMTP configuration
-  - Your credentials already configured: echose7en@gmail.com
+  - Your credentials already configured: you@example.com
   - App password: vdya dfoh pqzk nsen
 
 ### Documentation
@@ -86,8 +86,8 @@ The automated email notification system has been successfully implemented and te
 ```
 Email sender configured:
   SMTP Server: smtp.gmail.com:587
-  From: echose7en@gmail.com
-  To: echose7en@gmail.com
+  From: you@example.com
+  To: you@example.com
   Max size per email: 40MB
 ✓ PASSED
 ```
@@ -100,7 +100,7 @@ Testing email with 3 sample posters:
   - 2024_usher_rendezvous_in_paris_XXLG_1400x2068.jpg
 
 Sending email 1/1...
-  To: echose7en@gmail.com
+  To: you@example.com
   Subject: IMP Awards Daily Update - October 14, 2025 - 3 Posters
   ✓ Email sent successfully!
 ✓ PASSED
@@ -242,7 +242,7 @@ You can now:
 - ✅ Never miss newly added posters
 - ✅ Click thumbnails to view full-size
 
-**Check your email at echose7en@gmail.com for the test emails!**
+**Check your email at you@example.com for the test emails!**
 
 ---
 
