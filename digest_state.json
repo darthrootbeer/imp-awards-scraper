@@ -1,5 +1,16 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/slightest_touch.html",
+    "http://www.impawards.com/2026/clashing_through_the_snow.html",
+    "http://www.impawards.com/2026/debut_ver3.html",
+    "http://www.impawards.com/2026/drummer_boy_ver14.html",
+    "http://www.impawards.com/2026/drummer_boy_ver13.html",
+    "http://www.impawards.com/2026/drummer_boy_ver12.html",
+    "http://www.impawards.com/2026/drummer_boy_ver11.html",
+    "http://www.impawards.com/2026/drummer_boy_ver10.html",
+    "http://www.impawards.com/2026/dogs_perfect_christmas_ver3.html",
+    "http://www.impawards.com/2026/dogs_perfect_christmas_ver2.html",
+    "http://www.impawards.com/2026/go_deep_the_desean_jackson_story.html",
     "http://www.impawards.com/2027/take.html",
     "http://www.impawards.com/2027/cocomelon_the_movie_ver2.html",
     "http://www.impawards.com/2026/jumanji_open_world_ver5.html",
@@ -488,18 +499,7 @@
     "http://www.impawards.com/2019/avengers_endgame_ver64.html",
     "http://www.impawards.com/2026/wildwood_ver7.html",
     "http://www.impawards.com/2026/wildwood_ver6.html",
-    "http://www.impawards.com/2026/forgotten_island_ver12.html",
-    "http://www.impawards.com/2026/forgotten_island_ver11.html",
-    "http://www.impawards.com/2026/forgotten_island_ver10.html",
-    "http://www.impawards.com/2026/forgotten_island_ver9.html",
-    "http://www.impawards.com/2026/forgotten_island_ver8.html",
-    "http://www.impawards.com/2026/forgotten_island_ver7.html",
-    "http://www.impawards.com/2026/forgotten_island_ver6.html",
-    "http://www.impawards.com/2026/forgotten_island_ver5.html",
-    "http://www.impawards.com/2026/sense_and_sensibility_ver3.html",
-    "http://www.impawards.com/2019/avengers_endgame_ver63.html",
-    "http://www.impawards.com/2026/wildwood_ver5.html",
-    "http://www.impawards.com/2026/wildwood_ver4.html"
+    "http://www.impawards.com/2026/forgotten_island_ver12.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2011/certain_prey.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/keeper_ver5.html",
     "http://www.impawards.com/2025/keeper_ver4.html"
   ],
-  "last_run": "2026-11-09T21:45:51.721370"
+  "last_run": "2026-11-10T19:05:01.829377"
 }
