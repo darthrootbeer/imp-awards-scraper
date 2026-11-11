@@ -1,5 +1,6 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2027/children_of_blood_and_bone_ver12.html",
     "http://www.impawards.com/2026/slightest_touch.html",
     "http://www.impawards.com/2026/clashing_through_the_snow.html",
     "http://www.impawards.com/2026/debut_ver3.html",
@@ -498,8 +499,7 @@
     "http://www.impawards.com/2019/avengers_endgame_ver65.html",
     "http://www.impawards.com/2019/avengers_endgame_ver64.html",
     "http://www.impawards.com/2026/wildwood_ver7.html",
-    "http://www.impawards.com/2026/wildwood_ver6.html",
-    "http://www.impawards.com/2026/forgotten_island_ver12.html"
+    "http://www.impawards.com/2026/wildwood_ver6.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2011/certain_prey.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/keeper_ver5.html",
     "http://www.impawards.com/2025/keeper_ver4.html"
   ],
-  "last_run": "2026-11-10T19:05:01.829377"
+  "last_run": "2026-11-11T19:01:35.838666"
 }
