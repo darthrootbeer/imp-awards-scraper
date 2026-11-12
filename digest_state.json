@@ -1,5 +1,13 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/russell_brand_open_secret.html",
+    "http://www.impawards.com/2026/i_play_rocky_ver3.html",
+    "http://www.impawards.com/2026/dune_part_three_ver25.html",
+    "http://www.impawards.com/2026/violent_night_two_ver2.html",
+    "http://www.impawards.com/2006/departed_ver11.html",
+    "http://www.impawards.com/1977/star_wars_ver17.html",
+    "http://www.impawards.com/2027/children_of_blood_and_bone_ver13.html",
+    "http://www.impawards.com/2026/ray_gunn_ver2.html",
     "http://www.impawards.com/2027/children_of_blood_and_bone_ver12.html",
     "http://www.impawards.com/2026/slightest_touch.html",
     "http://www.impawards.com/2026/clashing_through_the_snow.html",
@@ -491,15 +499,7 @@
     "http://www.impawards.com/2026/unabomber_ver3.html",
     "http://www.impawards.com/2026/unabomber_ver2.html",
     "http://www.impawards.com/2026/unabomber.html",
-    "http://www.impawards.com/2026/love_hypothesis_ver2.html",
-    "http://www.impawards.com/2026/prayer_for_the_dying.html",
-    "http://www.impawards.com/2019/avengers_endgame_ver68.html",
-    "http://www.impawards.com/2019/avengers_endgame_ver67.html",
-    "http://www.impawards.com/2019/avengers_endgame_ver66.html",
-    "http://www.impawards.com/2019/avengers_endgame_ver65.html",
-    "http://www.impawards.com/2019/avengers_endgame_ver64.html",
-    "http://www.impawards.com/2026/wildwood_ver7.html",
-    "http://www.impawards.com/2026/wildwood_ver6.html"
+    "http://www.impawards.com/2026/love_hypothesis_ver2.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2011/certain_prey.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/keeper_ver5.html",
     "http://www.impawards.com/2025/keeper_ver4.html"
   ],
-  "last_run": "2026-11-11T19:01:35.838666"
+  "last_run": "2026-11-12T19:20:26.181791"
 }
