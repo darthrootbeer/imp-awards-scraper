@@ -1,5 +1,9 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2026/one_in_a_million_ii.html",
+    "http://www.impawards.com/2027/dead_speak.html",
+    "http://www.impawards.com/2026/hoppers_ver32.html",
+    "http://www.impawards.com/2027/project_child_perfect_knight.html",
     "http://www.impawards.com/2026/violent_night_two_ver4.html",
     "http://www.impawards.com/2026/violent_night_two_ver3.html",
     "http://www.impawards.com/2026/jlo_show_ver2.html",
@@ -495,13 +499,10 @@
     "http://www.impawards.com/2026/whisper_man_ver10.html",
     "http://www.impawards.com/2026/whisper_man_ver9.html",
     "http://www.impawards.com/2026/whisper_man_ver8.html",
-    "http://www.impawards.com/2026/whisper_man_ver7.html",
-    "http://www.impawards.com/2004/shrek_two_ver11.html",
-    "http://www.impawards.com/2026/talent_for_murder.html",
-    "http://www.impawards.com/2026/history_of_concrete.html",
-    "http://www.impawards.com/2025/hunting_season_ver2.html"
+    "http://www.impawards.com/2026/whisper_man_ver7.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2026/corporate_retreat_ver2.html",
     "http://www.impawards.com/2011/certain_prey.html",
     "http://www.impawards.com/2027/drag.html",
     "http://www.impawards.com/2026/dreamquil_ver2.html",
@@ -1000,8 +1001,7 @@
     "http://www.impawards.com/2025/anaconda_ver2.html",
     "http://www.impawards.com/2025/queens_of_the_dead_ver2.html",
     "http://www.impawards.com/2025/children_of_the_woods.html",
-    "http://www.impawards.com/2025/keeper_ver5.html",
-    "http://www.impawards.com/2025/keeper_ver4.html"
+    "http://www.impawards.com/2025/keeper_ver5.html"
   ],
-  "last_run": "2026-11-13T18:58:18.274454"
+  "last_run": "2026-11-15T18:15:26.528046"
 }
