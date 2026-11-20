@@ -1,5 +1,13 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2027/ice_age_boiling_point_ver2.html",
+    "http://www.impawards.com/2026/steps_ver3.html",
+    "http://www.impawards.com/2026/maserati_the_brothers_ver2.html",
+    "http://www.impawards.com/2026/maserati_the_brothers.html",
+    "http://www.impawards.com/2026/my_duchess.html",
+    "http://www.impawards.com/2025/holding_liat_ver2.html",
+    "http://www.impawards.com/2026/killing_castro_ver2.html",
+    "http://www.impawards.com/2026/killing_castro.html",
     "http://www.impawards.com/2026/artificial_ver2.html",
     "http://www.impawards.com/2026/bedford_park.html",
     "http://www.impawards.com/2002/twenty_fifth_hour_ver4.html",
@@ -491,17 +499,10 @@
     "http://www.impawards.com/2026/focker_inlaw_ver2.html",
     "http://www.impawards.com/2026/angry_birds_movie_three_ver3.html",
     "http://www.impawards.com/2026/heart_of_the_beast_ver3.html",
-    "http://www.impawards.com/2026/beast_ii.html",
-    "http://www.impawards.com/2026/toy_story_five_ver19.html",
-    "http://www.impawards.com/2026/practical_magic_two_ver3.html",
-    "http://www.impawards.com/2026/only_living_pickpocket_in_new_york.html",
-    "http://www.impawards.com/2026/robert_richardson_the_white_devil_ver2.html",
-    "http://www.impawards.com/2026/robert_richardson_the_white_devil.html",
-    "http://www.impawards.com/2026/trust_me_im_a_doctor.html",
-    "http://www.impawards.com/2026/musical.html",
-    "http://www.impawards.com/2026/i_was_a_stranger_ver2.html"
+    "http://www.impawards.com/2026/beast_ii.html"
   ],
   "ignored_ids": [
+    "http://www.impawards.com/2004/love_object.html",
     "http://www.impawards.com/2026/ebenezer_ver16.html",
     "http://www.impawards.com/2026/corporate_retreat_ver2.html",
     "http://www.impawards.com/2011/certain_prey.html",
@@ -1000,8 +1001,7 @@
     "http://www.impawards.com/2026/we_bury_the_dead.html",
     "http://www.impawards.com/2025/in_our_blood.html",
     "http://www.impawards.com/2025/anaconda_ver2.html",
-    "http://www.impawards.com/2025/queens_of_the_dead_ver2.html",
-    "http://www.impawards.com/2025/children_of_the_woods.html"
+    "http://www.impawards.com/2025/queens_of_the_dead_ver2.html"
   ],
-  "last_run": "2026-11-19T19:46:03.099569"
+  "last_run": "2026-11-20T19:27:03.710202"
 }
