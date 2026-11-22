@@ -1,5 +1,6 @@
 {
   "sent_ids": [
+    "http://www.impawards.com/2001/sexy_beast_ver4.html",
     "http://www.impawards.com/2027/fing.html",
     "http://www.impawards.com/2026/avengers_doomsday_ver31.html",
     "http://www.impawards.com/2026/avengers_doomsday_ver30.html",
@@ -498,8 +499,7 @@
     "http://www.impawards.com/2026/best_of_the_best_ver2.html",
     "http://www.impawards.com/2026/sense_and_sensibility_ver4.html",
     "http://www.impawards.com/2026/fall_two_deadpoint_ver7.html",
-    "http://www.impawards.com/2026/heart_of_the_beast_ver4.html",
-    "http://www.impawards.com/2026/always_lalisa.html"
+    "http://www.impawards.com/2026/heart_of_the_beast_ver4.html"
   ],
   "ignored_ids": [
     "http://www.impawards.com/2004/love_object.html",
@@ -1003,5 +1003,5 @@
     "http://www.impawards.com/2025/anaconda_ver2.html",
     "http://www.impawards.com/2025/queens_of_the_dead_ver2.html"
   ],
-  "last_run": "2026-11-21T18:28:52.390274"
+  "last_run": "2026-11-22T18:51:29.712363"
 }
